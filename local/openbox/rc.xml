@@ -295,38 +295,7 @@
       </action>
     </keybind>
     <!-- Keybindings for window switching with the arrow keys -->
-    <keybind key="W-S-Right">
-      <action name="DirectionalCycleWindows">
-        <direction>right</direction>
-      </action>
-    </keybind>
-    <keybind key="W-S-Left">
-      <action name="DirectionalCycleWindows">
-        <direction>left</direction>
-      </action>
-    </keybind>
-    <keybind key="W-S-Up">
-      <action name="DirectionalCycleWindows">
-        <direction>up</direction>
-      </action>
-    </keybind>
-    <keybind key="W-S-Down">
-      <action name="DirectionalCycleWindows">
-        <direction>down</direction>
-      </action>
-    </keybind>
-   <keybind key="W-Tab">
-     <action name="NextWindow"/>
-   </keybind>
-   <keybind key="W-S-Tab">
-     <action name="PreviousWindow"/>
-   </keybind>
-   <keybind key="W-Up">
-     <action name="DirectionalFocusNorth">
-       <dialog>yes</dialog>
-     </action>
-   </keybind>
-   <keybind key="W-Down">
+  <keybind key="W-Down">
      <action name="DirectionalFocusSouth">
        <dialog>yes</dialog>
      </action>
@@ -369,17 +338,22 @@
      <action name="UnmaximizeFull"/>
      <action name="GrowToEdgeEast"/>
    </keybind>
-   <keybind key="W-space">
+   <keybind key="W-M">
      <action name="ToggleMaximizeFull"/>
    </keybind>
    <keybind key="W-Return">
      <action name="ToggleFullscreen"/>
    </keybind>
-   <keybind key="W-Escape">
+   <keybind key="W-N">
      <action name="Iconify"/>
    </keybind>
    <keybind key="W-B">
      <action name="ToggleDecorations"/>
+   </keybind>
+   <keybind key="W-T">
+     <action name="Execute">
+       <command>xfce4-terminal</command>
+     </action>
    </keybind>
   </keyboard>
   <mouse>
