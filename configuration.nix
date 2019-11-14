@@ -42,7 +42,7 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-    wget vim curl ntfs3g
+    wget vim curl ntfs3g ulauncher
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -79,9 +79,12 @@
 
   # Enable the GNOME Desktop Environment.
   services.xserver.displayManager.lightdm.enable = true;
-  services.xserver.desktopManager.xfce.enable = true;
-  services.flatpak.enable = true;
-  xdg.portal.enable = true;
+  services.xserver.desktopManager.xfce = {
+    enable = true;
+    noDesktop = true;
+  };
+  services.xserver.windowManager.openbox.enable = true;
+  services.compton.enable = true;
 
   # Enable virtualbox
   virtualisation.virtualbox.host.enable = true;
