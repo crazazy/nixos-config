@@ -8,6 +8,24 @@
         "id": "9fc1d7e3-509f-4e1f-bbd8-7b7a98c79b0f", 
         "icon": "/nix/store/mprh3javns32q67wj5bapmbylhdr2fm4-ulauncher-4.4.0.r1/share/ulauncher/media/google-search-icon.png"
     }, 
+    "7b4eefe1-6e6a-455b-83a6-316e1ec023f4": {
+        "added": 1573856496.304385, 
+        "name": "openbox", 
+        "keyword": "wm", 
+        "cmd": "openbox --$1", 
+        "is_default_search": false, 
+        "id": "7b4eefe1-6e6a-455b-83a6-316e1ec023f4", 
+        "icon": null
+    }, 
+    "bfa8795e-3cd7-4a54-9a38-8685b766f309": {
+        "added": 1573856192.487632, 
+        "name": "Shell command", 
+        "keyword": ">", 
+        "cmd": "$*", 
+        "is_default_search": false, 
+        "id": "bfa8795e-3cd7-4a54-9a38-8685b766f309", 
+        "icon": null
+    }, 
     "fcf12e33-6a42-4a35-ac26-85a305b7c0f7": {
         "added": 1573738883.203852, 
         "name": "Stack Overflow", 
