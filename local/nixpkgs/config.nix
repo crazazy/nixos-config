@@ -1,7 +1,6 @@
 {
 	allowUnfree = true;
-
-	packageOverrides = defaultPkgs : with defaultPkgs.pkgs; {
+	packageOverrides = defaultPackages: with defaultPackages.pkgs; {
 		python-pacman-packages = python-packages: with python-packages; [
 			pygame
 			ConfigArgParse
@@ -20,6 +19,8 @@
 				gparted
 				xclip
 				xbanish
+				vlc
+				ffmpeg
 			];
 		};
 		dev-env = buildEnv {
