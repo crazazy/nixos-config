@@ -159,7 +159,7 @@
     <right>0</right>
   </margins>
   <dock>
-    <position>TopLeft</position>
+    <position>Top</position>
     <!-- (Top|Bottom)(Left|Right|)|Top|Bottom|Left|Right|Floating -->
     <floatingX>0</floatingX>
     <floatingY>0</floatingY>
@@ -295,83 +295,87 @@
       </action>
     </keybind>
     <!-- Keybindings for window switching with the arrow keys -->
-  <keybind key="W-Down">
-     <action name="DirectionalFocusSouth">
-       <dialog>yes</dialog>
-     </action>
-   </keybind>
-   <keybind key="W-Left">
-     <action name="DirectionalFocusWest">
-       <dialog>yes</dialog>
-     </action>
-   </keybind>
-   <keybind key="W-Right">
-     <action name="DirectionalFocusEast">
-       <dialog>yes</dialog>
-     </action>
-   </keybind>
-   <keybind key="W-C-Up">
-     <action name="MoveToEdgeNorth"/>
-   </keybind>
-   <keybind key="W-C-Down">
-     <action name="MoveToEdgeSouth"/>
-   </keybind>
-   <keybind key="W-C-Left">
-     <action name="MoveToEdgeWest"/>
-   </keybind>
-   <keybind key="W-C-Right">
-     <action name="MoveToEdgeEast"/>
-   </keybind>
-   <keybind key="W-S-Up">
-     <action name="UnmaximizeFull"/>
-     <action name="GrowToEdgeNorth"/>
-   </keybind>
-   <keybind key="W-S-Down">
-     <action name="UnmaximizeFull"/>
-     <action name="GrowToEdgeSouth"/>
-   </keybind>
-   <keybind key="W-S-Left">
-     <action name="UnmaximizeFull"/>
-     <action name="GrowToEdgeWest"/>
-   </keybind>
-   <keybind key="W-S-Right">
-     <action name="UnmaximizeFull"/>
-     <action name="GrowToEdgeEast"/>
-   </keybind>
-   <keybind key="W-M">
-     <action name="ToggleMaximizeFull"/>
-   </keybind>
-   <keybind key="W-Return">
-     <action name="ToggleFullscreen"/>
-   </keybind>
-   <keybind key="W-N">
-     <action name="Iconify"/>
-   </keybind>
-   <keybind key="W-B">
-     <action name="ToggleDecorations"/>
-   </keybind>
-   <!-- terminal -->
-   <keybind key="W-T">
-     <action name="Execute">
-       <command>xfce4-terminal</command>
-     </action>
-   </keybind>
-   <keybind key="XF86AudioMute">
-     <action name="Execute">
-       <command>amixer -q set Master toggle</command>
-     </action>
-   </keybind>
-   <keybind key="XF86AudioRaiseVolume">
-     <action name="Execute">
-       <command>amixer sset Master 2%+ unmute</command>
-     </action>
-   </keybind>
-   <keybind key="XF86AudioLowerVolume">
-     <action name="Execute">
-       <command>amixer sset Master 2%- unmute</command>
-     </action>
-   </keybind>
-   
+    <keybind key="W-Down">
+      <action name="DirectionalFocusSouth">
+        <dialog>yes</dialog>
+      </action>
+    </keybind>
+    <keybind key="W-Left">
+      <action name="DirectionalFocusWest">
+        <dialog>yes</dialog>
+      </action>
+    </keybind>
+    <keybind key="W-Right">
+      <action name="DirectionalFocusEast">
+        <dialog>yes</dialog>
+      </action>
+    </keybind>
+    <keybind key="W-C-Up">
+      <action name="MoveToEdgeNorth"/>
+    </keybind>
+    <keybind key="W-C-Down">
+      <action name="MoveToEdgeSouth"/>
+    </keybind>
+    <keybind key="W-C-Left">
+      <action name="MoveToEdgeWest"/>
+    </keybind>
+    <keybind key="W-C-Right">
+      <action name="MoveToEdgeEast"/>
+    </keybind>
+    <keybind key="W-S-Up">
+      <action name="UnmaximizeFull"/>
+      <action name="GrowToEdgeNorth"/>
+    </keybind>
+    <keybind key="W-S-Down">
+      <action name="UnmaximizeFull"/>
+      <action name="GrowToEdgeSouth"/>
+    </keybind>
+    <keybind key="W-S-Left">
+      <action name="UnmaximizeFull"/>
+      <action name="GrowToEdgeWest"/>
+    </keybind>
+    <keybind key="W-S-Right">
+      <action name="UnmaximizeFull"/>
+      <action name="GrowToEdgeEast"/>
+    </keybind>
+    <keybind key="W-M">
+      <action name="ToggleMaximizeFull"/>
+    </keybind>
+    <keybind key="W-Return">
+      <action name="ToggleFullscreen"/>
+    </keybind>
+    <keybind key="W-N">
+      <action name="Iconify"/>
+    </keybind>
+    <keybind key="W-B">
+      <action name="ToggleDecorations"/>
+    </keybind>
+    <!-- terminal -->
+    <keybind key="W-L">
+      <action name="Execute">
+        <command>alock -bg shade:blur=50</command>
+      </action>
+    </keybind>
+    <keybind key="W-T">
+      <action name="Execute">
+        <command>xfce4-terminal</command>
+      </action>
+    </keybind>
+    <keybind key="XF86AudioMute">
+      <action name="Execute">
+        <command>amixer -q set Master toggle</command>
+      </action>
+    </keybind>
+    <keybind key="XF86AudioRaiseVolume">
+      <action name="Execute">
+        <command>amixer sset Master 2%+ unmute</command>
+      </action>
+    </keybind>
+    <keybind key="XF86AudioLowerVolume">
+      <action name="Execute">
+        <command>amixer sset Master 2%- unmute</command>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>

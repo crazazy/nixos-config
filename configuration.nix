@@ -42,7 +42,7 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-    wget vim curl ntfs3g ulauncher tint2
+    wget vim curl ntfs3g ulauncher tint2 alock
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -51,7 +51,7 @@
   # programs.gnupg.agent = { enable = true; enableSSHSupport = true; };
 
   # List services that you want to enable:
-
+  services.logind.lidSwitch = "suspend-then-hibernate";
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
 
