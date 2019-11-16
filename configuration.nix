@@ -79,10 +79,7 @@
 
   # Enable the GNOME Desktop Environment.
   # login manager
-  services.xserver.displayManager.lightdm = {
-    enable = true;
-    background = "/home/erik/.background-image";
-  };
+  services.xserver.displayManager.gdm.enable = true;
   # xfce for file managing, volume control etc.
   services.xserver.desktopManager.xfce = {
     enable = true;
