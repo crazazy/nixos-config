@@ -29,7 +29,6 @@
 				git
 				python-mod5pacman
 				nodejs
-				R
 				jetbrains.pycharm-community
 				jetbrains.idea-community
 			];
