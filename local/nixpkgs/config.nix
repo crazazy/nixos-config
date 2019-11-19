@@ -10,7 +10,7 @@
 
 		all-env = buildEnv {
 			name = "all-env";
-			paths = [ user-env dev-env ];
+			paths = [ user-env dev-env games-env];
 		};
 		user-env = buildEnv {
 			name = "user-env";
@@ -21,6 +21,7 @@
 				xbanish
 				vlc
 				ffmpeg
+				libreoffice
 			];
 		};
 		dev-env = buildEnv {
@@ -32,6 +33,13 @@
 				jetbrains.pycharm-community
 				jetbrains.idea-community
 			];
+		};
+		games-env = buildEnv {
+			name = "games-env";
+			paths = [
+				minetest
+				stuntrally
+				];
 		};
 	};
 }
