@@ -353,7 +353,7 @@
     <!-- terminal -->
     <keybind key="W-L">
       <action name="Execute">
-        <command>alock -bg shade:blur=50</command>
+        <command>alock -bg shade:blur=99</command>
       </action>
     </keybind>
     <keybind key="W-T">
