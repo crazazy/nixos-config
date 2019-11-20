@@ -8,6 +8,17 @@
 		];
 		python-mod5pacman = python3.withPackages python-pacman-packages;
 
+		rEnv = defaultPackages.rWrapper.override {
+			packages = with rPackages; [
+				foreign
+				ggplot2
+				BoardGames
+				shiny
+				plumber
+				rmarkdown
+			];
+		};
+
 		all-env = buildEnv {
 			name = "all-env";
 			paths = [ user-env dev-env games-env];
@@ -30,6 +41,7 @@
 				git
 				python-mod5pacman
 				nodejs
+				rEnv
 				jetbrains.pycharm-community
 				jetbrains.idea-community
 			];
