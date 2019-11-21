@@ -1,6 +1,7 @@
 {
   allowUnfree = true;
   packageOverrides = defaultPackages: with defaultPackages.pkgs; {
+    rMaker = import ./rMaker.nix;
     python-pacman-packages = python-packages: with python-packages; [
       pygame
       ConfigArgParse
@@ -8,17 +9,7 @@
     ];
     python-mod5pacman = python3.withPackages python-pacman-packages;
 
-    rEnv = defaultPackages.rWrapper.override {
-      packages = with rPackages; [
-        foreign
-        ggplot2
-        BoardGames
-        shiny
-        plumber
-        rmarkdown
-      ];
-    };
-
+    rEnv = rMaker defaultPackages.rWrapper rPackages;
     all-env = buildEnv {
       name = "all-env";
       paths = [ user-env dev-env games-env];
@@ -33,6 +24,7 @@
         vlc
         ffmpeg
         libreoffice
+        (wine.override {wineBuild = "wineWow";})
       ];
     };
     dev-env = buildEnv {
