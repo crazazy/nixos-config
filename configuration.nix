@@ -8,6 +8,8 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+      # Include desktop configuration
+      ./desktop-configuration.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
@@ -42,7 +44,7 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-    wget vim curl ntfs3g ulauncher tint2 alock
+    wget vim curl ntfs3g
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -67,28 +69,6 @@
   # Enable sound.
    sound.enable = true;
    hardware.pulseaudio.enable = true;
-
-  # Enable the X11 windowing system.
-  services.xserver.enable = true;
-  services.xserver.layout = "us";
-  services.xserver.xkbVariant = "altgr-intl";
-  services.xserver.xkbOptions = "eurosign:5";
-
-  # Enable touchpad support.
-  services.xserver.libinput.enable = true;
-
-  # Enable the GNOME Desktop Environment.
-  # login manager
-  services.xserver.displayManager.gdm.enable = true;
-  # xfce for file managing, volume control etc.
-  services.xserver.desktopManager.xfce = {
-    enable = true;
-    noDesktop = true;
-  };
-  # openbox wm
-  services.xserver.windowManager.openbox.enable = true;
-  # fixes the edges issue with ulauncher
-  services.compton.enable = true;
 
   # Enable virtualbox
   virtualisation.virtualbox.host.enable = true;
