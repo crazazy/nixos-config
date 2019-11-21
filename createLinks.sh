@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 CONFIG=$HOME/.config
-echo $(dirname $0)
 CURRENT=$(dirname $0| sed -e s@\\.@$(pwd)@g)
 ln -s $CURRENT/local/nixpkgs $CONFIG
 ln -s $CURRENT/local/openbox $CONFIG
