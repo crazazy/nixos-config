@@ -34,7 +34,7 @@
         python-mod5pacman
         nodejs
         rEnv
-        jetbrains.pycharm-community
+        jetbrains.pycharm-professional
         jetbrains.idea-community
       ];
     };
