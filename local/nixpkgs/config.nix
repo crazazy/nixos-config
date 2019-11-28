@@ -20,6 +20,7 @@
         firefox
         gparted
         xclip
+        riot-desktop
         xbanish
         vlc
         ffmpeg
@@ -42,6 +43,8 @@
       name = "games-env";
       paths = [
         minetest
+        multimc
+        steam
         stuntrally
         ];
     };

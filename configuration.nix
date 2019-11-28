@@ -12,6 +12,8 @@
       ./desktop-configuration.nix
       # Include vim config
       ./vim-configuration.nix
+      # Include steam
+      ./steam-configuration.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
