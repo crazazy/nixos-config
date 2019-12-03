@@ -2,12 +2,16 @@
   allowUnfree = true;
   packageOverrides = defaultPackages: with defaultPackages.pkgs; {
     rMaker = import ./rMaker.nix;
-    python-pacman-packages = python-packages: with python-packages; [
+    python-personal-packages = python-packages: with python-packages; [
       pygame
       ConfigArgParse
+      django
+      matplotlib
       virtualenvwrapper
+      pandas
+      tkinter
     ];
-    python-mod5pacman = python3.withPackages python-pacman-packages;
+    python-personal = python3.withPackages python-personal-packages;
 
     rEnv = rMaker defaultPackages.rWrapper rPackages;
     all-env = buildEnv {
@@ -32,7 +36,7 @@
       name = "dev-env";
       paths = [
         git
-        python-mod5pacman
+        python-personal
         nodejs
         rEnv
         jetbrains.pycharm-professional
