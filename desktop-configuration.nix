@@ -2,7 +2,7 @@
 
 {
   environment.systemPackages = with pkgs; [
-    ulauncher tint2 alock
+    ulauncher tint2 alock glava
   ];
 
   # Enable the X11 windowing system.
