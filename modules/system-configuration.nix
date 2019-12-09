@@ -8,6 +8,8 @@
   imports =
     [ # Include desktop configuration
       ./desktop-configuration.nix
+      # Include custom package environments
+      ./packages-configuration
       # Include vim config
       ./vim-configuration.nix
       # Include steam
@@ -78,6 +80,7 @@
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.erik = {
     isNormalUser = true;
+    packages = with pkgs; [ all-env ];
     extraGroups = [ "wheel" "networkmanager" "user-with-access-to-virtualbox" ]; # Enable ‘sudo’ for the user.
   };
 
