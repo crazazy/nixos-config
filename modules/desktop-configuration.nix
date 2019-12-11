@@ -14,7 +14,7 @@
   # Enable touchpad support.
   services.xserver.libinput.enable = true;
 
-  # Enable the GNOME Desktop Environment.
+  # Enable the custom Desktop Environment.
   # login manager
   services.xserver.displayManager.gdm.enable = true;
   # xfce for file managing, volume control etc.
@@ -26,4 +26,6 @@
   services.xserver.windowManager.openbox.enable = true;
   # fixes the edges issue with ulauncher
   services.compton.enable = true;
+  # set default config
+  services.xserver.desktopManager.default = "none";
 }
