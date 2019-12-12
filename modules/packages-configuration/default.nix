@@ -40,6 +40,7 @@
           git
           python-personal
           nodejs
+          racket
           rEnv
           jetbrains.pycharm-professional
           jetbrains.idea-community
