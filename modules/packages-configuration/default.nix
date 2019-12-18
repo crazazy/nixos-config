@@ -11,6 +11,8 @@
         matplotlib
         virtualenvwrapper
         pandas
+        ipykernel
+        jupyter
         tkinter
       ];
       python-personal = python3.withPackages python-personal-packages;
@@ -23,7 +25,7 @@
       user-env = buildEnv {
         name = "user-env";
         paths = [
-          firefox
+          firefox-devedition-bin
           gparted
           xclip
           riot-desktop
@@ -39,7 +41,7 @@
         paths = [
           git
           python-personal
-          nodejs
+          nodejs_latest
           racket
           rEnv
           jetbrains.pycharm-professional
