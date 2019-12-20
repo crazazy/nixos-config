@@ -7,7 +7,7 @@
       python-personal-packages = python-packages: with python-packages; [
         pygame
         ConfigArgParse
-        django
+        django_2_2
         matplotlib
         virtualenvwrapper
         pandas
