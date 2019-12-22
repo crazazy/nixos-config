@@ -25,7 +25,7 @@
       user-env = buildEnv {
         name = "user-env";
         paths = [
-          firefox-devedition-bin
+          firefox-esr
           gparted
           xclip
           riot-desktop
@@ -40,6 +40,7 @@
         name = "dev-env";
         paths = [
           git
+          jq
           python-personal
           nodejs_latest
           racket
