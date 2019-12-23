@@ -35,5 +35,5 @@
   # fixes the edges issue with ulauncher
   services.compton.enable = true;
   # set default config
-  services.xserver.desktopManager.default = "none";
+  services.xserver.displayManager.defaultSession = "none+openbox";
 }
