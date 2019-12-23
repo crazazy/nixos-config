@@ -361,7 +361,7 @@
         <command>xfce4-terminal</command>
       </action>
     </keybind>
-    <keybind key="XF86AudioMicMute">
+    <keybind key="A-XF86AudioMute">
         <action name="Execute">
             <command>amixer -q set Capture toggle</command>
         </action>
