@@ -4,18 +4,7 @@
     allowUnfree = true;
     packageOverrides = defaultPackages: with defaultPackages.pkgs; {
       rMaker = import ./rMaker.nix;
-      python-personal-packages = python-packages: with python-packages; [
-        pygame
-        ConfigArgParse
-        django_2_2
-        matplotlib
-        virtualenvwrapper
-        pandas
-        ipykernel
-        jupyter
-        tkinter
-      ];
-      python-personal = python3.withPackages python-personal-packages;
+      python-personal = (import ./python-env.nix) python3;
       
       rEnv = rMaker defaultPackages.rWrapper rPackages;
       all-env = buildEnv {
