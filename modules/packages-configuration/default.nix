@@ -7,10 +7,14 @@
       python-personal = (import ./python-env.nix) python3;
       
       rEnv = rMaker defaultPackages.rWrapper rPackages;
+
+      crazazy = import ../../pkgs { inherit (defaultPackages) pkgs; };
+
       all-env = buildEnv {
         name = "all-env";
-        paths = [ user-env dev-env games-env];
+        paths = [ user-env dev-env games-env js-env ];
       };
+
       user-env = buildEnv {
         name = "user-env";
         paths = [
@@ -25,6 +29,7 @@
           (wine.override {wineBuild = "wineWow";})
         ];
       };
+
       dev-env = buildEnv {
         name = "dev-env";
         paths = [
@@ -38,6 +43,14 @@
           jetbrains.idea-community
         ];
       };
+
+      js-env = buildEnv {
+        name = "js-env";
+        paths = with crazazy.js; [
+          parcel
+        ];
+      };
+
       games-env = buildEnv {
         name = "games-env";
         paths = [
