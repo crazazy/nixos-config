@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+Backlight() {
+    local BRIGHTNESS=$(cat /sys/class/backlight/intel_backlight/brightness)
+    echo -n "Backlight: $(($BRIGHTNESS / 15)) %"
+}
+
 Wifi() {
     local WIFI=$(nmcli -t -f active,ssid dev wifi | egrep '^yes' | cut -d: -f2)
     if [ -n WIFI ]; then
@@ -16,12 +21,12 @@ Clock() {
 
 Battery() {
     local BATPERC=$(cat /sys/class/power_supply/BAT0/capacity)
-    echo -n "$BATPERC %"
+    echo -n "Battery: $BATPERC %"
 }
 
 # Print the clock
 
 while true; do
-    echo "%{c}%{F#FFFF00}%{B#0000FF}$(Wifi) : Battery: $(Battery) : $(Clock) %{F-}%{B-}"
-        sleep 20
+    echo "%{c}%{F#FFFF00}%{B#0000FF}$(Wifi) : $(Backlight) : $(Battery) : $(Clock) %{F-}%{B-}"
+        sleep 5
 done
