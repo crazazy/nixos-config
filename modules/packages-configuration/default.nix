@@ -49,6 +49,7 @@
         paths = with crazazy.js; [
           tldr
           npe
+          jspm
         ];
       };
 
