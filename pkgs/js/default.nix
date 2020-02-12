@@ -11,5 +11,4 @@
   tldr = (import ./tldr { inherit pkgs; }).package;
   webpack = (import ./webpack-cli { inherit pkgs; }).package;
 
-  nix-gen-node-tools = pkgs.callPackage ./gen-node-env { inherit (pkgs.nodePackages) node2nix; };
 }
