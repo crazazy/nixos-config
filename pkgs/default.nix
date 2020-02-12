@@ -5,6 +5,7 @@
 
   # standalone packages
   nix-gen-node-tools = pkgs.callPackage ./gen-node-env { inherit (pkgs.nodePackages) node2nix; };
+  efm-langserver = pkgs.callPackage ./efm-langserver {};
 
   # modules
   modules = import ../modules;
