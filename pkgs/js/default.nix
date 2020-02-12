@@ -1,6 +1,7 @@
 { pkgs }:
 {
   CRA = (import ./create-react-app { inherit pkgs; }).package;
+  eslint = (import ./eslint { inherit pkgs; }).package;
   jspm = (import ./jspm { inherit pkgs; }).package;
   npe = (import ./npe { inherit pkgs; }).package;
   parcel = (import ./parcel-bundler { inherit pkgs; }).package;
