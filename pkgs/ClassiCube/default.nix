@@ -1,6 +1,6 @@
 # TODO: right now ClassiCube tries to load it's assets into the installed directory ($out/bin)
 # we have to wait and see if this becomes configurable before we can actually install this package
-{gcc, curl, freetype, openal, libGL, SDL2, xorg, stdenv, fetchFromGitHub}:
+{gcc, curl, freetype, openal, libGL, SDL2, xorg, stdenv, fetchFromGitHub, lib}:
 stdenv.mkDerivation rec {
   name = "ClassiCube";
   version = "1.1.2";
@@ -18,4 +18,11 @@ stdenv.mkDerivation rec {
     '';
   nativeBuildInputs = [ gcc ];
   buildInputs = [freetype openal curl libGL SDL2 xorg.libX11]; 
+  meta = with lib; {
+    description = "Custom Minecraft Classic / ClassiCube client written in C (formerly ClassicalSharp in C#) from scratch.";
+    homepage = https://github.com/UnknownShadow200/ClassiCube;
+    licence = licences.mit;
+    platforms = platforms.linux ++ platforms.darwin;
+  };
+
 }
