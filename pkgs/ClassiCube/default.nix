@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
   meta = with lib; {
     description = "Custom Minecraft Classic / ClassiCube client written in C (formerly ClassicalSharp in C#) from scratch.";
     homepage = https://github.com/UnknownShadow200/ClassiCube;
-    licence = licences.mit;
+    license = licenses.mit;
     platforms = platforms.linux ++ platforms.darwin;
   };
 

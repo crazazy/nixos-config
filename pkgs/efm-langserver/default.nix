@@ -14,7 +14,7 @@ buildGoModule rec {
   meta = with lib; {
     description = "General purpose Language Server";
     homepage = https://github.com/mattn/efm-langserver;
-    licence = licences.mit;
+    license = licenses.mit;
     platforms = platforms.linux ++ platforms.darwin;
   };
 }
