@@ -1,7 +1,7 @@
 {config, pkgs, ...}:
 {
   imports = [
-    ./hardware/laptop.nix
+    ./hardware/elitebook840g5.nix
     ./modules/system-configuration
     ./modules/desktop-configuration
   ];
