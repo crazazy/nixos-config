@@ -1,0 +1,50 @@
+{
+    "classicube": {
+        "branch": "master",
+        "description": "Custom Minecraft Classic / ClassiCube client written in C (formerly ClassicalSharp in C#) from scratch.",
+        "homepage": "",
+        "owner": "unknownshadow200",
+        "repo": "classicube",
+        "rev": "ab007f81471354fa1a344d5e8c57af6abeef5351",
+        "sha256": "15zn7qfy4kck914xxg7qgk1nzzgs9d88s80m4lnmhkzrxwy50ibd",
+        "type": "tarball",
+        "url": "https://github.com/unknownshadow200/classicube/archive/ab007f81471354fa1a344d5e8c57af6abeef5351.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "efm-langserver": {
+        "branch": "master",
+        "description": "General purpose Language Server",
+        "homepage": "",
+        "owner": "mattn",
+        "repo": "efm-langserver",
+        "rev": "v0.0.14",
+        "sha256": "0b54rg0s3km8dqmsh28k3kn6phqdmsnc6hyn81zs19bsvfykcrss",
+        "type": "tarball",
+        "url": "https://github.com/mattn/efm-langserver/archive/6e115193a190e5fa3450448db774e6e6da714489.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "niv": {
+        "branch": "master",
+        "description": "Easy dependency management for Nix projects",
+        "homepage": "https://github.com/nmattia/niv",
+        "owner": "nmattia",
+        "repo": "niv",
+        "rev": "f73bf8d584148677b01859677a63191c31911eae",
+        "sha256": "0jlmrx633jvqrqlyhlzpvdrnim128gc81q5psz2lpp2af8p8q9qs",
+        "type": "tarball",
+        "url": "https://github.com/nmattia/niv/archive/f73bf8d584148677b01859677a63191c31911eae.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "master",
+        "description": "Nix Packages collection",
+        "homepage": "https://nixos.org",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "4f6cd4f6c6f3ae16bdc4dfb6830a446856d3f783",
+        "sha256": "1vaxfphsvgqbgki2nlg9r8xj0rah9apci2ywi0b8v36w26vhmcw8",
+        "type": "tarball",
+        "url": "https://github.com/nixos/nixpkgs/archive/4f6cd4f6c6f3ae16bdc4dfb6830a446856d3f783.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}
