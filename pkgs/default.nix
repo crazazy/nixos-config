@@ -8,7 +8,8 @@
   # standalone packages
   nix-gen-node-tools = pkgs.callPackage ./gen-node-env { inherit (pkgs.nodePackages) node2nix; };
   efm-langserver = pkgs.callPackage ./efm-langserver { inherit sources; };
-  ClassiCube = pkgs.callPackage ./ClassiCube { inherit sources; };
+  # below package is borked again, leaving it out for now
+  # ClassiCube = pkgs.callPackage ./ClassiCube { inherit sources; };
 
   # modules
   modules = import ../modules;

@@ -3,7 +3,7 @@ buildGoModule rec {
   name = "efm-langserver";
   version = "0.0.14";
   src = sources.efm-langserver;
-  vendorSha256 = "0cc55yswyls34s6ryc9r3vlxc90dq5xgm4fz6aynjhw7f48scf46";
+  vendorSha256 = "1whifjmdl72kkcb22h9b1zadsrc80prrjiyvyba2n5vb4kavximm";
   subPackages = ["."];
 
   meta = with lib; {

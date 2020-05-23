@@ -5,10 +5,10 @@
         "homepage": "",
         "owner": "unknownshadow200",
         "repo": "classicube",
-        "rev": "ab007f81471354fa1a344d5e8c57af6abeef5351",
-        "sha256": "15zn7qfy4kck914xxg7qgk1nzzgs9d88s80m4lnmhkzrxwy50ibd",
+        "rev": "e22cb847fef7b15fd0589a722b95351e5346c255",
+        "sha256": "1c7fwmh0xa0hp4aq7qyz0mbrl33lzd7acklrjfp42rkx5i6ai4wx",
         "type": "tarball",
-        "url": "https://github.com/unknownshadow200/classicube/archive/ab007f81471354fa1a344d5e8c57af6abeef5351.tar.gz",
+        "url": "https://github.com/unknownshadow200/classicube/archive/e22cb847fef7b15fd0589a722b95351e5346c255.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "efm-langserver": {
@@ -17,7 +17,7 @@
         "homepage": "",
         "owner": "mattn",
         "repo": "efm-langserver",
-        "rev": "v0.0.14",
+        "rev": "6e115193a190e5fa3450448db774e6e6da714489",
         "sha256": "0b54rg0s3km8dqmsh28k3kn6phqdmsnc6hyn81zs19bsvfykcrss",
         "type": "tarball",
         "url": "https://github.com/mattn/efm-langserver/archive/6e115193a190e5fa3450448db774e6e6da714489.tar.gz",
@@ -41,10 +41,10 @@
         "homepage": "https://nixos.org",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "4f6cd4f6c6f3ae16bdc4dfb6830a446856d3f783",
-        "sha256": "1vaxfphsvgqbgki2nlg9r8xj0rah9apci2ywi0b8v36w26vhmcw8",
+        "rev": "efe35454d4c4067bd519cd46be77b21c64ee03e2",
+        "sha256": "1pzlkldfnac1jm726lvlqrp4q0iqskilgik5k0zpvlmivifas90p",
         "type": "tarball",
-        "url": "https://github.com/nixos/nixpkgs/archive/4f6cd4f6c6f3ae16bdc4dfb6830a446856d3f783.tar.gz",
+        "url": "https://github.com/nixos/nixpkgs/archive/efe35454d4c4067bd519cd46be77b21c64ee03e2.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }

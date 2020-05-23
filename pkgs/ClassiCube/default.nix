@@ -15,7 +15,7 @@ let
     nativeBuildInputs = [ gcc ];
     buildInputs = [freetype openal curl libGL SDL2 xorg.libX11 xorg.libXi]; 
     meta = with lib; {
-      broken = true;
+      # broken = true;
       description = "Custom Minecraft Classic / ClassiCube client written in C (formerly ClassicalSharp in C#) from scratch.";
       homepage = https://github.com/UnknownShadow200/ClassiCube;
       license = licenses.mit;
