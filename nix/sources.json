@@ -5,10 +5,10 @@
         "homepage": "",
         "owner": "unknownshadow200",
         "repo": "classicube",
-        "rev": "e22cb847fef7b15fd0589a722b95351e5346c255",
-        "sha256": "1c7fwmh0xa0hp4aq7qyz0mbrl33lzd7acklrjfp42rkx5i6ai4wx",
+        "rev": "c44153a50b6a7d8e2ba75c39ace8f4c9fc69c294",
+        "sha256": "12k22889y5dykja4fr5ldbpaq4m88xm016dvc5c6256s36hqxr3j",
         "type": "tarball",
-        "url": "https://github.com/unknownshadow200/classicube/archive/e22cb847fef7b15fd0589a722b95351e5346c255.tar.gz",
+        "url": "https://github.com/unknownshadow200/classicube/archive/c44153a50b6a7d8e2ba75c39ace8f4c9fc69c294.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "efm-langserver": {
@@ -35,16 +35,16 @@
         "url": "https://github.com/nmattia/niv/archive/f73bf8d584148677b01859677a63191c31911eae.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
-    "nixpkgs": {
-        "branch": "master",
-        "description": "Nix Packages collection",
-        "homepage": "https://nixos.org",
+    "nixpkgs-channels": {
+        "branch": "nixos-unstable",
+        "description": "A read-only mirror of NixOS/nixpkgs tracking the released channels. Send issues and PRs to",
+        "homepage": "https://github.com/NixOS/nixpkgs",
         "owner": "nixos",
-        "repo": "nixpkgs",
-        "rev": "efe35454d4c4067bd519cd46be77b21c64ee03e2",
-        "sha256": "1pzlkldfnac1jm726lvlqrp4q0iqskilgik5k0zpvlmivifas90p",
+        "repo": "nixpkgs-channels",
+        "rev": "0a146054bdf6f70f66de4426f84c9358521be31e",
+        "sha256": "154ypjfhy9qqa0ww6xi7d8280h85kffqaqf6b6idymizga9ckjcd",
         "type": "tarball",
-        "url": "https://github.com/nixos/nixpkgs/archive/efe35454d4c4067bd519cd46be77b21c64ee03e2.tar.gz",
+        "url": "https://github.com/nixos/nixpkgs-channels/archive/0a146054bdf6f70f66de4426f84c9358521be31e.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }

@@ -1,6 +1,6 @@
 { 
-  pkgs ? import <nixpkgs> {},
-  sources ? import ../nix/sources.nix }:
+  sources ? import ../nix/sources.nix,
+  pkgs ? import sources.nixpkgs-channels {} }:
 {
   # package sets
   js = import ./js { inherit pkgs; };
