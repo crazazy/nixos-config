@@ -5,10 +5,10 @@
         "homepage": "",
         "owner": "unknownshadow200",
         "repo": "classicube",
-        "rev": "c44153a50b6a7d8e2ba75c39ace8f4c9fc69c294",
-        "sha256": "12k22889y5dykja4fr5ldbpaq4m88xm016dvc5c6256s36hqxr3j",
+        "rev": "ca361b7f0b806ec57daaf292d15e258ebdacdc1e",
+        "sha256": "17064xb43dxds03n276b43s6xmk3cgfnd73qywvb9jqwhcjk5fdb",
         "type": "tarball",
-        "url": "https://github.com/unknownshadow200/classicube/archive/c44153a50b6a7d8e2ba75c39ace8f4c9fc69c294.tar.gz",
+        "url": "https://github.com/unknownshadow200/classicube/archive/ca361b7f0b806ec57daaf292d15e258ebdacdc1e.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "efm-langserver": {
@@ -33,6 +33,18 @@
         "sha256": "0jlmrx633jvqrqlyhlzpvdrnim128gc81q5psz2lpp2af8p8q9qs",
         "type": "tarball",
         "url": "https://github.com/nmattia/niv/archive/f73bf8d584148677b01859677a63191c31911eae.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nix-gen-node-tools": {
+        "branch": "master",
+        "description": "generate nix expressions for downloading node CLI tools",
+        "homepage": null,
+        "owner": "crazazy",
+        "repo": "nix-gen-node-tools",
+        "rev": "f3f61bb103fa11e3d7c9be6b5caa8b6bb96c8b3e",
+        "sha256": "1j5qxjgkdw0gw10arcliw8mx07nkxcah9bvnhv7kpcyjzpm6nd9j",
+        "type": "tarball",
+        "url": "https://github.com/crazazy/nix-gen-node-tools/archive/f3f61bb103fa11e3d7c9be6b5caa8b6bb96c8b3e.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs-channels": {

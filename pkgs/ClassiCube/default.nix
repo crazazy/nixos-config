@@ -1,11 +1,11 @@
 # TODO: ClassiCube is still getting stuck on the "initializing font cache" dialog. I do not know of a way to fix this
 # we have to wait and see if this becomes configurable before we can actually install this package
-{gcc, curl, freetype, openal, libGL, SDL2, xorg, stdenv, fetchFromGitHub, writeScriptBin, lib, sources}:
+{gcc, curl, freetype, openal, libGL, SDL2, xorg, stdenv, fetchzip, writeScriptBin, lib, sources}:
 let 
   classicCube = stdenv.mkDerivation rec {
     name = "ClassiCube";
     version = "1.1.2";
-    src = sources.classicube;
+    src = fetchzip { inherit (sources.ClassiCube) url sha256; };
     preBuild = ''
       cd ./src
     '';
