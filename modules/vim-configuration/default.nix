@@ -35,6 +35,6 @@ in
     myVim
     pkgs.python37Packages.python-language-server
     js.typescript
-    ];
+  ];
   environment.variables.EDITOR = "nvim";
 }
