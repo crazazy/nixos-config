@@ -25,9 +25,11 @@ jobs:
     - name: Install Nix
       uses: cachix/install-nix-action@v10
    # updates niv and javascript dependencies
-    - name: Update dependencies
+    - name: Update niv dependencies
+      run:  nix run nixpkgs.niv -c niv update
+      
+    - name: Update JavaScript packages
       run: |
-        nix run nixpkgs.niv -c niv update
         nix-env -iA nix-gen-node-tools -f pkgs/default.nix
         cd pkgs
         mv js old-js
@@ -38,7 +40,10 @@ jobs:
         done
         rm -rf old-js/
         
-    - name: Create PR
-      uses: funivan/github-autopr@0.2.0
-      env:
-        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v2
+      with:
+        commit-message: Updated package dependencies
+        branch: update
+        branch-suffix: timestamp
+        
