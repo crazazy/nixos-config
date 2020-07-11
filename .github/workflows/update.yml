@@ -6,6 +6,9 @@ name: CI
 on:
   schedule:
     - cron: 0 0 * * 6
+  push:
+    paths:
+      - '.github/**'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -21,9 +24,7 @@ jobs:
 
     - name: Install Nix
       uses: cachix/install-nix-action@v10
-      with:
-        nix_path: nixpkgs=channel:nixos-ustable
-    # updates niv and javascript dependencies
+   # updates niv and javascript dependencies
     - name: Update dependencies
       run: |
         nix run nixpkgs.niv -c niv update
