@@ -31,13 +31,13 @@ let
         sha512 = "i6rgnR/YgPEQzZZnbTHHuZdlE8qyoBNalD6F+q4vAFlcMEcqmkoG+mPqJYJCo63qPf74+Y1UZsl3l6f7/RIkmA==";
       };
     };
-    "@eslint/eslintrc-0.1.3" = {
+    "@eslint/eslintrc-0.2.1" = {
       name = "_at_eslint_slash_eslintrc";
       packageName = "@eslint/eslintrc";
-      version = "0.1.3";
+      version = "0.2.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-0.1.3.tgz";
-        sha512 = "4YVwPkANLeNtRjMekzux1ci8hIaH5eGKktGqR0d3LWsKNn5B2X/1Z6Trxy7jQXl9EBGE6Yj02O+t09FMeRllaA==";
+        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-0.2.1.tgz";
+        sha512 = "XRUeBZ5zBWLYgSANMpThFddrZZkEbGHgUdt5UJjZfnlN9BGCiUBrf+nvbRupSjMvqzwnQN0qwCmOxITt1cfywA==";
       };
     };
     "acorn-7.4.1" = {
@@ -971,8 +971,8 @@ let
   args = {
     name = "eslint";
     packageName = "eslint";
-    version = "7.11.0";
-    src = fetchurl { url = "https://registry.npmjs.org/eslint/-/eslint-7.11.0.tgz"; sha1 = "aaf2d23a0b5f1d652a08edacea0c19f7fadc0b3b"; };
+    version = "7.12.1";
+    src = fetchurl { url = "https://registry.npmjs.org/eslint/-/eslint-7.12.1.tgz"; sha1 = "bd9a81fa67a6cfd51656cdb88812ce49ccec5801"; };
     dependencies = [
       sources."@babel/code-frame-7.10.4"
       sources."@babel/helper-validator-identifier-7.10.4"
@@ -981,7 +981,7 @@ let
           sources."chalk-2.4.2"
         ];
       })
-      sources."@eslint/eslintrc-0.1.3"
+      sources."@eslint/eslintrc-0.2.1"
       sources."acorn-7.4.1"
       sources."acorn-jsx-5.3.1"
       sources."ajv-6.12.6"

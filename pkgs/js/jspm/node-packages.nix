@@ -220,13 +220,13 @@ let
         sha512 = "jnqIUKDUqJbDIUxm0Uj7bnlMnRm1T/eZ9N+AVMqhPgzrba2GhGG5o/jCTwmdPK709nEZsGoMzXEDUjcXHa3W0g==";
       };
     };
-    "@types/node-14.14.2" = {
+    "@types/node-14.14.5" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "14.14.2";
+      version = "14.14.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-14.14.2.tgz";
-        sha512 = "jeYJU2kl7hL9U5xuI/BhKPZ4vqGM/OmK6whiFAXVhlstzZhVamWhDSmHyGLIp+RVyuF9/d0dqr2P85aFj4BvJg==";
+        url = "https://registry.npmjs.org/@types/node/-/node-14.14.5.tgz";
+        sha512 = "H5Wn24s/ZOukBmDn03nnGTp18A60ny9AmCwnEcgJiTgSGsCO7k+NWP7zjCCbhlcnVCoI+co52dUAt9GMhOSULw==";
       };
     };
     "abbrev-1.1.1" = {
@@ -1102,13 +1102,13 @@ let
         sha1 = "2c03405c7538c39d7eb37b317022e325fb018bf7";
       };
     };
-    "gensync-1.0.0-beta.1" = {
+    "gensync-1.0.0-beta.2" = {
       name = "gensync";
       packageName = "gensync";
-      version = "1.0.0-beta.1";
+      version = "1.0.0-beta.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/gensync/-/gensync-1.0.0-beta.1.tgz";
-        sha512 = "r8EC6NO1sngH/zdD9fiRDLdcgnbayXah+mLgManTaIZJqEC1MZstmnox8KpnI2/fxQwrp5OpCOYWLp4rBl4Jcg==";
+        url = "https://registry.npmjs.org/gensync/-/gensync-1.0.0-beta.2.tgz";
+        sha512 = "3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==";
       };
     };
     "get-stream-3.0.0" = {
@@ -3068,7 +3068,7 @@ let
       sources."@jspm/npm-1.0.1"
       sources."@jspm/resolve-1.0.0"
       sources."@types/estree-0.0.45"
-      sources."@types/node-14.14.2"
+      sources."@types/node-14.14.5"
       sources."abbrev-1.1.1"
       sources."acorn-7.4.1"
       sources."agent-base-4.3.0"
@@ -3221,7 +3221,7 @@ let
       sources."fs.realpath-1.0.0"
       sources."function-bind-1.1.1"
       sources."gauge-2.7.4"
-      sources."gensync-1.0.0-beta.1"
+      sources."gensync-1.0.0-beta.2"
       sources."get-stream-3.0.0"
       sources."get-value-2.0.6"
       sources."getpass-0.1.7"

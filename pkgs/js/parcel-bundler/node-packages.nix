@@ -1579,13 +1579,13 @@ let
         sha512 = "bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==";
       };
     };
-    "caniuse-lite-1.0.30001150" = {
+    "caniuse-lite-1.0.30001151" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001150";
+      version = "1.0.30001151";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001150.tgz";
-        sha512 = "kiNKvihW0m36UhAFnl7bOAv0i1K1f6wpfVtTF5O5O82XzgtBnb05V0XeV3oZ968vfg2sRNChsHw8ASH2hDfoYQ==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001151.tgz";
+        sha512 = "Zh3sHqskX6mHNrqUerh+fkf0N72cMxrmflzje/JyVImfpknscMnkeJrlFGJcqTmaa0iszdYptGpWMJCRQDkBVw==";
       };
     };
     "caseless-0.12.0" = {
@@ -2245,6 +2245,15 @@ let
         sha512 = "2/xPb3ORsQ42nHYiSunXkDjPLBaEj/xTwUO4B7XCZQTRk7EBtTOPaygh10YAAh2OI1Qrp6NWfpAhzswj0ydt9g==";
       };
     };
+    "dom-serializer-1.1.0" = {
+      name = "dom-serializer";
+      packageName = "dom-serializer";
+      version = "1.1.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/dom-serializer/-/dom-serializer-1.1.0.tgz";
+        sha512 = "ox7bvGXt2n+uLWtCRLybYx60IrOlWL/aCebWJk1T0d4m3y2tzf4U3ij9wBMUb6YJZpz06HCCYuyCDveE2xXmzQ==";
+      };
+    };
     "domain-browser-1.2.0" = {
       name = "domain-browser";
       packageName = "domain-browser";
@@ -2290,6 +2299,15 @@ let
         sha512 = "JiK04h0Ht5u/80fdLMCEmV4zkNh2BcoMFBmZ/91WtYZ8qVXSKjiw7fXMgFPnHcSZgOo3XdinHvmnDUeMf5R4wA==";
       };
     };
+    "domhandler-3.3.0" = {
+      name = "domhandler";
+      packageName = "domhandler";
+      version = "3.3.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/domhandler/-/domhandler-3.3.0.tgz";
+        sha512 = "J1C5rIANUbuYK+FuFL98650rihynUOEzRLxW+90bKZRWB6A1X1Tf82GxR1qAWLyfNPRvjqfip3Q5tdYlmAa9lA==";
+      };
+    };
     "domutils-1.7.0" = {
       name = "domutils";
       packageName = "domutils";
@@ -2297,6 +2315,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/domutils/-/domutils-1.7.0.tgz";
         sha512 = "Lgd2XcJ/NjEw+7tFvfKxOzCYKZsdct5lczQ2ZaQY8Djz7pfAD3Gbp8ySJWtreII/vDlMVmxwa6pHmdxIYgttDg==";
+      };
+    };
+    "domutils-2.4.2" = {
+      name = "domutils";
+      packageName = "domutils";
+      version = "2.4.2";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/domutils/-/domutils-2.4.2.tgz";
+        sha512 = "NKbgaM8ZJOecTZsIzW5gSuplsX2IWW2mIK7xVr8hTQF2v1CJWTmLZ1HOCh5sH+IzVPAGE5IucooOkvwBRAdowA==";
       };
     };
     "dot-prop-5.3.0" = {
@@ -2353,13 +2380,13 @@ let
         sha1 = "590c61156b0ae2f4f0255732a158b266bc56b21d";
       };
     };
-    "electron-to-chromium-1.3.583" = {
+    "electron-to-chromium-1.3.584" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.583";
+      version = "1.3.584";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.583.tgz";
-        sha512 = "L9BwLwJohjZW9mQESI79HRzhicPk1DFgM+8hOCfGgGCFEcA3Otpv7QK6SGtYoZvfQfE3wKLh0Hd5ptqUFv3gvQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.584.tgz";
+        sha512 = "NB3DzrTzJFhWkUp+nl2KtUtoFzrfGXTir2S+BU4tXGyXH9vlluPuFpE3pTKeH7+PY460tHLjKzh6K2+TWwW+Ww==";
       };
     };
     "elliptic-6.5.3" = {
@@ -2767,13 +2794,13 @@ let
         sha512 = "yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==";
       };
     };
-    "gensync-1.0.0-beta.1" = {
+    "gensync-1.0.0-beta.2" = {
       name = "gensync";
       packageName = "gensync";
-      version = "1.0.0-beta.1";
+      version = "1.0.0-beta.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/gensync/-/gensync-1.0.0-beta.1.tgz";
-        sha512 = "r8EC6NO1sngH/zdD9fiRDLdcgnbayXah+mLgManTaIZJqEC1MZstmnox8KpnI2/fxQwrp5OpCOYWLp4rBl4Jcg==";
+        url = "https://registry.npmjs.org/gensync/-/gensync-1.0.0-beta.2.tgz";
+        sha512 = "3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==";
       };
     };
     "get-port-3.2.0" = {
@@ -3053,6 +3080,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/htmlparser2/-/htmlparser2-3.10.1.tgz";
         sha512 = "IgieNijUMbkDovyoKObU1DUhm1iwNYE/fuifEoEHfd1oZKZDaONBSkal7Y01shxsM49R4XaMdGez3WnF9UfiCQ==";
+      };
+    };
+    "htmlparser2-5.0.1" = {
+      name = "htmlparser2";
+      packageName = "htmlparser2";
+      version = "5.0.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/htmlparser2/-/htmlparser2-5.0.1.tgz";
+        sha512 = "vKZZra6CSe9qsJzh0BjBGXo8dvzNsq/oGvsjfRdOrrryfeD9UOBEEQdeoqCRmKZchF5h2zOBMQ6YuQ0uRUmdbQ==";
       };
     };
     "http-errors-1.7.3" = {
@@ -4765,13 +4801,13 @@ let
         sha512 = "BUIorsYJTvS9UhXxPTzupIztOMVNPa/HtAm9KHni9z6qEfiJ1bpOBL5DfUOL9XAc3XkLIEzBzpph+Zbm4AdRAg==";
       };
     };
-    "posthtml-parser-0.5.0" = {
+    "posthtml-parser-0.5.1" = {
       name = "posthtml-parser";
       packageName = "posthtml-parser";
-      version = "0.5.0";
+      version = "0.5.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/posthtml-parser/-/posthtml-parser-0.5.0.tgz";
-        sha512 = "BsZFAqOeX9lkJJPKG2JmGgtm6t++WibU7FeS40FNNGZ1KS2szRSRQ8Wr2JLvikDgAecrQ/9V4sjugTAin2+KVw==";
+        url = "https://registry.npmjs.org/posthtml-parser/-/posthtml-parser-0.5.1.tgz";
+        sha512 = "NvSWOfgRDubv+RkaJv01JvpE2Q1ufcjzSwEGzjT15UYWhiM4kzpiQhAvL/Mkqc3zqZCOLgmxLZQ7Jlt3V75t0w==";
       };
     };
     "posthtml-render-1.2.3" = {
@@ -5674,13 +5710,13 @@ let
         sha512 = "/mrRod8xqpA+IHSLyGCQ2s8SPHiCDEeQJSep1jqLYeEUClOFG2Qsh+4FU6G9VeqpZnGW/Su8LQGc4YKni5rYSQ==";
       };
     };
-    "timers-browserify-2.0.11" = {
+    "timers-browserify-2.0.12" = {
       name = "timers-browserify";
       packageName = "timers-browserify";
-      version = "2.0.11";
+      version = "2.0.12";
       src = fetchurl {
-        url = "https://registry.npmjs.org/timers-browserify/-/timers-browserify-2.0.11.tgz";
-        sha512 = "60aV6sgJ5YEbzUdn9c8kYGIqOubPoUdqQCul3SBAsRCZ40s6Y5cMcrW4dt3/k/EsbLVJNl9n6Vz3fTc+k2GeKQ==";
+        url = "https://registry.npmjs.org/timers-browserify/-/timers-browserify-2.0.12.tgz";
+        sha512 = "9phl76Cqm6FhSX9Xe1ZUAMLtm1BLkKj2Qd5ApyWkXzsMRaA7dgr81kf4wJmQf/hAvg8EEyJxDo3du/0KlhPiKQ==";
       };
     };
     "timsort-0.3.0" = {
@@ -6429,7 +6465,7 @@ let
       sources."caller-path-2.0.0"
       sources."callsites-2.0.0"
       sources."caniuse-api-3.0.0"
-      sources."caniuse-lite-1.0.30001150"
+      sources."caniuse-lite-1.0.30001151"
       sources."caseless-0.12.0"
       sources."chalk-2.4.2"
       sources."chokidar-2.1.8"
@@ -6555,7 +6591,11 @@ let
       sources."domain-browser-1.2.0"
       sources."domelementtype-1.3.1"
       sources."domexception-1.0.1"
-      sources."domhandler-2.4.2"
+      (sources."domhandler-3.3.0" // {
+        dependencies = [
+          sources."domelementtype-2.0.2"
+        ];
+      })
       sources."domutils-1.7.0"
       sources."dot-prop-5.3.0"
       sources."dotenv-5.0.1"
@@ -6563,7 +6603,7 @@ let
       sources."duplexer2-0.1.4"
       sources."ecc-jsbn-0.1.2"
       sources."ee-first-1.1.1"
-      sources."electron-to-chromium-1.3.583"
+      sources."electron-to-chromium-1.3.584"
       (sources."elliptic-6.5.3" // {
         dependencies = [
           sources."bn.js-4.11.9"
@@ -6617,7 +6657,7 @@ let
       sources."fs.realpath-1.0.0"
       sources."fsevents-1.2.13"
       sources."function-bind-1.1.1"
-      sources."gensync-1.0.0-beta.1"
+      sources."gensync-1.0.0-beta.2"
       sources."get-port-3.2.0"
       sources."get-value-2.0.6"
       sources."getpass-0.1.7"
@@ -6664,13 +6704,16 @@ let
       (sources."htmlnano-0.2.7" // {
         dependencies = [
           sources."posthtml-0.13.4"
-          sources."posthtml-parser-0.5.0"
+          sources."posthtml-parser-0.5.1"
           sources."terser-4.8.0"
         ];
       })
-      (sources."htmlparser2-3.10.1" // {
+      (sources."htmlparser2-5.0.1" // {
         dependencies = [
-          sources."readable-stream-3.6.0"
+          sources."dom-serializer-1.1.0"
+          sources."domelementtype-2.0.2"
+          sources."domutils-2.4.2"
+          sources."entities-2.1.0"
         ];
       })
       sources."http-errors-1.7.3"
@@ -6926,7 +6969,13 @@ let
       sources."postcss-unique-selectors-4.0.1"
       sources."postcss-value-parser-3.3.1"
       sources."posthtml-0.11.6"
-      sources."posthtml-parser-0.4.2"
+      (sources."posthtml-parser-0.4.2" // {
+        dependencies = [
+          sources."domhandler-2.4.2"
+          sources."htmlparser2-3.10.1"
+          sources."readable-stream-3.6.0"
+        ];
+      })
       sources."posthtml-render-1.2.3"
       sources."prelude-ls-1.1.2"
       sources."process-0.11.10"
@@ -7079,7 +7128,7 @@ let
       sources."symbol-tree-3.2.4"
       sources."terser-3.17.0"
       sources."through2-2.0.5"
-      sources."timers-browserify-2.0.11"
+      sources."timers-browserify-2.0.12"
       sources."timsort-0.3.0"
       sources."tiny-inflate-1.0.3"
       sources."to-arraybuffer-1.0.1"
