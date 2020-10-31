@@ -2810,6 +2810,7 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/gensync/-/gensync-1.0.0-beta.2.tgz";
         sha512 = "3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==";
+
       };
     };
     "get-intrinsic-1.0.1" = {

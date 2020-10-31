@@ -5,6 +5,7 @@
         "homepage": "",
         "owner": "nix-community",
         "repo": "NUR",
+
         "rev": "451d32b1497af5c8ed7ccf74a9726430065b687e",
         "sha256": "1hhfifk5krr6zxxk9s305w62g6lsy82441rkmb9gn35lwvfk5cfl",
         "type": "tarball",
@@ -17,6 +18,7 @@
         "homepage": "",
         "owner": "unknownshadow200",
         "repo": "classicube",
+
         "rev": "a4e08431b231f775e746e9c59213c19276839e76",
         "sha256": "1m4ghz9lq1gc4f4f0qzcb6rh44qk19my6jhpwpqbbj8hjbs3y74j",
         "type": "tarball",
