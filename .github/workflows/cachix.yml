@@ -7,7 +7,10 @@ name: Cache packages
 on:
   push:
     branches: [ master ]
-    paths: 'pkgs/**'
+    paths: 
+      - 'pkgs/**'
+      - '.github/workflow/cachix.yml'
+
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
