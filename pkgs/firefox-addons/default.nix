@@ -6,7 +6,7 @@ let
     inherit (pkgs.stdenv.lib) licenses;
     newMeta = if meta ? license then meta else meta // { license = licenses.unFree; };
   in
-    (fetchFirefoxAddon { inherit url sha256; name = pname; }) // newMeta;
+    (fetchFirefoxAddon { inherit url sha256; name = pname; }) // { meta = newMeta;} ;
   generated = import ./generated.nix { inherit buildFirefoxXpiAddon fetchurl stdenv; };
 in
   generated // { recurseForDerivations = true; }
