@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 DEFAULT_PROFILE=$(cat ~/.mozilla/firefox/profiles.ini | grep 'Default=...*' | cut -d = -f 2)
-cat "$HOME/.mozilla/firefox/$DEFAULT_PROFILE/addons.json" | jq -f ./findSlugs.jq > addons.json
+cat "$HOME/.mozilla/firefox/$DEFAULT_PROFILE/addons.json" | jq '.addons|map({slug:(.reviewURL|split("/")|.[6])})'> addons.json
 nix run -f "https://github.com/nix-community/NUR/archive/master.tar.gz" repos.rycee.firefox-addons-generator \
 	--arg pkgs 'import <nixpkgs> {}' \
 	-c nixpkgs-firefox-addons addons.json ./generated.nix
