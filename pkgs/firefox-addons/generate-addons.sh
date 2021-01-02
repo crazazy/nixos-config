@@ -10,8 +10,11 @@ cat > ./default.nix << EOF
 { pkgs ? import <nixpkgs> {} }:
 let
   inherit (pkgs) fetchFirefoxAddon fetchurl stdenv;
-  buildFirefoxXpiAddon = { pname, url, sha256, ... }: 
-    fetchFirefoxAddon { inherit url sha256; name = pname; };
+  buildFirefoxXpiAddon = { pname, url, sha256, meta, ... }: let
+    inherit (pkgs.stdenv.lib) licenses;
+    newMeta = if meta ? license then meta else meta // { license = licenses.unFree; };
+  in
+    (fetchFirefoxAddon { inherit url sha256; name = pname; }) // newMeta;
   generated = import ./generated.nix { inherit buildFirefoxXpiAddon fetchurl stdenv; };
 in
   generated // { recurseForDerivations = true; }
