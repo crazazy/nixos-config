@@ -220,13 +220,13 @@ let
         sha512 = "jnqIUKDUqJbDIUxm0Uj7bnlMnRm1T/eZ9N+AVMqhPgzrba2GhGG5o/jCTwmdPK709nEZsGoMzXEDUjcXHa3W0g==";
       };
     };
-    "@types/node-14.14.19" = {
+    "@types/node-14.14.20" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "14.14.19";
+      version = "14.14.20";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-14.14.19.tgz";
-        sha512 = "4nhBPStMK04rruRVtVc6cDqhu7S9GZai0fpXgPXrFpcPX6Xul8xnrjSdGB4KPBVYG/R5+fXWdCM8qBoiULWGPQ==";
+        url = "https://registry.npmjs.org/@types/node/-/node-14.14.20.tgz";
+        sha512 = "Y93R97Ouif9JEOWPIUyU+eyIdyRqQR0I8Ez1dzku4hDx34NWh4HbtIc3WNzwB1Y9ULvNGeu5B8h8bVL5cAk4/A==";
       };
     };
     "abbrev-1.1.1" = {
@@ -1921,13 +1921,13 @@ let
         sha1 = "195a21d6c46e361d2fb1281ba38b91e9df7bdbb3";
       };
     };
-    "needle-2.5.2" = {
+    "needle-2.6.0" = {
       name = "needle";
       packageName = "needle";
-      version = "2.5.2";
+      version = "2.6.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/needle/-/needle-2.5.2.tgz";
-        sha512 = "LbRIwS9BfkPvNwNHlsA41Q29kL2L/6VaOJ0qisM5lLWsTV3nP15abO5ITL6L81zqFhzjRKDAYjpcBcwM0AVvLQ==";
+        url = "https://registry.npmjs.org/needle/-/needle-2.6.0.tgz";
+        sha512 = "KKYdza4heMsEfSWD7VPUIz3zX2XDwOyX2d+geb4vrERZMT5RMU6ujjaD+I5Yr54uZxQ2w6XRTAhHBbSCyovZBg==";
       };
     };
     "netrc-0.1.4" = {
@@ -3068,7 +3068,7 @@ let
       sources."@jspm/npm-1.0.1"
       sources."@jspm/resolve-1.0.0"
       sources."@types/estree-0.0.45"
-      sources."@types/node-14.14.19"
+      sources."@types/node-14.14.20"
       sources."abbrev-1.1.1"
       sources."acorn-7.4.1"
       sources."agent-base-4.3.0"
@@ -3325,7 +3325,7 @@ let
       sources."nan-2.14.2"
       sources."nanomatch-1.2.13"
       sources."ncp-2.0.0"
-      (sources."needle-2.5.2" // {
+      (sources."needle-2.6.0" // {
         dependencies = [
           sources."debug-3.2.7"
         ];
