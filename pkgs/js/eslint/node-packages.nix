@@ -67,13 +67,13 @@ let
         sha512 = "j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==";
       };
     };
-    "ajv-7.0.2" = {
+    "ajv-7.0.3" = {
       name = "ajv";
       packageName = "ajv";
-      version = "7.0.2";
+      version = "7.0.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ajv/-/ajv-7.0.2.tgz";
-        sha512 = "qIaxO9RXjaXyO21tJr0EvwPcZa49m64GcXCU8ZrLjCAlFyMuOcPpI560So4A11M1WsKslJYIXn6jSyG5P0xIeg==";
+        url = "https://registry.npmjs.org/ajv/-/ajv-7.0.3.tgz";
+        sha512 = "R50QRlXSxqXcQP5SvKUrw8VZeypvo12i2IX0EeR5PiZ7bEKeHWgzgo264LDadUsCU42lTJVhFikTqJwNeH34gQ==";
       };
     };
     "ansi-colors-4.1.1" = {
@@ -877,13 +877,13 @@ let
         sha512 = "qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==";
       };
     };
-    "table-6.0.6" = {
+    "table-6.0.7" = {
       name = "table";
       packageName = "table";
-      version = "6.0.6";
+      version = "6.0.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/table/-/table-6.0.6.tgz";
-        sha512 = "OInCtPmDNieVBkVFi6C8RwU2S2H0h8mF3e3TQK4nreaUNCpooQUkI+A/KuEkm5FawfhWIfNqG+qfelVVR+V00g==";
+        url = "https://registry.npmjs.org/table/-/table-6.0.7.tgz";
+        sha512 = "rxZevLGTUzWna/qBLObOe16kB2RTnnbhciwgPbMMlazz1yZGVEgnZK762xyVdVznhqxrfCeBMmMkgOOaPwjH7g==";
       };
     };
     "text-table-0.2.0" = {
@@ -1095,9 +1095,9 @@ let
       sources."strip-ansi-6.0.0"
       sources."strip-json-comments-3.1.1"
       sources."supports-color-5.5.0"
-      (sources."table-6.0.6" // {
+      (sources."table-6.0.7" // {
         dependencies = [
-          sources."ajv-7.0.2"
+          sources."ajv-7.0.3"
           sources."json-schema-traverse-1.0.0"
         ];
       })
