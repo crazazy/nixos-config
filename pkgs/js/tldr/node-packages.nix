@@ -436,13 +436,13 @@ let
         sha512 = "6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==";
       };
     };
-    "natural-2.4.1" = {
+    "natural-2.4.5" = {
       name = "natural";
       packageName = "natural";
-      version = "2.4.1";
+      version = "2.4.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/natural/-/natural-2.4.1.tgz";
-        sha512 = "IeRdHO578EMzq7Wzb9cDJPUAlBwYJfkpXr2ByeF7Gru4K66+mamvomjXIJ9J/Su+Kvte8si+OMzwpNu859MYaA==";
+        url = "https://registry.npmjs.org/natural/-/natural-2.4.5.tgz";
+        sha512 = "fxQou4ubo6Rzf7XL0jjwtC2vHm6Sdicu7ztcE0k1ODZs+d1UzcKF1Hu2IwE2y7OgzU3Sa9o8obw7rnyNrjsd1A==";
       };
     };
     "node-unzip-2-0.2.8" = {
@@ -761,7 +761,7 @@ let
       sources."minimist-1.2.5"
       sources."mkdirp-0.5.5"
       sources."ms-2.1.3"
-      sources."natural-2.4.1"
+      sources."natural-2.4.5"
       sources."node-unzip-2-0.2.8"
       sources."once-1.4.0"
       sources."onetime-5.1.2"
