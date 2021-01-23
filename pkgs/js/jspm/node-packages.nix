@@ -220,13 +220,13 @@ let
         sha512 = "laIjwTQaD+5DukBZaygQ79K1Z0jb1bPEMRrkXSLjtCcZm+abyp5YbrqpSLzD42FwWW6gK/aS4NYpJ804nG2brg==";
       };
     };
-    "@types/node-14.14.21" = {
+    "@types/node-14.14.22" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "14.14.21";
+      version = "14.14.22";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-14.14.21.tgz";
-        sha512 = "cHYfKsnwllYhjOzuC5q1VpguABBeecUp24yFluHpn/BQaVxB1CuQ1FSRZCzrPxrkIfWISXV2LbeoBthLWg0+0A==";
+        url = "https://registry.npmjs.org/@types/node/-/node-14.14.22.tgz";
+        sha512 = "g+f/qj/cNcqKkc3tFqlXOYjrmZA+jNBiDzbP3kH+B+otKFqAdPgVTGP1IeKRdMml/aE69as5S4FqtxAbl+LaMw==";
       };
     };
     "abbrev-1.1.1" = {
@@ -3068,7 +3068,7 @@ let
       sources."@jspm/npm-1.0.1"
       sources."@jspm/resolve-1.0.0"
       sources."@types/estree-0.0.46"
-      sources."@types/node-14.14.21"
+      sources."@types/node-14.14.22"
       sources."abbrev-1.1.1"
       sources."acorn-7.4.1"
       sources."agent-base-4.3.0"
