@@ -220,13 +220,13 @@ let
         sha1 = "c656051e9817d9ff08ed881477f3fe4019f3ef7d";
       };
     };
-    "follow-redirects-1.13.1" = {
+    "follow-redirects-1.13.2" = {
       name = "follow-redirects";
       packageName = "follow-redirects";
-      version = "1.13.1";
+      version = "1.13.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.13.1.tgz";
-        sha512 = "SSG5xmZh1mkPGyKzjZP8zLjltIfpW32Y5QpdNJyjcfGxK3qo3NDDkZOZSFiGn1A6SclQxY9GzEwAHQ3dmYRWpg==";
+        url = "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.13.2.tgz";
+        sha512 = "6mPTgLxYm3r6Bkkg0vNM0HTjfGrOEtsfbhagQvbxDEsEkpNhw582upBaoRZylzen6krEmxXJgt9Ju6HiI4O7BA==";
       };
     };
     "fs-extra-9.1.0" = {
@@ -373,13 +373,13 @@ let
         sha512 = "FN8JBzLx6CzeMrB0tg6pqlGU1wCrXW+ZXGH481kfsBqer0hToTIiHdjH4Mq8xJUbvATujKCvaREGWpGUionraA==";
       };
     };
-    "marked-1.2.7" = {
+    "marked-1.2.8" = {
       name = "marked";
       packageName = "marked";
-      version = "1.2.7";
+      version = "1.2.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/marked/-/marked-1.2.7.tgz";
-        sha512 = "No11hFYcXr/zkBvL6qFmAp1z6BKY3zqLMHny/JN/ey+al7qwCM2+CMBL9BOgqMxZU36fz4cCWfn2poWIf7QRXA==";
+        url = "https://registry.npmjs.org/marked/-/marked-1.2.8.tgz";
+        sha512 = "lzmFjGnzWHkmbk85q/ILZjFoHHJIQGF+SxGEfIdGk/XhiTPhqGs37gbru6Kkd48diJnEyYwnG67nru0Z2gQtuQ==";
       };
     };
     "match-stream-0.0.2" = {
@@ -724,7 +724,7 @@ let
       sources."concat-map-0.0.1"
       sources."core-util-is-1.0.2"
       sources."defaults-1.0.3"
-      sources."follow-redirects-1.13.1"
+      sources."follow-redirects-1.13.2"
       sources."fs-extra-9.1.0"
       sources."fs.realpath-1.0.0"
       sources."fstream-1.0.12"
@@ -741,7 +741,7 @@ let
       sources."jsonify-0.0.0"
       sources."lodash-4.17.20"
       sources."log-symbols-4.0.0"
-      sources."marked-1.2.7"
+      sources."marked-1.2.8"
       sources."match-stream-0.0.2"
       sources."mimic-fn-2.1.0"
       sources."minimatch-3.0.4"

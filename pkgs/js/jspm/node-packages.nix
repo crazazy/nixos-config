@@ -2686,13 +2686,13 @@ let
         sha1 = "3e935d7ddd73631b97659956d55128e87b5084a3";
       };
     };
-    "spdx-license-list-6.3.0" = {
+    "spdx-license-list-6.4.0" = {
       name = "spdx-license-list";
       packageName = "spdx-license-list";
-      version = "6.3.0";
+      version = "6.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/spdx-license-list/-/spdx-license-list-6.3.0.tgz";
-        sha512 = "Qz8ru5VVK5T4cFOBrshIzggzrQ15fVBcpjpZLCVz2j9KNnpslGbw8w1r06v2vi6YP6bnUSY5CXsFCfUypLZ2GA==";
+        url = "https://registry.npmjs.org/spdx-license-list/-/spdx-license-list-6.4.0.tgz";
+        sha512 = "4BxgJ1IZxTJuX1YxMGu2cRYK46Bk9zJNTK2/R0wNZR0cm+6SVl26/uG7FQmQtxoJQX1uZ0EpTi2L7zvMLboaBA==";
       };
     };
     "split-string-3.1.0" = {
@@ -3464,7 +3464,7 @@ let
         ];
       })
       sources."source-map-url-0.4.0"
-      sources."spdx-license-list-6.3.0"
+      sources."spdx-license-list-6.4.0"
       sources."split-string-3.1.0"
       sources."sshpk-1.16.1"
       sources."ssri-6.0.1"
