@@ -1561,13 +1561,13 @@ let
         sha512 = "bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==";
       };
     };
-    "caniuse-lite-1.0.30001179" = {
+    "caniuse-lite-1.0.30001181" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001179";
+      version = "1.0.30001181";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001179.tgz";
-        sha512 = "blMmO0QQujuUWZKyVrD1msR4WNDAqb/UPO1Sw2WWsQ7deoM5bJiicKnWJ1Y0NS/aGINSnKPIWBMw5luX+NDUCA==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001181.tgz";
+        sha512 = "m5ul/ARCX50JB8BSNM+oiPmQrR5UmngaQ3QThTTp5HcIIQGP/nPBs82BYLE+tigzm3VW+F4BJIhUyaVtEweelQ==";
       };
     };
     "caseless-0.12.0" = {
@@ -2344,13 +2344,13 @@ let
         sha1 = "590c61156b0ae2f4f0255732a158b266bc56b21d";
       };
     };
-    "electron-to-chromium-1.3.643" = {
+    "electron-to-chromium-1.3.649" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.643";
+      version = "1.3.649";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.643.tgz";
-        sha512 = "TGomM4gj8adt/uqRgPbu9F0yhUVAR1deww5X0fvbQgpGr9suSMjLgc4IwQ9YKGkp1t03cDbZum20OfAkiTYjAg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.649.tgz";
+        sha512 = "ojGDupQ3UMkvPWcTICe4JYe17+o9OLiFMPoduoR72Zp2ILt1mRVeqnxBEd6s/ptekrnsFU+0A4lStfBe/wyG/A==";
       };
     };
     "elliptic-6.5.3" = {
@@ -2380,13 +2380,13 @@ let
         sha512 = "f2LZMYl1Fzu7YSBKg+RoROelpOaNrcGmE9AZubeDfrCEia483oW4MI4VyFd5VNHIgQ/7qm1I0wUHK1eJnn2y2w==";
       };
     };
-    "entities-2.1.0" = {
+    "entities-2.2.0" = {
       name = "entities";
       packageName = "entities";
-      version = "2.1.0";
+      version = "2.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/entities/-/entities-2.1.0.tgz";
-        sha512 = "hCx1oky9PFrJ611mf0ifBLBRW8lUUVRlFolb5gWRfIELabBlbp9xZvrqZLZAs+NxFnbfQoeGd8wDkygjg7U85w==";
+        url = "https://registry.npmjs.org/entities/-/entities-2.2.0.tgz";
+        sha512 = "p92if5Nz619I0w+akJrLZH0MX0Pb5DX39XOwQTtXSdQQOaYH03S1uIQp4mhOZtAXrxq4ViO67YTiLBo2638o9A==";
       };
     };
     "envinfo-7.7.3" = {
@@ -2767,13 +2767,13 @@ let
         sha512 = "3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==";
       };
     };
-    "get-intrinsic-1.0.2" = {
+    "get-intrinsic-1.1.0" = {
       name = "get-intrinsic";
       packageName = "get-intrinsic";
-      version = "1.0.2";
+      version = "1.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.0.2.tgz";
-        sha512 = "aeX0vrFm21ILl3+JpFFRNe9aUvp6VFZb2/CTbgLb8j75kOhvoNYjt9d8KA/tJG4gSo8nzEDedRl0h7vDmBYRVg==";
+        url = "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.1.0.tgz";
+        sha512 = "M11rgtQp5GZMZzDL7jLTNxbDfurpzuau5uqRWDPvlHjfvg3TdScAZo96GLvhMjImrmR8uAt0FS2RLoMrfWGKlg==";
       };
     };
     "get-port-3.2.0" = {
@@ -6432,7 +6432,7 @@ let
       sources."caller-path-2.0.0"
       sources."callsites-2.0.0"
       sources."caniuse-api-3.0.0"
-      sources."caniuse-lite-1.0.30001179"
+      sources."caniuse-lite-1.0.30001181"
       sources."caseless-0.12.0"
       sources."chalk-2.4.2"
       sources."chokidar-2.1.8"
@@ -6553,7 +6553,7 @@ let
       (sources."dom-serializer-0.2.2" // {
         dependencies = [
           sources."domelementtype-2.1.0"
-          sources."entities-2.1.0"
+          sources."entities-2.2.0"
         ];
       })
       sources."domain-browser-1.2.0"
@@ -6567,7 +6567,7 @@ let
       sources."duplexer2-0.1.4"
       sources."ecc-jsbn-0.1.2"
       sources."ee-first-1.1.1"
-      sources."electron-to-chromium-1.3.643"
+      sources."electron-to-chromium-1.3.649"
       (sources."elliptic-6.5.3" // {
         dependencies = [
           sources."bn.js-4.11.9"
@@ -6626,7 +6626,7 @@ let
       sources."fsevents-1.2.13"
       sources."function-bind-1.1.1"
       sources."gensync-1.0.0-beta.2"
-      sources."get-intrinsic-1.0.2"
+      sources."get-intrinsic-1.1.0"
       sources."get-port-3.2.0"
       sources."get-value-2.0.6"
       sources."getpass-0.1.7"
