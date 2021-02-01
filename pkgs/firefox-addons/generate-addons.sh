@@ -12,7 +12,7 @@ let
   inherit (pkgs) fetchFirefoxAddon fetchurl stdenv;
   buildFirefoxXpiAddon = { pname, url, sha256, meta, ... }: let
     inherit (pkgs.stdenv.lib) licenses;
-    newMeta = if meta ? license then meta else meta // { license = licenses.unFree; };
+    newMeta = if meta ? license then meta else meta // { license = licenses.unfree; };
   in
     (fetchFirefoxAddon { inherit url sha256; name = pname; }) // { meta = newMeta; };
   generated = import ./generated.nix { inherit buildFirefoxXpiAddon fetchurl stdenv; };
