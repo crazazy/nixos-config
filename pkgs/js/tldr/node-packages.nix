@@ -373,13 +373,13 @@ let
         sha512 = "FN8JBzLx6CzeMrB0tg6pqlGU1wCrXW+ZXGH481kfsBqer0hToTIiHdjH4Mq8xJUbvATujKCvaREGWpGUionraA==";
       };
     };
-    "marked-1.2.8" = {
+    "marked-1.2.9" = {
       name = "marked";
       packageName = "marked";
-      version = "1.2.8";
+      version = "1.2.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/marked/-/marked-1.2.8.tgz";
-        sha512 = "lzmFjGnzWHkmbk85q/ILZjFoHHJIQGF+SxGEfIdGk/XhiTPhqGs37gbru6Kkd48diJnEyYwnG67nru0Z2gQtuQ==";
+        url = "https://registry.npmjs.org/marked/-/marked-1.2.9.tgz";
+        sha512 = "H8lIX2SvyitGX+TRdtS06m1jHMijKN/XjfH6Ooii9fvxMlh8QdqBfBDkGUpMWH2kQNrtixjzYUa3SH8ROTgRRw==";
       };
     };
     "match-stream-0.0.2" = {
@@ -741,7 +741,7 @@ let
       sources."jsonify-0.0.0"
       sources."lodash-4.17.20"
       sources."log-symbols-4.0.0"
-      sources."marked-1.2.8"
+      sources."marked-1.2.9"
       sources."match-stream-0.0.2"
       sources."mimic-fn-2.1.0"
       sources."minimatch-3.0.4"
