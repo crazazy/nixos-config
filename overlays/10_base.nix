@@ -7,6 +7,7 @@ in
          } // super.lib;
       inherit (pkgs)
          atom
+         buildEnv
          deno
          emacs
          fetchurl
