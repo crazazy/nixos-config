@@ -10,6 +10,7 @@ in
          bashInteractive
          buildEnv
          deno
+         dillo
          emacs
          fetchurl
          fetchzip
