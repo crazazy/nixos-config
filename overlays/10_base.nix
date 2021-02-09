@@ -7,11 +7,13 @@ in
          } // super.lib;
       inherit (pkgs)
          atom
+         bashInteractive
          buildEnv
          deno
          emacs
          fetchurl
          fetchzip
+         git
          go
          graalvm11-ce
          hello
