@@ -21,7 +21,6 @@ in
          nix
          openbox
          runCommand
-         stack
          stdenv
          writeShellScript
          writeShellScriptBin
