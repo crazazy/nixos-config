@@ -13,27 +13,23 @@ with lib;
       HOME=/home/${config.mainUser} ${../..}/createLinks.sh
     '';
     home-manager.users.${config.mainUser} = { pkgs,  ...}: {
-      imports = [ 
-        "${impermanence}/home-manager.nix" 
+      imports = [
+        "${impermanence}/home-manager.nix"
         ../home-configuration
       ];
       programs.home-manager.enable = true;
       home.persistence."/nix/persist/home/erik" = {
         directories = [
           ".ssh"
-          ".irssi"
           ".wine"
           ".mozilla"
-          "workbench"
           "Documents"
-          "Pictures"
+          "Music"
           "VirtualBox VMs"
-          ".local/share/albert"
           ".local/share/Terraria"
           ".local/share/Steam"
           ".local/share/Valve Corporation"
           ".local/share/multimc"
-          ".local/share/vlc"
           ".config/discord"
         ];
         files = [
