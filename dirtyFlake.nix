@@ -7,14 +7,37 @@
   in mapAttrs (k: v: {
     inherit (v) url;
     flake = v.flake or false;
-  } // (if v.flake or false then {
-    follows = "nixpkgs";
-  } else {})) packageSources;
-  outputs = { self, nixpkgs }: {
-
-    packages.x86_64-linux.hello = nixpkgs.legacyPackages.x86_64-linux.hello;
-
-    defaultPackage.x86_64-linux = self.packages.x86_64-linux.hello;
-
-  };
+  }) packageSources;
+  outputs = { self, nixpkgs, flake-utils, ... }:
+    let
+      inherit (flake-utils.lib) eachSystem flattenTree;
+      mapAttrs = f: attrs: builtins.listToAttrs (map (k: { name = k; value = f k attrs.${k}; }) (builtins.attrNames attrs));
+      systems = [
+        "x86_64-darwin"
+        "x86_64-linux"
+      ];
+      mkSystem = modules: nixpkgs.lib.nixosSystem {
+        inherit modules;
+        extraArgs.system = "x86_64-linux";
+        system = "x86_64-linux";
+      };
+    in
+    {
+      nixosConfigurations.RACEMONSTER = mkSystem [ 
+        ./configuration.nix
+      ];
+      nixosModules = mapAttrs (k: v: import v)
+        { inherit (import ./modules) feh-bg-module home-manager; };
+    } // eachSystem systems
+      (system:
+        let
+          pkgs = nixpkgs.legacyPackages.${system};
+          monorepo = import ./default.nix { inherit pkgs; };
+          customPackages = import pkgs/default.nix { inherit pkgs; };
+        in
+        rec {
+          packages = flattenTree {
+            inherit (customPackages) efm-langserver elm nix-gen-node-tools truffleSqueak;
+          };
+        });
 }
