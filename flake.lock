@@ -1,0 +1,126 @@
+{
+  "nodes": {
+    "NUR": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-Fmb4r609AYuV1yzljBIdTe6r5MCJDLp7O0S42meMrS4=",
+        "type": "tarball",
+        "url": "https://github.com/nix-community/NUR/archive/befa747ee53c81a8bc954a41b5f2209970dc3a47.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/nix-community/NUR/archive/befa747ee53c81a8bc954a41b5f2209970dc3a47.tar.gz"
+      }
+    },
+    "classicube": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-+Xm3zpJhr03WBYKdJKc1QvNEyj8ISZINtK92ba6N/C4=",
+        "type": "tarball",
+        "url": "https://github.com/unknownshadow200/classicube/archive/3027439a8bd2200763bc2d5f82b137f39c6ca8e7.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/unknownshadow200/classicube/archive/3027439a8bd2200763bc2d5f82b137f39c6ca8e7.tar.gz"
+      }
+    },
+    "efm-langserver": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-SV3p6d64GNrWuqq68tQnktrYQNCm9sM9SQKkcRJ3Kbk=",
+        "type": "tarball",
+        "url": "https://github.com/mattn/efm-langserver/archive/e27f122a7bef6500968598d2d0ca239c745efb1b.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/mattn/efm-langserver/archive/e27f122a7bef6500968598d2d0ca239c745efb1b.tar.gz"
+      }
+    },
+    "emacs": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-LYqvoh35cwX+O38LoE6Zj1o3rBTU+kZBY4SaBz26/F8=",
+        "type": "tarball",
+        "url": "https://github.com/crazazy/emacs/archive/f1d78c4e6b4437a35bd4d710c27776db00369821.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/crazazy/emacs/archive/f1d78c4e6b4437a35bd4d710c27776db00369821.tar.gz"
+      }
+    },
+    "gitignore": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-qHu3uZ/o9jBHiA3MEKHJ06k7w4heOhA+4HCSIvflRxo=",
+        "type": "tarball",
+        "url": "https://github.com/hercules-ci/gitignore/archive/211907489e9f198594c0eb0ca9256a1949c9d412.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/hercules-ci/gitignore/archive/211907489e9f198594c0eb0ca9256a1949c9d412.tar.gz"
+      }
+    },
+    "niv": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-thSRKs4+tfKpLcvkNaXIA+73JMKslcn8OFDntVTfSuI=",
+        "type": "tarball",
+        "url": "https://github.com/nmattia/niv/archive/af958e8057f345ee1aca714c1247ef3ba1c15f5e.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/nmattia/niv/archive/af958e8057f345ee1aca714c1247ef3ba1c15f5e.tar.gz"
+      }
+    },
+    "nix-gen-node-tools": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-MjVr6v3SszvPhnavBBXr0x7QK+KRsqxA4A/wNp/suMg=",
+        "type": "tarball",
+        "url": "https://github.com/crazazy/nix-gen-node-tools/archive/f3f61bb103fa11e3d7c9be6b5caa8b6bb96c8b3e.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/crazazy/nix-gen-node-tools/archive/f3f61bb103fa11e3d7c9be6b5caa8b6bb96c8b3e.tar.gz"
+      }
+    },
+    "nixpkgs": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-wR49KkuahcNq1xU3Tk+Mfbob3g2/B/fpbWPw8X+1wsg=",
+        "type": "tarball",
+        "url": "https://github.com/nixos/nixpkgs/archive/1f77a4c8c74bbe896053994836790aa9bf6dc5ba.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/nixos/nixpkgs/archive/1f77a4c8c74bbe896053994836790aa9bf6dc5ba.tar.gz"
+      }
+    },
+    "root": {
+      "inputs": {
+        "NUR": "NUR",
+        "classicube": "classicube",
+        "efm-langserver": "efm-langserver",
+        "emacs": "emacs",
+        "gitignore": "gitignore",
+        "home-manager": [
+          "nixpkgs"
+        ],
+        "impermanence": [
+          "nixpkgs"
+        ],
+        "napalm": [
+          "nixpkgs"
+        ],
+        "niv": "niv",
+        "nix-doom-emacs": [
+          "nixpkgs"
+        ],
+        "nix-gen-node-tools": "nix-gen-node-tools",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

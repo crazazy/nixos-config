@@ -62,6 +62,7 @@
     "home-manager": {
         "branch": "master",
         "description": "Manage a user environment using Nix",
+        "flake": true,
         "homepage": "https://rycee.gitlab.io/home-manager/",
         "owner": "rycee",
         "repo": "home-manager",
@@ -74,6 +75,7 @@
     "impermanence": {
         "branch": "master",
         "description": "Modules to help you handle persistent state on systems with ephemeral root storage [maintainer=@talyz]",
+        "flake": true,
         "homepage": "",
         "owner": "nix-community",
         "repo": "impermanence",
@@ -86,6 +88,7 @@
     "napalm": {
         "branch": "master",
         "description": "Support for building npm packages in Nix and lightweight npm registry",
+        "flake": true,
         "homepage": "",
         "owner": "nmattia",
         "repo": "napalm",
@@ -110,6 +113,7 @@
     "nix-doom-emacs": {
         "branch": "master",
         "description": "doom-emacs packaged for Nix",
+        "flake": true,
         "homepage": "",
         "owner": "vlaci",
         "repo": "nix-doom-emacs",
