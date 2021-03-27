@@ -68,9 +68,7 @@ jobs:
         
     - name: Create commit message
       run: |
-        if [[ -z "$(git diff master --exit-code)" ]]; then
-          git commit -m "Automatic update of packages at $(date)"
-        fi
+        git commit -m "Automatic update of packages at $(date)"
       
     - name: Push to master
       uses: ad-m/github-push-action@v0.6.0
