@@ -39,7 +39,7 @@ jobs:
    
    # updates niv and javascript dependencies
     - name: Update niv dependencies
-      run:  GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} nix run nixpkgs.niv -c niv update
+      run:  GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} nix-shell -p niv --run "niv update"
     
     - name: Update flakes
       run: |
