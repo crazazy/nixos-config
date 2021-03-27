@@ -3,25 +3,25 @@
     "NUR": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-c8e+sDxhH/4m10huCIXBPVjIX7AIyA4ASejan4eO6tY=",
+        "narHash": "sha256-sQMhDeKPduEbKoWkuvwg7a9oz2aYUL3IkQIGEGRWKhI=",
         "type": "tarball",
-        "url": "https://codeload.github.com/nix-community/NUR/tar.gz/3da697eba87bda6c7ea037662c4fe2356c49e291"
+        "url": "https://github.com/nix-community/NUR/archive/e895015d863d499ba7ef35a0ddbe6d2a0cbfdcab.tar.gz"
       },
       "original": {
         "type": "tarball",
-        "url": "https://github.com/nix-community/NUR/archive/3da697eba87bda6c7ea037662c4fe2356c49e291.tar.gz"
+        "url": "https://github.com/nix-community/NUR/archive/e895015d863d499ba7ef35a0ddbe6d2a0cbfdcab.tar.gz"
       }
     },
     "classicube": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-Jt6MeTEyMFQTnp3MNrT+Pl0Nr/zCHtPbP3MlA5kn1Ys=",
+        "narHash": "sha256-wXrXhwRqcJLvKPb8ibXnTzo1rmqreCkSZmDLK+nVzk8=",
         "type": "tarball",
-        "url": "https://codeload.github.com/UnknownShadow200/ClassiCube/tar.gz/ff93306cc0f7688fcec04a7a8bbff0176fd6a97b"
+        "url": "https://github.com/unknownshadow200/classicube/archive/9a4d5e3bccb41534603e32b3f0b2c1500140cd82.tar.gz"
       },
       "original": {
         "type": "tarball",
-        "url": "https://github.com/unknownshadow200/classicube/archive/ff93306cc0f7688fcec04a7a8bbff0176fd6a97b.tar.gz"
+        "url": "https://github.com/unknownshadow200/classicube/archive/9a4d5e3bccb41534603e32b3f0b2c1500140cd82.tar.gz"
       }
     },
     "doom-emacs": {
@@ -220,13 +220,13 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "narHash": "sha256-SwbPXLjN2sLy4NL/GhodiJrdkIVZwGGTGiCN3JxH1cU=",
+        "narHash": "sha256-U9DO04sb+8Qy13EJckxOJIxT2Vlc/8i089XkfBnXH0M=",
         "type": "tarball",
-        "url": "https://codeload.github.com/nix-community/home-manager/tar.gz/fedfd430f96695997b3eaf8d7e82ca79406afa23"
+        "url": "https://github.com/rycee/home-manager/archive/7b30fc99227e6c7c331a01a9fb87599e4cd8cee1.tar.gz"
       },
       "original": {
         "type": "tarball",
-        "url": "https://github.com/rycee/home-manager/archive/fedfd430f96695997b3eaf8d7e82ca79406afa23.tar.gz"
+        "url": "https://github.com/rycee/home-manager/archive/7b30fc99227e6c7c331a01a9fb87599e4cd8cee1.tar.gz"
       }
     },
     "impermanence": {
