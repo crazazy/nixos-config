@@ -52,20 +52,21 @@ jobs:
       run: |
         nix-env -iA nix-gen-node-tools -f pkgs/default.nix
         (cd pkgs && {
-	    mv js old-js
-	    mkdir js
-	    mv old-js/default.nix js/
-	    for i in $(ls old-js/); do
-	    (cd js/ && nix-gen-node-tools $i)
-	    done
-	    rm -rf old-js/
-	})
+            mv js old-js
+            mkdir js
+            mv old-js/default.nix js/
+            for i in $(ls old-js/); do
+            (cd js/ && nix-gen-node-tools $i)
+            done
+            rm -rf old-js/
+         })
 
     - name: Create commit message
       run: |
-      	if [[ -z "$(git diff --exit-code)" ]]; then
-	  git commit -m "Automatic update of packages at $(date)"
-	fi
+        if [[ -z "$(git diff --exit-code)" ]]; then
+          git add .
+          git commit -m "Automatic update of packages at $(date)"
+        fi
 
     - name: Push to master
       uses: ad-m/github-push-action@v0.6.0
