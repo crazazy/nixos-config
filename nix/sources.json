@@ -72,18 +72,6 @@
         "url": "https://github.com/hercules-ci/gitignore/archive/211907489e9f198594c0eb0ca9256a1949c9d412.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
-    "guile-config": {
-        "branch": "master",
-        "repo": "https://gitlab.com/a-sassmannshausen/guile-config",
-        "rev": "5e8fee1caf2d4183fff11b805a51d81d2fe8f155",
-        "type": "git"
-    },
-    "guile-hall": {
-        "branch": "master",
-        "repo": "https://gitlab.com/a-sassmannshausen/guile-hall",
-        "rev": "58e630e28b15bd78a7cc91632aa20febe86c7cc5",
-        "type": "git"
-    },
     "home-manager": {
         "branch": "master",
         "description": "Manage a user environment using Nix",
