@@ -11,7 +11,7 @@
   outputs = { self, nixpkgs, flake-utils, ... }@inputs:
     let
       inherit (flake-utils.lib) eachSystem flattenTree;
-      mapAttrs = f: attrs: builtins.listToAttrs (map (k: { name = k; value = f k attrs.${k}; }) (builtins.attrNames attrs));
+      inherit (nixpkgs.lib) mapAttrs;
       systems = [
         "x86_64-darwin"
         "x86_64-linux"
@@ -23,6 +23,7 @@
       };
     in
     {
+      __functor = attrs: import ./. ;
       nixosConfigurations.RACEMONSTER = mkSystem [ 
         ./configuration.nix
         ({config, lib, ...}: {
