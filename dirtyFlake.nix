@@ -30,6 +30,10 @@
             lib.mapAttrs (k: v: { flake = v; }) inputs);
           })
       ];
+      lib = import ./lib/utils.nix // {
+        serialize = import ./lib/serialize.nix;
+        importFromSubModule = import ./lib/importFromSubmodule.nix;
+      };
       nixosModules = mapAttrs (k: v: import v)
         { inherit (import ./modules) feh-bg-module home-manager; };
     } // eachSystem systems
