@@ -10,7 +10,6 @@ in
       extraOptions = ''
         experimental-features = nix-command flakes
       '';
-      registry = lib.filterAttrs (k: v: v.flake or true) sources.inputs;
-    }
+    };
   };
 }
