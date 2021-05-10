@@ -1,6 +1,6 @@
 { config, lib, pkgs, ...}@args:
 let
-  sources = import ../../dirtyFlake.nix;
+  sources = import ../../nix/default.nix;
 in
 {
   options.nixExperimental.enable = lib.mkEnableOption "whether to set up the experimental version of nix";
@@ -10,7 +10,8 @@ in
       extraOptions = ''
         experimental-features = nix-command flakes
       '';
-      registry = lib.mapAttrs (k: v: { flake = v; }) args.inputs
+      registry = lib.mapAttrs (k: v: { flake = v; }) 
+        (args.inputs or (import sources.flake-compat { src = ../..; }).defaultNix.inputs);
     };
   };
 }
