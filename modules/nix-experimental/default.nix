@@ -13,7 +13,7 @@ in
       extraOptions = ''
         experimental-features = nix-command flakes
       '';
-      registry = lib.mapAttrs (k: v: { flake = v; }) (import sources.flake-compat { src = ../..; }).defaultNix.inputs);
+      registry = lib.mapAttrs (k: v: { flake = v; }) (import sources.flake-compat { src = ../..; }).defaultNix.inputs;
       # registry = buildInputs.fromJSON flakeJSON;
     };
   };
