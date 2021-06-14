@@ -1,6 +1,6 @@
 { stdenv, fetchzip, jq, gnused, gnutar, gzip, coreutils, lib, bash, curl, node2nix, makeWrapper, sources }:
 let
-  binPath = stdenv.lib.makeBinPath [ gzip gnused gnutar coreutils bash jq curl node2nix ];
+  binPath = lib.makeBinPath [ gzip gnused gnutar coreutils bash jq curl node2nix ];
 in
 stdenv.mkDerivation {
   pname = "nix-gen-node-tools";
