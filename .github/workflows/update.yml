@@ -27,7 +27,7 @@ jobs:
         run: |
           git submodule update --init --remote --depth 1
           git add dep/
-	  git commit -m "Updated submodules"
+          git commit -m "Updated submodules"
           git submodule deinit --all
           git submodule > SUBMODULE_STATUS
           git config user.name "Monorepo bot :D"
