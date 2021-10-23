@@ -1,11 +1,11 @@
-{ lib, gtk2, gtk3, gdk-pixbuf, dbus-glib, xorg, stdenv, autoPatchelfHook }:
-pkgs.stdenv.mkDerivation {
+{ lib, fetchzip, gtk2, gtk3, gdk-pixbuf, dbus-glib, xorg, stdenv, autoPatchelfHook }:
+stdenv.mkDerivation {
   name = "seamonkey";
-  src = pkgs.fetchzip {
+  src = fetchzip {
     url = "https://archive.mozilla.org/pub/seamonkey/releases/2.53.9.1/linux-x86_64/nl/seamonkey-2.53.9.1.nl.linux-x86_64.tar.bz2";
     sha256 = "16dzrknaln1cidjvq9z4d6rkv5pzi4c4305ky0vi0mpkf4r4l21w";
   };
-  buildInputs = with pkgs; [
+  buildInputs = [
     xorg.libXdamage
     gtk2
     gtk3
