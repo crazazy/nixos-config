@@ -827,8 +827,8 @@ let
   args = {
     name = "eslint";
     packageName = "eslint";
-    version = "8.0.1";
-    src = fetchurl { url = "https://registry.npmjs.org/eslint/-/eslint-8.0.1.tgz"; sha1 = "3610e7fe4a05c2154669515ca60835a76a19f700"; };
+    version = "8.1.0";
+    src = fetchurl { url = "https://registry.npmjs.org/eslint/-/eslint-8.1.0.tgz"; sha1 = "00f1f7dbf4134f26588e6c9f2efe970760f64664"; };
     dependencies = [
       (sources."@eslint/eslintrc-1.0.3" // {
         dependencies = [

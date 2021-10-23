@@ -877,13 +877,13 @@ let
         sha512 = "rCC0wH8husJgY4FPbHsiYyiLxSY8oMDJH7Rl6RQMknbN9oDDHhM9RDFvnGM2MgkbUJzSQB4gtuwygY5mCqGSsA==";
       };
     };
-    "@babel/preset-modules-0.1.4" = {
+    "@babel/preset-modules-0.1.5" = {
       name = "_at_babel_slash_preset-modules";
       packageName = "@babel/preset-modules";
-      version = "0.1.4";
+      version = "0.1.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/preset-modules/-/preset-modules-0.1.4.tgz";
-        sha512 = "J36NhwnfdzpmH41M1DrnkkgAqhZaqr/NBdPfQ677mLzlaXo+oDiv1deyCDtgAhz8p328otdob0Du7+xgHGZbKg==";
+        url = "https://registry.npmjs.org/@babel/preset-modules/-/preset-modules-0.1.5.tgz";
+        sha512 = "A57th6YRG7oR3cq/yt/Y84MvGgE0eJG2F1JLhKuyG+jFxEgrd/HAMJatiFtmOiZurz+0DkrvbheCLaV5f2JfjA==";
       };
     };
     "@babel/runtime-7.15.4" = {
@@ -1633,13 +1633,13 @@ let
         sha512 = "bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==";
       };
     };
-    "caniuse-lite-1.0.30001267" = {
+    "caniuse-lite-1.0.30001271" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001267";
+      version = "1.0.30001271";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001267.tgz";
-        sha512 = "r1mjTzAuJ9W8cPBGbbus8E0SKcUP7gn03R14Wk8FlAlqhH9hroy9nLqmpuXlfKEw/oILW+FGz47ipXV2O7x8lg==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001271.tgz";
+        sha512 = "BBruZFWmt3HFdVPS8kceTBIguKxu4f99n5JNp06OlPD/luoAMIaIK5ieV5YjnBLH3Nysai9sxj9rpJj4ZisXOA==";
       };
     };
     "caseless-0.12.0" = {
@@ -2443,13 +2443,13 @@ let
         sha1 = "590c61156b0ae2f4f0255732a158b266bc56b21d";
       };
     };
-    "electron-to-chromium-1.3.871" = {
+    "electron-to-chromium-1.3.877" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.871";
+      version = "1.3.877";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.871.tgz";
-        sha512 = "qcLvDUPf8DSIMWarHT2ptgcqrYg62n3vPA7vhrOF24d8UNzbUBaHu2CySiENR3nEDzYgaN60071t0F6KLYMQ7Q==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.877.tgz";
+        sha512 = "fT5mW5Giw5iyVukeHb2XvB4joBKvzHtl8Vs3QzE7APATpFMt/T7RWyUcIKSZzYkKQgpMbu+vDBTCHfQZvh8klA==";
       };
     };
     "elliptic-6.5.4" = {
@@ -4189,13 +4189,13 @@ let
         sha512 = "h/zcD8H9kaDZ9ALUWwlBUDo6TKF8a7qBSCSEGfjTVIYeqsioSKaAX+BN7NgiMGp6iSIXZ3PxgCu8KS3b71YK5Q==";
       };
     };
-    "node-releases-2.0.0" = {
+    "node-releases-2.0.1" = {
       name = "node-releases";
       packageName = "node-releases";
-      version = "2.0.0";
+      version = "2.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/node-releases/-/node-releases-2.0.0.tgz";
-        sha512 = "aA87l0flFYMzCHpTM3DERFSYxc6lv/BltdbRTOMZuxZ0cwZCD3mejE5n9vLhSJCN++/eOqr77G1IO5uXxlQYWA==";
+        url = "https://registry.npmjs.org/node-releases/-/node-releases-2.0.1.tgz";
+        sha512 = "CqyzN6z7Q6aMeF/ktcMVTzhAHCEpf8SOarwpzpf8pNBY2k5/oM34UHldUwp8VKI7uxct2HxSRdJjBaZeESzcxA==";
       };
     };
     "normalize-path-2.1.1" = {
@@ -6574,7 +6574,7 @@ let
           sources."semver-6.3.0"
         ];
       })
-      sources."@babel/preset-modules-0.1.4"
+      sources."@babel/preset-modules-0.1.5"
       sources."@babel/runtime-7.15.4"
       sources."@babel/template-7.15.4"
       sources."@babel/traverse-7.15.4"
@@ -6700,7 +6700,7 @@ let
       sources."caller-path-2.0.0"
       sources."callsites-2.0.0"
       sources."caniuse-api-3.0.0"
-      sources."caniuse-lite-1.0.30001267"
+      sources."caniuse-lite-1.0.30001271"
       sources."caseless-0.12.0"
       sources."chalk-2.4.2"
       sources."chokidar-2.1.8"
@@ -6837,7 +6837,7 @@ let
       sources."duplexer2-0.1.4"
       sources."ecc-jsbn-0.1.2"
       sources."ee-first-1.1.1"
-      sources."electron-to-chromium-1.3.871"
+      sources."electron-to-chromium-1.3.877"
       (sources."elliptic-6.5.4" // {
         dependencies = [
           sources."bn.js-4.12.0"
@@ -7104,7 +7104,7 @@ let
           sources."punycode-1.4.1"
         ];
       })
-      sources."node-releases-2.0.0"
+      sources."node-releases-2.0.1"
       sources."normalize-path-3.0.0"
       sources."normalize-url-3.3.0"
       sources."nth-check-1.0.2"

@@ -409,15 +409,6 @@ let
         sha512 = "BrpvfNAE3dcvq7ll3xVumzjKjZQ5tI1sEUIKr3Uoks0XUl45St3FlatVqef9prk4jRDzhW6WZg+3bk93y6pLjA==";
       };
     };
-    "v8-compile-cache-2.3.0" = {
-      name = "v8-compile-cache";
-      packageName = "v8-compile-cache";
-      version = "2.3.0";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz";
-        sha512 = "l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==";
-      };
-    };
     "webpack-merge-5.8.0" = {
       name = "webpack-merge";
       packageName = "webpack-merge";
@@ -449,8 +440,8 @@ let
   args = {
     name = "webpack-cli";
     packageName = "webpack-cli";
-    version = "4.9.0";
-    src = fetchurl { url = "https://registry.npmjs.org/webpack-cli/-/webpack-cli-4.9.0.tgz"; sha1 = "dc43e6e0f80dd52e89cbf73d5294bcd7ad6eb343"; };
+    version = "4.9.1";
+    src = fetchurl { url = "https://registry.npmjs.org/webpack-cli/-/webpack-cli-4.9.1.tgz"; sha1 = "b64be825e2d1b130f285c314caa3b1ba9a4632b3"; };
     dependencies = [
       sources."@discoveryjs/json-ext-0.5.5"
       sources."@webpack-cli/configtest-1.1.0"
@@ -497,7 +488,6 @@ let
       sources."shebang-regex-3.0.0"
       sources."signal-exit-3.0.5"
       sources."strip-final-newline-2.0.0"
-      sources."v8-compile-cache-2.3.0"
       sources."webpack-merge-5.8.0"
       sources."which-2.0.2"
       sources."wildcard-2.0.0"
