@@ -36,7 +36,7 @@ jobs:
         nix_path: nixpkgs=channel:nixos-unstable
     
     - name: Install cachix
-      uses: cachix/cachix-action@v8
+      uses: cachix/cachix-action@v10
       with:
         name: crazazy
         signingKey: '${{ secrets.CACHIX_KEY }}'
