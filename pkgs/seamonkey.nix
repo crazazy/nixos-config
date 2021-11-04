@@ -1,4 +1,4 @@
-{ lib, fetchzip, gtk2, gtk3, gdk-pixbuf, dbus-glib, xorg, stdenv, autoPatchelfHook }:
+{ lib, fetchzip, gtk2, gtk3, gdk-pixbuf, dbus-glib, xorg, stdenv, libpulseaudio, autoPatchelfHook }:
 stdenv.mkDerivation {
   name = "seamonkey";
   src = fetchzip {
