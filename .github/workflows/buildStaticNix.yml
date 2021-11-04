@@ -34,11 +34,11 @@ jobs:
       - name: copy results
         run: |
           mkdir results
-          cp -rf ./result/* results
+          tar czf results.tar.gz ./result/*
           rm result
  
       - name: Upload results
         uses: actions/upload-artifact@v2
         with:
           name: nixStatic
-          path: ./results
+          path: ./results.tar.gz
