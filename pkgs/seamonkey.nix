@@ -1,4 +1,4 @@
-{ lib, fetchzip, gtk2, gtk3, gdk-pixbuf, dbus-glib, xorg, stdenv, libpulseaudio, autoPatchelfHook }:
+{ lib, fetchzip, gtk2, gtk3, gdk-pixbuf, dbus-glib, xorg, stdenv, firefox-unwrapped, autoPatchelfHook }:
 stdenv.mkDerivation {
   name = "seamonkey";
   src = fetchzip {
@@ -12,9 +12,8 @@ stdenv.mkDerivation {
     gdk-pixbuf
     dbus-glib
     xorg.libXt
-    libpulseaudio
     autoPatchelfHook
-  ]; # ++ firefox-bin.buildInputs;
+  ] ++ firefox-unwrapped.buildInputs;
   installPhase = ''
       mkdir -p $out/{bin,usr,lib}
       cp -r $src/* $out/usr
