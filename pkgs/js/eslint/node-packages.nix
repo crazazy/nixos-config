@@ -4,13 +4,13 @@
 
 let
   sources = {
-    "@eslint/eslintrc-1.0.3" = {
+    "@eslint/eslintrc-1.0.4" = {
       name = "_at_eslint_slash_eslintrc";
       packageName = "@eslint/eslintrc";
-      version = "1.0.3";
+      version = "1.0.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.0.3.tgz";
-        sha512 = "DHI1wDPoKCBPoLZA3qDR91+3te/wDSc1YhKg3jR8NxKKRJq2hwHwcWv31cSwSYvIBrmbENoYMWcenW8uproQqg==";
+        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.0.4.tgz";
+        sha512 = "h8Vx6MdxwWI2WM8/zREHMoqdgLNXEL4QX3MWSVMdyNJGvXVOs+6lp+m2hc3FnuMHDc4poxFNI20vCk0OmI4G0Q==";
       };
     };
     "@humanwhocodes/config-array-0.6.0" = {
@@ -83,15 +83,6 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz";
         sha512 = "zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==";
-      };
-    };
-    "argparse-1.0.10" = {
-      name = "argparse";
-      packageName = "argparse";
-      version = "1.0.10";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/argparse/-/argparse-1.0.10.tgz";
-        sha512 = "o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==";
       };
     };
     "argparse-2.0.1" = {
@@ -263,15 +254,6 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/espree/-/espree-9.0.0.tgz";
         sha512 = "r5EQJcYZ2oaGbeR0jR0fFVijGOcwai07/690YRXLINuhmVeRY4UKSAsQPe/0BNuDgwP7Ophoc1PRsr2E3tkbdQ==";
-      };
-    };
-    "esprima-4.0.1" = {
-      name = "esprima";
-      packageName = "esprima";
-      version = "4.0.1";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz";
-        sha512 = "eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==";
       };
     };
     "esquery-1.4.0" = {
@@ -490,15 +472,6 @@ let
         sha1 = "e8fbf374dc556ff8947a10dcb0572d633f2cfa10";
       };
     };
-    "js-yaml-3.14.1" = {
-      name = "js-yaml";
-      packageName = "js-yaml";
-      version = "3.14.1";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/js-yaml/-/js-yaml-3.14.1.tgz";
-        sha512 = "okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==";
-      };
-    };
     "js-yaml-4.1.0" = {
       name = "js-yaml";
       packageName = "js-yaml";
@@ -706,15 +679,6 @@ let
         sha512 = "7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==";
       };
     };
-    "sprintf-js-1.0.3" = {
-      name = "sprintf-js";
-      packageName = "sprintf-js";
-      version = "1.0.3";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz";
-        sha1 = "04e6926f662895354f3dd015203633b857297e2c";
-      };
-    };
     "strip-ansi-6.0.1" = {
       name = "strip-ansi";
       packageName = "strip-ansi";
@@ -827,14 +791,10 @@ let
   args = {
     name = "eslint";
     packageName = "eslint";
-    version = "8.1.0";
-    src = fetchurl { url = "https://registry.npmjs.org/eslint/-/eslint-8.1.0.tgz"; sha1 = "00f1f7dbf4134f26588e6c9f2efe970760f64664"; };
+    version = "8.2.0";
+    src = fetchurl { url = "https://registry.npmjs.org/eslint/-/eslint-8.2.0.tgz"; sha1 = "44d3fb506d0f866a506d97a0fc0e90ee6d06a815"; };
     dependencies = [
-      (sources."@eslint/eslintrc-1.0.3" // {
-        dependencies = [
-          sources."js-yaml-3.14.1"
-        ];
-      })
+      sources."@eslint/eslintrc-1.0.4"
       sources."@humanwhocodes/config-array-0.6.0"
       sources."@humanwhocodes/object-schema-1.2.1"
       sources."acorn-8.5.0"
@@ -843,7 +803,7 @@ let
       sources."ansi-colors-4.1.1"
       sources."ansi-regex-5.0.1"
       sources."ansi-styles-4.3.0"
-      sources."argparse-1.0.10"
+      sources."argparse-2.0.1"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
       sources."callsites-3.1.0"
@@ -865,7 +825,6 @@ let
       })
       sources."eslint-visitor-keys-3.0.0"
       sources."espree-9.0.0"
-      sources."esprima-4.0.1"
       sources."esquery-1.4.0"
       sources."esrecurse-4.3.0"
       sources."estraverse-5.3.0"
@@ -890,11 +849,7 @@ let
       sources."is-extglob-2.1.1"
       sources."is-glob-4.0.3"
       sources."isexe-2.0.0"
-      (sources."js-yaml-4.1.0" // {
-        dependencies = [
-          sources."argparse-2.0.1"
-        ];
-      })
+      sources."js-yaml-4.1.0"
       sources."json-schema-traverse-0.4.1"
       sources."json-stable-stringify-without-jsonify-1.0.1"
       sources."levn-0.4.1"
@@ -917,7 +872,6 @@ let
       sources."semver-7.3.5"
       sources."shebang-command-2.0.0"
       sources."shebang-regex-3.0.0"
-      sources."sprintf-js-1.0.3"
       sources."strip-ansi-6.0.1"
       sources."strip-json-comments-3.1.1"
       sources."supports-color-7.2.0"

@@ -2425,13 +2425,13 @@ let
         sha512 = "bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==";
       };
     };
-    "caniuse-lite-1.0.30001276" = {
+    "caniuse-lite-1.0.30001278" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001276";
+      version = "1.0.30001278";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001276.tgz";
-        sha512 = "psUNoaG1ilknZPxi8HuhQWobuhLqtYSRUxplfVkEJdgZNB9TETVYGSBtv4YyfAdGvE6gn2eb0ztiXqHoWJcGnw==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001278.tgz";
+        sha512 = "mpF9KeH8u5cMoEmIic/cr7PNS+F5LWBk0t2ekGT60lFf0Wq+n9LspAj0g3P+o7DQhD3sUdlMln4YFAWhFYn9jg==";
       };
     };
     "caseless-0.12.0" = {
@@ -3757,13 +3757,13 @@ let
         sha512 = "iirFqlP3tiFoedNZ7dQcjvechunl054VbW6Ki38T/pabgXMAncduSE0ZXLeVGn1NbmcUJF9Z5TC0EvQ4RIpP9Q==";
       };
     };
-    "electron-to-chromium-1.3.888" = {
+    "electron-to-chromium-1.3.889" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.888";
+      version = "1.3.889";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.888.tgz";
-        sha512 = "5iD1zgyPpFER4kJ716VsA4MxQ6x405dxdFNCEK2mITL075VHO5ResjY0xzQUZguCww/KlBxCA6JmBA9sDt1PRw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.889.tgz";
+        sha512 = "suEUoPTD1mExjL9TdmH7cvEiWJVM2oEiAi+Y1p0QKxI2HcRlT44qDTP2c1aZmVwRemIPYOpxmV7CxQCOWcm4XQ==";
       };
     };
     "elliptic-6.5.4" = {
@@ -6115,13 +6115,13 @@ let
         sha1 = "3b09924edf9f083c0490fdd4c0bc4421e04764ee";
       };
     };
-    "lilconfig-2.0.3" = {
+    "lilconfig-2.0.4" = {
       name = "lilconfig";
       packageName = "lilconfig";
-      version = "2.0.3";
+      version = "2.0.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/lilconfig/-/lilconfig-2.0.3.tgz";
-        sha512 = "EHKqr/+ZvdKCifpNrJCKxBTgk5XupZA3y/aCPY9mxfgBzmgh93Mt/WqjjQ38oMxXuvDokaKiM3lAgvSH2sjtHg==";
+        url = "https://registry.npmjs.org/lilconfig/-/lilconfig-2.0.4.tgz";
+        sha512 = "bfTIN7lEsiooCocSISTWXkiWJkRqtL9wYtYy+8EK3Y41qh3mpwPU0ycTOgjdY9ErwXCc8QyrQp82bdL0Xkm9yA==";
       };
     };
     "lines-and-columns-1.1.6" = {
@@ -6160,13 +6160,13 @@ let
         sha512 = "qH0WSMBtn/oHuwjy/NucEgbx5dbxxnxup9s4PVXJUDHZBQY+s0NWA9rJf53RBnQZxfch7euUui7hpoAPvALZdA==";
       };
     };
-    "loader-utils-2.0.1" = {
+    "loader-utils-2.0.2" = {
       name = "loader-utils";
       packageName = "loader-utils";
-      version = "2.0.1";
+      version = "2.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/loader-utils/-/loader-utils-2.0.1.tgz";
-        sha512 = "g4miPa9uUrZz4iElkaVJgDFwKJGh8aQGM7pUL4ejXl6cu7kSb30seQOVGNMP6sW8j7DW77X68hJZ+GM7UGhXeQ==";
+        url = "https://registry.npmjs.org/loader-utils/-/loader-utils-2.0.2.tgz";
+        sha512 = "TM57VeHptv569d/GKh6TAYdzKblwDNiumOdkFnejjD0XwTH87K90w3O7AiJRqdQoXygvi1VQTJTLGhJl7WqA7A==";
       };
     };
     "locate-path-3.0.0" = {
@@ -11381,7 +11381,7 @@ let
       sources."camel-case-3.0.0"
       sources."camelcase-6.2.0"
       sources."caniuse-api-3.0.0"
-      sources."caniuse-lite-1.0.30001276"
+      sources."caniuse-lite-1.0.30001278"
       sources."caseless-0.12.0"
       sources."chalk-2.4.2"
       sources."chokidar-3.5.2"
@@ -11651,7 +11651,7 @@ let
       sources."ee-first-1.1.1"
       sources."ejs-3.1.6"
       sources."ejs-loader-0.5.0"
-      sources."electron-to-chromium-1.3.888"
+      sources."electron-to-chromium-1.3.889"
       (sources."elliptic-6.5.4" // {
         dependencies = [
           sources."bn.js-4.12.0"
@@ -12060,10 +12060,10 @@ let
       sources."latest-version-5.1.0"
       sources."leven-3.1.0"
       sources."levn-0.3.0"
-      sources."lilconfig-2.0.3"
+      sources."lilconfig-2.0.4"
       sources."lines-and-columns-1.1.6"
       sources."loader-runner-2.4.0"
-      sources."loader-utils-2.0.1"
+      sources."loader-utils-2.0.2"
       sources."locate-path-5.0.0"
       sources."lodash-4.17.21"
       sources."lodash.debounce-4.0.8"
