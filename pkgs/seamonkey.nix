@@ -13,7 +13,7 @@ stdenv.mkDerivation {
     dbus-glib
     xorg.libXt
     autoPatchelfHook
-  ] ++ firefox-unwrapped.buildInputs;
+  ]; # ++ firefox-unwrapped.buildInputs;
   installPhase = ''
       mkdir -p $out/{bin,usr,lib}
       cp -r $src/* $out/usr
