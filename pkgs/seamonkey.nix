@@ -1,4 +1,4 @@
-{ lib, fetchzip, gtk2, gtk3, gdk-pixbuf, dbus-glib, xorg, stdenv, firefox-unwrapped, autoPatchelfHook }:
+{ lib, fetchzip, gtk2, gtk3, gdk-pixbuf, dbus-glib, xorg, stdenv, libpulseaudio, autoPatchelfHook, makeWrapper }:
 stdenv.mkDerivation {
   name = "seamonkey";
   src = fetchzip {
@@ -10,6 +10,7 @@ stdenv.mkDerivation {
     gtk2
     gtk3
     gdk-pixbuf
+    makeWrapper
     dbus-glib
     xorg.libXt
     autoPatchelfHook
@@ -18,7 +19,7 @@ stdenv.mkDerivation {
       mkdir -p $out/{bin,usr,lib}
       cp -r $src/* $out/usr
       cp $out/usr/*.so* $out/lib
-      ln -s $out/usr/seamonkey $out/bin
+      makeWrapper $out/usr/seamonkey $out/bin/seamonkey --prefix LD_LIBRARY_PATH : ${libpulseaudio}/lib
   '';
   meta = with lib; {
     description = "Seamonkey browser.";
