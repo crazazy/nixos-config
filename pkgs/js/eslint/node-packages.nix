@@ -31,13 +31,13 @@ let
         sha512 = "ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==";
       };
     };
-    "acorn-8.5.0" = {
+    "acorn-8.6.0" = {
       name = "acorn";
       packageName = "acorn";
-      version = "8.5.0";
+      version = "8.6.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/acorn/-/acorn-8.5.0.tgz";
-        sha512 = "yXbYeFy+jUuYd3/CDcg2NkIYE991XYX/bje7LmjJigUciaeO1JR4XxXgCIV1/Zc/dRuFEyw1L0pbA+qynJkW5Q==";
+        url = "https://registry.npmjs.org/acorn/-/acorn-8.6.0.tgz";
+        sha512 = "U1riIR+lBSNi3IbxtaHOIKdH8sLFv3NYfNv8sg7ZsNhcfl4HF2++BfqqrNAxoCLQW1iiylOj76ecnaUxz+z9yw==";
       };
     };
     "acorn-jsx-5.3.2" = {
@@ -797,7 +797,7 @@ let
       sources."@eslint/eslintrc-1.0.4"
       sources."@humanwhocodes/config-array-0.6.0"
       sources."@humanwhocodes/object-schema-1.2.1"
-      sources."acorn-8.5.0"
+      sources."acorn-8.6.0"
       sources."acorn-jsx-5.3.2"
       sources."ajv-6.12.6"
       sources."ansi-colors-4.1.1"
