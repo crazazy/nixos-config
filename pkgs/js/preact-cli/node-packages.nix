@@ -9373,13 +9373,13 @@ let
         sha512 = "Htz+RnsXWk5+P2slx5Jh3Q66vhQj1Cllm0zvnaY98+NFx+Dv2CF/f5O/t8x+KaNdrdIAsruNzoh/KpialbqAnw==";
       };
     };
-    "source-map-support-0.5.20" = {
+    "source-map-support-0.5.21" = {
       name = "source-map-support";
       packageName = "source-map-support";
-      version = "0.5.20";
+      version = "0.5.21";
       src = fetchurl {
-        url = "https://registry.npmjs.org/source-map-support/-/source-map-support-0.5.20.tgz";
-        sha512 = "n1lZZ8Ve4ksRqizaBQgxXDgKwttHDhyfQjA6YZZn8+AroHbsIz+JjwxQDxbp+7y5OYCI8t1Yk7etjD9CRd2hIw==";
+        url = "https://registry.npmjs.org/source-map-support/-/source-map-support-0.5.21.tgz";
+        sha512 = "uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==";
       };
     };
     "source-map-url-0.4.1" = {
@@ -12762,7 +12762,7 @@ let
       sources."source-map-0.7.3"
       sources."source-map-js-0.6.2"
       sources."source-map-resolve-0.5.3"
-      (sources."source-map-support-0.5.20" // {
+      (sources."source-map-support-0.5.21" // {
         dependencies = [
           sources."source-map-0.6.1"
         ];
