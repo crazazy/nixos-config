@@ -256,13 +256,13 @@ let
         sha512 = "C6N5s2ZFtuZRj54k2/zyRhNDjJwwcViAM3Nbm8zjBpbqAdZ00mr0CFxvSKeO8Y/e03WVFLpQMdHYVfUd6SB+Hw==";
       };
     };
-    "@types/node-16.11.9" = {
+    "@types/node-16.11.10" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "16.11.9";
+      version = "16.11.10";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-16.11.9.tgz";
-        sha512 = "MKmdASMf3LtPzwLyRrFjtFFZ48cMf8jmX5VRYrDQiJa8Ybu5VAmkqBWqKU8fdCwD8ysw4mQ9nrEHvzg6gunR7A==";
+        url = "https://registry.npmjs.org/@types/node/-/node-16.11.10.tgz";
+        sha512 = "3aRnHa1KlOEEhJ6+CvyHKK5vE9BcLGjtUpwvqYLRvYNQKMfabu3BwfJaA/SLW8dxe28LsNDjtHwePTuzn3gmOA==";
       };
     };
     "abbrev-1.1.1" = {
@@ -886,13 +886,13 @@ let
         sha1 = "3a83a904e54353287874c564b7549386849a98c9";
       };
     };
-    "electron-to-chromium-1.3.903" = {
+    "electron-to-chromium-1.4.0" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.903";
+      version = "1.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.903.tgz";
-        sha512 = "+PnYAyniRRTkNq56cqYDLq9LyklZYk0hqoDy9GpcU11H5QjRmFZVDbxtgHUMK/YzdNTcn1XWP5gb+hFlSCr20g==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.0.tgz";
+        sha512 = "+oXCt6SaIu8EmFTPx8wNGSB0tHQ5biDscnlf6Uxuz17e9CjzMRtGk9B8705aMPnj0iWr3iC74WuIkngCsLElmA==";
       };
     };
     "end-of-stream-1.4.4" = {
@@ -3206,7 +3206,7 @@ let
       sources."@jspm/npm-1.0.1"
       sources."@jspm/resolve-1.0.0"
       sources."@types/estree-0.0.50"
-      sources."@types/node-16.11.9"
+      sources."@types/node-16.11.10"
       sources."abbrev-1.1.1"
       sources."acorn-7.4.1"
       sources."agent-base-4.3.0"
@@ -3299,7 +3299,7 @@ let
       sources."detect-file-1.0.0"
       sources."detect-libc-1.0.3"
       sources."ecc-jsbn-0.1.2"
-      sources."electron-to-chromium-1.3.903"
+      sources."electron-to-chromium-1.4.0"
       sources."end-of-stream-1.4.4"
       sources."err-code-1.1.2"
       sources."errno-0.1.8"

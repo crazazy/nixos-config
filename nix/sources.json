@@ -5,10 +5,10 @@
         "homepage": "",
         "owner": "nix-community",
         "repo": "NUR",
-        "rev": "769b36006e241d54c222231e45198266a268350a",
-        "sha256": "19b4gwpdc798n8czav4dady0f6ndh9sgra0xnwdd36bfdzmkkdkr",
+        "rev": "8e115b75c09ae5c85a9f2a3405b493213270fadb",
+        "sha256": "0shcisqp3lq5cl4aiw6hi7vi622sjagdpr9gqyzqsmfgyb86jzh4",
         "type": "tarball",
-        "url": "https://github.com/nix-community/NUR/archive/769b36006e241d54c222231e45198266a268350a.tar.gz",
+        "url": "https://github.com/nix-community/NUR/archive/8e115b75c09ae5c85a9f2a3405b493213270fadb.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "classicube": {
@@ -17,10 +17,10 @@
         "homepage": "",
         "owner": "unknownshadow200",
         "repo": "classicube",
-        "rev": "ac0bf7ccdb3920a5249cfa58dc63d23095be1695",
-        "sha256": "19l50k2dh9k56w140w5sqn16hbp2x81v7jbrgbql69vax878hr15",
+        "rev": "51a358e69ef5ce40e3721a23fa17377f04583ea0",
+        "sha256": "0v1sgd3jsy48fflmsjvs3islh76g8fjlyz2a5kj29gsnh7hriv7n",
         "type": "tarball",
-        "url": "https://github.com/unknownshadow200/classicube/archive/ac0bf7ccdb3920a5249cfa58dc63d23095be1695.tar.gz",
+        "url": "https://github.com/unknownshadow200/classicube/archive/51a358e69ef5ce40e3721a23fa17377f04583ea0.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "efm-langserver": {
@@ -29,10 +29,10 @@
         "homepage": "",
         "owner": "mattn",
         "repo": "efm-langserver",
-        "rev": "899ab62a08e8eff1b1f0f89d899a5832c8cd361a",
-        "sha256": "1ll8ymh832dm0mq4q70k5994l86l96ma2rqjrd7lz26g4x5fy3gr",
+        "rev": "e7272ce9b07e1de1830c1284d8f18904ea0b6fe5",
+        "sha256": "142chpqp4wz2wkhrmg4i5d5f14ww0hzqxbk3h09d31jn9c5636wd",
         "type": "tarball",
-        "url": "https://github.com/mattn/efm-langserver/archive/899ab62a08e8eff1b1f0f89d899a5832c8cd361a.tar.gz",
+        "url": "https://github.com/mattn/efm-langserver/archive/e7272ce9b07e1de1830c1284d8f18904ea0b6fe5.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "emacs": {
@@ -79,10 +79,10 @@
         "homepage": "https://rycee.gitlab.io/home-manager/",
         "owner": "rycee",
         "repo": "home-manager",
-        "rev": "8230decb3f0cb3408607accc93e5d0951ebf3963",
-        "sha256": "1nv8irdnsgi30cx536g0jhzzg51kd9ym3p9jwki63hbnp1g88laq",
+        "rev": "df931a59a5864d6ff0c5d83598135816f8593647",
+        "sha256": "03qx6b2hi5hmxzz8kr9ymbf7v2gfd0m56ysydq3mvxpd38mhl870",
         "type": "tarball",
-        "url": "https://github.com/rycee/home-manager/archive/8230decb3f0cb3408607accc93e5d0951ebf3963.tar.gz",
+        "url": "https://github.com/rycee/home-manager/archive/df931a59a5864d6ff0c5d83598135816f8593647.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "impermanence": {
@@ -155,10 +155,10 @@
         "homepage": "",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "715f63411952c86c8f57ab9e3e3cb866a015b5f2",
-        "sha256": "152kxfk11mgwg8gx0s1rgykyydfb7s746yfylvbwk5mk5cv4z9nv",
+        "rev": "263ef4cc4146c9fab808085487438c625d4426a9",
+        "sha256": "0739s6g7ixrcl0wgmc730m4482n75q7pd56ni4mf22jaa70hqhif",
         "type": "tarball",
-        "url": "https://github.com/nixos/nixpkgs/archive/715f63411952c86c8f57ab9e3e3cb866a015b5f2.tar.gz",
+        "url": "https://github.com/nixos/nixpkgs/archive/263ef4cc4146c9fab808085487438c625d4426a9.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }

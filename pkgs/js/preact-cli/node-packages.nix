@@ -1192,13 +1192,13 @@ let
         sha512 = "Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==";
       };
     };
-    "@types/node-16.11.9" = {
+    "@types/node-16.11.10" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "16.11.9";
+      version = "16.11.10";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-16.11.9.tgz";
-        sha512 = "MKmdASMf3LtPzwLyRrFjtFFZ48cMf8jmX5VRYrDQiJa8Ybu5VAmkqBWqKU8fdCwD8ysw4mQ9nrEHvzg6gunR7A==";
+        url = "https://registry.npmjs.org/@types/node/-/node-16.11.10.tgz";
+        sha512 = "3aRnHa1KlOEEhJ6+CvyHKK5vE9BcLGjtUpwvqYLRvYNQKMfabu3BwfJaA/SLW8dxe28LsNDjtHwePTuzn3gmOA==";
       };
     };
     "@types/parse-json-4.0.0" = {
@@ -1498,13 +1498,13 @@ let
         sha512 = "j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==";
       };
     };
-    "ajv-8.8.1" = {
+    "ajv-8.8.2" = {
       name = "ajv";
       packageName = "ajv";
-      version = "8.8.1";
+      version = "8.8.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ajv/-/ajv-8.8.1.tgz";
-        sha512 = "6CiMNDrzv0ZR916u2T+iRunnD60uWmNn8SkdB44/6stVORUg0aAkWO7PkOhpCmjmW8f2I/G/xnowD66fxGyQJg==";
+        url = "https://registry.npmjs.org/ajv/-/ajv-8.8.2.tgz";
+        sha512 = "x9VuX+R/jcFj1DHo/fCp99esgGDWiHENrKxaCENuCxpoMCmAt/COCGVDwA7kleEpEzJjDnvh3yGoOuLu0Dtllw==";
       };
     };
     "ajv-errors-1.0.1" = {
@@ -3748,13 +3748,13 @@ let
         sha512 = "iirFqlP3tiFoedNZ7dQcjvechunl054VbW6Ki38T/pabgXMAncduSE0ZXLeVGn1NbmcUJF9Z5TC0EvQ4RIpP9Q==";
       };
     };
-    "electron-to-chromium-1.3.903" = {
+    "electron-to-chromium-1.4.0" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.903";
+      version = "1.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.903.tgz";
-        sha512 = "+PnYAyniRRTkNq56cqYDLq9LyklZYk0hqoDy9GpcU11H5QjRmFZVDbxtgHUMK/YzdNTcn1XWP5gb+hFlSCr20g==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.0.tgz";
+        sha512 = "+oXCt6SaIu8EmFTPx8wNGSB0tHQ5biDscnlf6Uxuz17e9CjzMRtGk9B8705aMPnj0iWr3iC74WuIkngCsLElmA==";
       };
     };
     "elliptic-6.5.4" = {
@@ -6115,13 +6115,13 @@ let
         sha512 = "bfTIN7lEsiooCocSISTWXkiWJkRqtL9wYtYy+8EK3Y41qh3mpwPU0ycTOgjdY9ErwXCc8QyrQp82bdL0Xkm9yA==";
       };
     };
-    "lines-and-columns-1.1.6" = {
+    "lines-and-columns-1.2.4" = {
       name = "lines-and-columns";
       packageName = "lines-and-columns";
-      version = "1.1.6";
+      version = "1.2.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.1.6.tgz";
-        sha1 = "1c00c743b433cd0a4e80758f7b64a57440d9ff00";
+        url = "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.2.4.tgz";
+        sha512 = "7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==";
       };
     };
     "loader-runner-2.4.0" = {
@@ -8887,13 +8887,13 @@ let
         sha512 = "ii4iagi25WusVoiC4B4lq7pbXfAp3D9v5CwfkY33vffw2+pkDjY1D8GaN7spsxvCSx8dkPqOZCEZyfxcmJG2IA==";
       };
     };
-    "rollup-2.60.0" = {
+    "rollup-2.60.1" = {
       name = "rollup";
       packageName = "rollup";
-      version = "2.60.0";
+      version = "2.60.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/rollup/-/rollup-2.60.0.tgz";
-        sha512 = "cHdv9GWd58v58rdseC8e8XIaPUo8a9cgZpnCMMDGZFDZKEODOiPPEQFXLriWr/TjXzhPPmG5bkAztPsOARIcGQ==";
+        url = "https://registry.npmjs.org/rollup/-/rollup-2.60.1.tgz";
+        sha512 = "akwfnpjY0rXEDSn1UTVfKXJhPsEBu+imi1gqBA1ZkHGydUnkV/fWCC90P7rDaLEW8KTwBcS1G3N4893Ndz+jwg==";
       };
     };
     "rollup-plugin-terser-7.0.2" = {
@@ -10930,13 +10930,13 @@ let
         sha512 = "zmhltoSR8u1cnDsD43TX59mzoMZsLKqUweyYBAIvTngR3shc0W6aOZylZmq/7hqyVxPdi+5Ud2QInblgyE72fw==";
       };
     };
-    "ws-7.5.5" = {
+    "ws-7.5.6" = {
       name = "ws";
       packageName = "ws";
-      version = "7.5.5";
+      version = "7.5.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ws/-/ws-7.5.5.tgz";
-        sha512 = "BAkMFcAzl8as1G/hArkxOxq3G7pjUqQ3gzYbLL0/5zNkph70e+lCoxBGnm6AW1+/aiNeV4fnKqZ8m4GZewmH2w==";
+        url = "https://registry.npmjs.org/ws/-/ws-7.5.6.tgz";
+        sha512 = "6GLgCqo2cy2A2rjCNFlxQS6ZljG/coZfZXclldI8FB/1G3CCI36Zd8xy2HrFVACi8tfk5XrgLQEk+P0Tnz9UcA==";
       };
     };
     "xdg-basedir-4.0.0" = {
@@ -11202,7 +11202,7 @@ let
       sources."@types/glob-7.2.0"
       sources."@types/json-schema-7.0.9"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-16.11.9"
+      sources."@types/node-16.11.10"
       sources."@types/parse-json-4.0.0"
       sources."@types/q-1.5.5"
       sources."@types/resolve-1.17.1"
@@ -11642,7 +11642,7 @@ let
       sources."ee-first-1.1.1"
       sources."ejs-3.1.6"
       sources."ejs-loader-0.5.0"
-      sources."electron-to-chromium-1.3.903"
+      sources."electron-to-chromium-1.4.0"
       (sources."elliptic-6.5.4" // {
         dependencies = [
           sources."bn.js-4.12.0"
@@ -12052,7 +12052,7 @@ let
       sources."leven-3.1.0"
       sources."levn-0.3.0"
       sources."lilconfig-2.0.4"
-      sources."lines-and-columns-1.1.6"
+      sources."lines-and-columns-1.2.4"
       sources."loader-runner-2.4.0"
       sources."loader-utils-2.0.2"
       sources."locate-path-5.0.0"
@@ -12653,7 +12653,7 @@ let
       sources."rgba-regex-1.0.0"
       sources."rimraf-3.0.2"
       sources."ripemd160-2.0.2"
-      sources."rollup-2.60.0"
+      sources."rollup-2.60.1"
       (sources."rollup-plugin-terser-7.0.2" // {
         dependencies = [
           sources."serialize-javascript-4.0.0"
@@ -13056,7 +13056,7 @@ let
           sources."commander-7.2.0"
           sources."has-flag-4.0.0"
           sources."supports-color-7.2.0"
-          sources."ws-7.5.5"
+          sources."ws-7.5.6"
         ];
       })
       (sources."webpack-dev-middleware-3.7.3" // {
@@ -13113,7 +13113,7 @@ let
       sources."workbox-broadcast-update-6.4.1"
       (sources."workbox-build-6.4.1" // {
         dependencies = [
-          sources."ajv-8.8.1"
+          sources."ajv-8.8.2"
           sources."json-schema-traverse-1.0.0"
           sources."pretty-bytes-5.6.0"
           sources."source-map-0.8.0-beta.0"

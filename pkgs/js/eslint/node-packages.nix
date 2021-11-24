@@ -211,13 +211,13 @@ let
         sha512 = "TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==";
       };
     };
-    "eslint-scope-6.0.0" = {
+    "eslint-scope-7.1.0" = {
       name = "eslint-scope";
       packageName = "eslint-scope";
-      version = "6.0.0";
+      version = "7.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint-scope/-/eslint-scope-6.0.0.tgz";
-        sha512 = "uRDL9MWmQCkaFus8RF5K9/L/2fn+80yoW3jkD53l4shjCh26fCtvJGasxjUqP5OT87SYTxCVA3BwTUzuELx9kA==";
+        url = "https://registry.npmjs.org/eslint-scope/-/eslint-scope-7.1.0.tgz";
+        sha512 = "aWwkhnS0qAXqNOgKOK0dJ2nvzEbhEvpy8OlJ9kZ0FeZnA6zpjv1/Vei+puGFFX7zkPCkHHXb7IDX3A+7yPrRWg==";
       };
     };
     "eslint-utils-3.0.0" = {
@@ -247,13 +247,13 @@ let
         sha512 = "yWJFpu4DtjsWKkt5GeNBBuZMlNcYVs6vRCLoCVEJrTjaSB6LC98gFipNK/erM2Heg/E8mIK+hXG/pJMLK+eRZA==";
       };
     };
-    "espree-9.0.0" = {
+    "espree-9.1.0" = {
       name = "espree";
       packageName = "espree";
-      version = "9.0.0";
+      version = "9.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/espree/-/espree-9.0.0.tgz";
-        sha512 = "r5EQJcYZ2oaGbeR0jR0fFVijGOcwai07/690YRXLINuhmVeRY4UKSAsQPe/0BNuDgwP7Ophoc1PRsr2E3tkbdQ==";
+        url = "https://registry.npmjs.org/espree/-/espree-9.1.0.tgz";
+        sha512 = "ZgYLvCS1wxOczBYGcQT9DDWgicXwJ4dbocr9uYN+/eresBAUuBu+O4WzB21ufQ/JqQT8gyp7hJ3z8SHii32mTQ==";
       };
     };
     "esquery-1.4.0" = {
@@ -791,8 +791,8 @@ let
   args = {
     name = "eslint";
     packageName = "eslint";
-    version = "8.2.0";
-    src = fetchurl { url = "https://registry.npmjs.org/eslint/-/eslint-8.2.0.tgz"; sha1 = "44d3fb506d0f866a506d97a0fc0e90ee6d06a815"; };
+    version = "8.3.0";
+    src = fetchurl { url = "https://registry.npmjs.org/eslint/-/eslint-8.3.0.tgz"; sha1 = "a3c2409507403c1c7f6c42926111d6cbefbc3e85"; };
     dependencies = [
       sources."@eslint/eslintrc-1.0.4"
       sources."@humanwhocodes/config-array-0.6.0"
@@ -817,14 +817,14 @@ let
       sources."doctrine-3.0.0"
       sources."enquirer-2.3.6"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-scope-6.0.0"
+      sources."eslint-scope-7.1.0"
       (sources."eslint-utils-3.0.0" // {
         dependencies = [
           sources."eslint-visitor-keys-2.1.0"
         ];
       })
       sources."eslint-visitor-keys-3.1.0"
-      sources."espree-9.0.0"
+      sources."espree-9.1.0"
       sources."esquery-1.4.0"
       sources."esrecurse-4.3.0"
       sources."estraverse-5.3.0"
