@@ -2,8 +2,8 @@
 graalvm17-ce.overrideAttrs (old: {
   srcs = old.srcs ++ [
     (fetchurl {
-      url = "https://github.com/hpi-swa/trufflesqueak/releases/download/21.3.0/trufflesqueak-installable-java11-linux-amd64-21.3.0.jar";
-      sha256 = "0znk3mm356wck6anqvgfaw154sskqgkvlyhxclsshh70vg4pq2s1";
+      url = "https://github.com/hpi-swa/trufflesqueak/releases/download/21.3.0/trufflesqueak-installable-java17-linux-amd64-21.3.0.jar";
+      sha256 = "0f7jnya2n0pwqf2sdna8m01wf8csmqlni695wmk66xbn1ac36g5r";
     })];
   autoPatchelfIgnoreMissingDeps = true;
   unpackPhase = old.unpackPhase + ''
