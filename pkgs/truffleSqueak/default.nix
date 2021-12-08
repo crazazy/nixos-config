@@ -1,4 +1,4 @@
-{ graalvm11-ce, fetchurl, SDL2, autoPatchelfHook }:
+{ graalvm17-ce, fetchurl, SDL2, autoPatchelfHook }:
 graalvm17-ce.overrideAttrs (old: {
   srcs = old.srcs ++ [
     (fetchurl {
