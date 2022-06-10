@@ -85,6 +85,18 @@
         "url": "https://github.com/hercules-ci/gitignore/archive/bff2832ec341cf30acb3a4d3e2e7f1f7b590116a.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "grin": {
+        "branch": "master",
+        "description": "GRIN is a compiler back-end for lazy and strict functional languages with whole program optimization support.",
+        "homepage": "https://grin-compiler.github.io/",
+        "owner": "grin-compiler",
+        "repo": "grin",
+        "rev": "2752657ae8b4053db2ed00f490b49346e5c0c047",
+        "sha256": "1r5xnlfl2iq8w9j8w4rsh26s8dbq5ci7zza7zs7wz36a61x6mqpw",
+        "type": "tarball",
+        "url": "https://github.com/grin-compiler/grin/archive/2752657ae8b4053db2ed00f490b49346e5c0c047.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "home-manager": {
         "branch": "master",
         "description": "Manage a user environment using Nix",
