@@ -29,6 +29,7 @@ in
   # to backtrack to a previous step
   hidden = {
     emacs = callPackage ./emacs { };
+    grin = callPackage ./grin { };
     inherit monorepo;
   };
   # below package is borked again, leaving it out for now
