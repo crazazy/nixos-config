@@ -1,2 +1,2 @@
 { sources }:
-import sources.grin
+(import sources.grin).grin
