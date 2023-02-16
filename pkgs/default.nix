@@ -31,7 +31,7 @@ in
   hidden = {
     emacs = callPackage ./emacs { };
     grin = callPackage ./grin { };
-    hvm = callPackage ./HVM {};
+    # hvm = callPackage ./HVM {};
     inherit monorepo;
   };
   # below package is borked again, leaving it out for now
