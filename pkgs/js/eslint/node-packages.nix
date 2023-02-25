@@ -274,13 +274,13 @@ let
         sha512 = "XwctdmTO6SIvCzd9810yyNzIrOrqNYV9Koizx4C/mRhf9uq0o4yHoCEU/670pOxOL/MSraektvSAji79kX90Vg==";
       };
     };
-    "esquery-1.4.0" = {
+    "esquery-1.4.2" = {
       name = "esquery";
       packageName = "esquery";
-      version = "1.4.0";
+      version = "1.4.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/esquery/-/esquery-1.4.0.tgz";
-        sha512 = "cCDispWt5vHHtwMY2YrAQ4ibFkAL8RbH5YGBnZBc90MolvvfkkQcJro/aZiAQUlQ3qgrYS6D6v8Gc5G5CQsc9w==";
+        url = "https://registry.npmjs.org/esquery/-/esquery-1.4.2.tgz";
+        sha512 = "JVSoLdTlTDkmjFmab7H/9SL9qGSyjElT3myyKp7krqjVFQCDLmj1QFaCLRFBszBKI0XVZaiiXvuPIX3ZwHe1Ng==";
       };
     };
     "esrecurse-4.3.0" = {
@@ -409,13 +409,13 @@ let
         sha512 = "XxwI8EOhVQgWp6iDL+3b0r86f4d6AX6zSU55HfB4ydCEuXLXc5FcYeOu+nnGftS4TEju/11rt4KJPTMgbfmv4A==";
       };
     };
-    "globals-13.19.0" = {
+    "globals-13.20.0" = {
       name = "globals";
       packageName = "globals";
-      version = "13.19.0";
+      version = "13.20.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/globals/-/globals-13.19.0.tgz";
-        sha512 = "dkQ957uSRWHw7CFXLUtUHQI3g3aWApYhfNR2O6jn/907riyTYKVBmxYVROkBcY614FSSeSJh7Xm7SrUWCxvJMQ==";
+        url = "https://registry.npmjs.org/globals/-/globals-13.20.0.tgz";
+        sha512 = "Qg5QtVkCy/kv3FUSlu4ukeZDVf9ee0iXLAUYX13gbR17bnejFTzr4iS9bY7kwCf1NztRNm1t91fjOiyx4CSwPQ==";
       };
     };
     "grapheme-splitter-1.0.4" = {
@@ -872,8 +872,8 @@ let
   args = {
     name = "eslint";
     packageName = "eslint";
-    version = "8.32.0";
-    src = fetchurl { url = "https://registry.npmjs.org/eslint/-/eslint-8.32.0.tgz"; sha1 = "d9690056bb6f1a302bd991e7090f5b68fbaea861"; };
+    version = "8.34.0";
+    src = fetchurl { url = "https://registry.npmjs.org/eslint/-/eslint-8.34.0.tgz"; sha1 = "fe0ab0ef478104c1f9ebc5537e303d25a8fb22d6"; };
     dependencies = [
       sources."@eslint/eslintrc-1.4.1"
       sources."@humanwhocodes/config-array-0.11.8"
@@ -908,7 +908,7 @@ let
       })
       sources."eslint-visitor-keys-3.3.0"
       sources."espree-9.4.1"
-      sources."esquery-1.4.0"
+      sources."esquery-1.4.2"
       sources."esrecurse-4.3.0"
       sources."estraverse-5.3.0"
       sources."esutils-2.0.3"
@@ -923,7 +923,7 @@ let
       sources."fs.realpath-1.0.0"
       sources."glob-7.2.3"
       sources."glob-parent-6.0.2"
-      sources."globals-13.19.0"
+      sources."globals-13.20.0"
       sources."grapheme-splitter-1.0.4"
       sources."has-flag-4.0.0"
       sources."ignore-5.2.4"
