@@ -8,7 +8,8 @@ let
     args = builtins.intersectAttrs (builtins.functionArgs f) defaultArgs;
   in
   callPackage f (args // extraArgs);
-  callPackage = augmentCallPackage pkgs.callPackage { inherit sources; };
+  nvsrcs = pkgs.callPackage ../nix/_sources/generated.nix { };
+  callPackage = augmentCallPackage pkgs.callPackage { inherit nvsrcs sources; };
 in
 {
   # package sets
