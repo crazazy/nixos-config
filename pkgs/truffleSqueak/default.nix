@@ -3,7 +3,7 @@ let
   inherit (graalvmCEPackages) buildGraalvmProduct graalvm17-ce-full;
   inherit (nvsrcs.trufflesqueak) version;
   image = nvsrcs.trufflesqueak-image.src;
-  jar = nvsrcs.trufflesqeak.src;
+  jar = nvsrcs.trufflesqueak.src;
   combined = runCommand "truffle.jar" {} ''
 ${unzip}/bin/unzip -d . ${jar}
 echo "languages/smalltalk/resources/TruffleSqueak-${version}.changes = rw-rw-r--" >> META-INF/permissions
