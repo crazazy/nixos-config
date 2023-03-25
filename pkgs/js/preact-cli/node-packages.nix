@@ -1363,13 +1363,13 @@ let
         sha512 = "Y4XFY5VJAuw0FgAqPNd6NNoV44jbq9Bz2L7Rh/J6jLTiHBSBJa9fxqQIvkIld4GsoDOcCbvzOUAbLPsSKKg+uA==";
       };
     };
-    "@types/node-18.15.8" = {
+    "@types/node-18.15.9" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "18.15.8";
+      version = "18.15.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-18.15.8.tgz";
-        sha512 = "kzGNJZ57XEH7RdckxZ7wfRjB9hgZABF+NLgR1B2zogUvV0gmK0/60VYA4yb4oKZckPiiJlmmfpdqTfCN0VRX+Q==";
+        url = "https://registry.npmjs.org/@types/node/-/node-18.15.9.tgz";
+        sha512 = "dUxhiNzBLr6IqlZXz6e/rN2YQXlFgOei/Dxy+e3cyXTJ4txSUbGT2/fmnD6zd/75jDMeW5bDee+YXxlFKHoV0A==";
       };
     };
     "@types/parse-json-4.0.0" = {
@@ -11407,7 +11407,7 @@ let
       sources."@types/http-proxy-1.17.10"
       sources."@types/json-schema-7.0.11"
       sources."@types/mime-3.0.1"
-      sources."@types/node-18.15.8"
+      sources."@types/node-18.15.9"
       sources."@types/parse-json-4.0.0"
       sources."@types/q-1.5.5"
       sources."@types/qs-6.9.7"
