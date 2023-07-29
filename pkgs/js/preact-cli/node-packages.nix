@@ -1435,13 +1435,13 @@ let
         sha512 = "YATxVxgRqNH6nHEIsvg6k2Boc1JHI9ZbH5iWFFv/MTkchz3b1ieGDa5T0a9RznNdI0KhVbdbWSN+KWWrQZRxTw==";
       };
     };
-    "@types/node-20.4.4" = {
+    "@types/node-20.4.5" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.4.4";
+      version = "20.4.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.4.4.tgz";
-        sha512 = "CukZhumInROvLq3+b5gLev+vgpsIqC2D0deQr/yS1WnxvmYLlJXZpaQrQiseMY+6xusl79E04UjWoqyr+t1/Ew==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.4.5.tgz";
+        sha512 = "rt40Nk13II9JwQBdeYqmbn2Q6IVTA5uPhvSO+JVqdXw/6/4glI6oR9ezty/A9Hg5u7JH4OmYmuQ+XvjKm0Datg==";
       };
     };
     "@types/parse-json-4.0.0" = {
@@ -3316,13 +3316,13 @@ let
         sha512 = "MXyPCjdPVx5iiWyl40Va3JGh27bKzOTNY3NjUTrosD2q7dR/cLD0013uqJ3BpFbUjyONINjb6qI7nDIJujrMbA==";
       };
     };
-    "core-js-compat-3.31.1" = {
+    "core-js-compat-3.32.0" = {
       name = "core-js-compat";
       packageName = "core-js-compat";
-      version = "3.31.1";
+      version = "3.32.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.31.1.tgz";
-        sha512 = "wIDWd2s5/5aJSdpOJHfSibxNODxoGoWOBHt8JSPB41NOE94M7kuTPZCYLOlTtuoXTsBPKobpJ6T+y0SSy5L9SA==";
+        url = "https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.32.0.tgz";
+        sha512 = "7a9a3D1k4UCVKnLhrgALyFcP7YCsLOQIxPd0dKjf/6GuPcgyiGP70ewWdCGrSK7evyhymi0qO4EqCmSJofDeYw==";
       };
     };
     "core-util-is-1.0.2" = {
@@ -4090,13 +4090,13 @@ let
         sha512 = "iirFqlP3tiFoedNZ7dQcjvechunl054VbW6Ki38T/pabgXMAncduSE0ZXLeVGn1NbmcUJF9Z5TC0EvQ4RIpP9Q==";
       };
     };
-    "electron-to-chromium-1.4.470" = {
+    "electron-to-chromium-1.4.476" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.470";
+      version = "1.4.476";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.470.tgz";
-        sha512 = "zZM48Lmy2FKWgqyvsX9XK+J6FfP7aCDUFLmgooLJzA7v1agCs/sxSoBpTIwDLhmbhpx9yJIxj2INig/ncjJRqg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.476.tgz";
+        sha512 = "gzWl1m8pNy+5Kj17XcziNcbOhripjTqR2wAQmtdlFUngPYuFy7zUpJScVQAvCvQSFHNk3mS5fetNKW6BSpytFg==";
       };
     };
     "elliptic-6.5.4" = {
@@ -11537,7 +11537,7 @@ let
       sources."@types/http-proxy-1.17.11"
       sources."@types/json-schema-7.0.12"
       sources."@types/mime-1.3.2"
-      sources."@types/node-20.4.4"
+      sources."@types/node-20.4.5"
       sources."@types/parse-json-4.0.0"
       sources."@types/q-1.5.5"
       sources."@types/qs-6.9.7"
@@ -11835,7 +11835,7 @@ let
           sources."schema-utils-3.3.0"
         ];
       })
-      sources."core-js-compat-3.31.1"
+      sources."core-js-compat-3.32.0"
       sources."core-util-is-1.0.2"
       sources."cosmiconfig-7.1.0"
       (sources."create-ecdh-4.0.4" // {
@@ -11990,7 +11990,7 @@ let
       sources."ee-first-1.1.1"
       sources."ejs-3.1.9"
       sources."ejs-loader-0.5.0"
-      sources."electron-to-chromium-1.4.470"
+      sources."electron-to-chromium-1.4.476"
       (sources."elliptic-6.5.4" // {
         dependencies = [
           sources."bn.js-4.12.0"

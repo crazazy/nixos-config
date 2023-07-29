@@ -544,13 +544,13 @@ let
         sha512 = "doST0+aB7/3dGK9+U5y3mtF3jq85KGbke1QiH0KE1F5mGQ9y56mFebTeu2D9FNOm+OT6UHb8Ss8vbSnpGjeLNw==";
       };
     };
-    "@multiformats/multiaddr-12.1.3" = {
+    "@multiformats/multiaddr-12.1.5" = {
       name = "_at_multiformats_slash_multiaddr";
       packageName = "@multiformats/multiaddr";
-      version = "12.1.3";
+      version = "12.1.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@multiformats/multiaddr/-/multiaddr-12.1.3.tgz";
-        sha512 = "rNcS3njkkSwuGF4x58L47jGH5kBXBfJPNsWnrt0gujhNYn6ReDt1je7vEU5/ddrVj0TStgxw+Hm+TkYDK0b60w==";
+        url = "https://registry.npmjs.org/@multiformats/multiaddr/-/multiaddr-12.1.5.tgz";
+        sha512 = "2c0Mouk6LPzd86eKyw9+ENtoLfe5tJXZVMkbG0BmdYdMb3Wp6B/0wEjde3G3WcqaFhHobGAQPmOgNmVPxi6Vyg==";
       };
     };
     "@multiformats/multiaddr-to-uri-9.0.7" = {
@@ -688,13 +688,13 @@ let
         sha512 = "Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==";
       };
     };
-    "@types/node-18.17.0" = {
+    "@types/node-18.17.1" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "18.17.0";
+      version = "18.17.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-18.17.0.tgz";
-        sha512 = "GXZxEtOxYGFchyUzxvKI14iff9KZ2DI+A6a37o6EQevtg6uO9t+aUZKcaC1Te5Ng1OnLM7K9NVVj+FbecD9cJg==";
+        url = "https://registry.npmjs.org/@types/node/-/node-18.17.1.tgz";
+        sha512 = "xlR1jahfizdplZYRU59JlUx9uzF1ARa8jbhM11ccpCJya8kvos5jwdm2ZAgxSCwOl0fq21svP18EVwPBXMQudw==";
       };
     };
     "abort-controller-3.0.0" = {
@@ -1102,13 +1102,13 @@ let
         sha512 = "M9qw6oUILGVrcENMSRRefE1MbHPIz0h79EKIeJWK9v563aT9Qkh8aEHPO1H5vi970wPirNY+jO9OpFoLiMsMGA==";
       };
     };
-    "electron-to-chromium-1.4.470" = {
+    "electron-to-chromium-1.4.476" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.470";
+      version = "1.4.476";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.470.tgz";
-        sha512 = "zZM48Lmy2FKWgqyvsX9XK+J6FfP7aCDUFLmgooLJzA7v1agCs/sxSoBpTIwDLhmbhpx9yJIxj2INig/ncjJRqg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.476.tgz";
+        sha512 = "gzWl1m8pNy+5Kj17XcziNcbOhripjTqR2wAQmtdlFUngPYuFy7zUpJScVQAvCvQSFHNk3mS5fetNKW6BSpytFg==";
       };
     };
     "encoding-0.1.13" = {
@@ -1876,6 +1876,15 @@ let
         sha512 = "b5mYMkOkARIuVZCpvijFj9a6m5wMVLC7cf/jIPd5D/ARDOfLC5+IFkbgDXQgcU2goIsTD/O9NY4DI/Mt4OGvlg==";
       };
     };
+    "multiformats-12.0.1" = {
+      name = "multiformats";
+      packageName = "multiformats";
+      version = "12.0.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/multiformats/-/multiformats-12.0.1.tgz";
+        sha512 = "s01wijBJoDUqESWSzePY0lvTw7J3PVO9x2Cc6ASI5AMZM2Gnhh7BC17+nlFhHKU7dDzaCaRfb+NiqNzOsgPUoQ==";
+      };
+    };
     "nanoid-3.3.6" = {
       name = "nanoid";
       packageName = "nanoid";
@@ -2607,8 +2616,8 @@ let
       sources."@jspm/import-map-1.0.7"
       (sources."@libp2p/interface-connection-4.0.0" // {
         dependencies = [
-          sources."@multiformats/multiaddr-12.1.3"
-          sources."multiformats-11.0.2"
+          sources."@multiformats/multiaddr-12.1.5"
+          sources."multiformats-12.0.1"
         ];
       })
       sources."@libp2p/interface-keychain-1.0.8"
@@ -2619,15 +2628,19 @@ let
       })
       (sources."@libp2p/interface-peer-info-1.0.10" // {
         dependencies = [
-          sources."@multiformats/multiaddr-12.1.3"
-          sources."multiformats-11.0.2"
+          sources."@multiformats/multiaddr-12.1.5"
+          sources."multiformats-12.0.1"
         ];
       })
       sources."@libp2p/interface-pubsub-3.0.7"
       sources."@libp2p/interfaces-3.3.2"
       (sources."@libp2p/logger-2.1.1" // {
         dependencies = [
-          sources."@multiformats/multiaddr-12.1.3"
+          (sources."@multiformats/multiaddr-12.1.5" // {
+            dependencies = [
+              sources."multiformats-12.0.1"
+            ];
+          })
           sources."multiformats-11.0.2"
         ];
       })
@@ -2643,8 +2656,8 @@ let
       })
       (sources."@multiformats/multiaddr-to-uri-9.0.7" // {
         dependencies = [
-          sources."@multiformats/multiaddr-12.1.3"
-          sources."multiformats-11.0.2"
+          sources."@multiformats/multiaddr-12.1.5"
+          sources."multiformats-12.0.1"
         ];
       })
       (sources."@npmcli/fs-1.1.1" // {
@@ -2671,7 +2684,7 @@ let
       sources."@protobufjs/utf8-1.1.0"
       sources."@tootallnate/once-1.1.2"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-18.17.0"
+      sources."@types/node-18.17.1"
       sources."abort-controller-3.0.0"
       sources."agent-base-6.0.2"
       sources."agentkeepalive-4.3.0"
@@ -2720,7 +2733,7 @@ let
       sources."dns-over-http-resolver-2.1.1"
       sources."dot-case-3.0.4"
       sources."electron-fetch-1.9.1"
-      sources."electron-to-chromium-1.4.470"
+      sources."electron-to-chromium-1.4.476"
       sources."encoding-0.1.13"
       sources."err-code-3.0.1"
       sources."es-module-lexer-1.3.0"
