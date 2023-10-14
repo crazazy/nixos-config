@@ -265,6 +265,15 @@ let
         sha512 = "TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==";
       };
     };
+    "eslint-8.51.0" = {
+      name = "eslint";
+      packageName = "eslint";
+      version = "8.51.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/eslint/-/eslint-8.51.0.tgz";
+        sha512 = "2WuxRZBrlwnXi+/vFSJyjMqrNjtJqiasMzehF0shoLaW7DzS3/9Yvrmq5JiT66+pNjiX4UBnLDiKHcWAr/OInA==";
+      };
+    };
     "eslint-scope-7.2.2" = {
       name = "eslint-scope";
       packageName = "eslint-scope";
@@ -913,6 +922,7 @@ let
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
+      sources."eslint-8.51.0"
       sources."eslint-scope-7.2.2"
       sources."eslint-visitor-keys-3.4.3"
       sources."espree-9.6.1"

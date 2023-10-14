@@ -697,13 +697,13 @@ let
         sha512 = "Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==";
       };
     };
-    "@types/node-18.18.4" = {
+    "@types/node-18.18.5" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "18.18.4";
+      version = "18.18.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-18.18.4.tgz";
-        sha512 = "t3rNFBgJRugIhackit2mVcLfF6IRc0JE4oeizPQL8Zrm8n2WY/0wOdpOPhdtG0V9Q2TlW/axbF1MJ6z+Yj/kKQ==";
+        url = "https://registry.npmjs.org/@types/node/-/node-18.18.5.tgz";
+        sha512 = "4slmbtwV59ZxitY4ixUZdy1uRLf9eSIvBWPQxNjhHYWEtn0FryfKpyS2cvADYXTayWdKEIsJengncrVvkI4I6A==";
       };
     };
     "abort-controller-3.0.0" = {
@@ -875,6 +875,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/buffer/-/buffer-6.0.3.tgz";
         sha512 = "FTiCpNxtwiZZHEZbcbTIcZjERVICn9yq/pDFkTl95/AxzD1naBctN7YO68riM/gLSDY7sdrMby8hofADYuuqOA==";
+      };
+    };
+    "bufferutil-4.0.7" = {
+      name = "bufferutil";
+      packageName = "bufferutil";
+      version = "4.0.7";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/bufferutil/-/bufferutil-4.0.7.tgz";
+        sha512 = "kukuqc39WOHtdxtw4UScxF/WVnMFVSQVKhtx3AjZJzhd0RGZZldcrfSEbVsWWe6KNH253574cq5F+wpv0G9pJw==";
       };
     };
     "cac-6.7.14" = {
@@ -1102,13 +1111,13 @@ let
         sha512 = "M9qw6oUILGVrcENMSRRefE1MbHPIz0h79EKIeJWK9v563aT9Qkh8aEHPO1H5vi970wPirNY+jO9OpFoLiMsMGA==";
       };
     };
-    "electron-to-chromium-1.4.551" = {
+    "electron-to-chromium-1.4.554" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.551";
+      version = "1.4.554";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.551.tgz";
-        sha512 = "/Ng/W/kFv7wdEHYzxdK7Cv0BHEGSkSB3M0Ssl8Ndr1eMiYeas/+Mv4cNaDqamqWx6nd2uQZfPz6g25z25M/sdw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.554.tgz";
+        sha512 = "Q0umzPJjfBrrj8unkONTgbKQXzXRrH7sVV7D9ea2yBV3Oaogz991yhbpfvo2LMNkJItmruXTEzVpP9cp7vaIiQ==";
       };
     };
     "encoding-0.1.13" = {
@@ -1253,6 +1262,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/globals/-/globals-11.12.0.tgz";
         sha512 = "WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==";
+      };
+    };
+    "google-protobuf-3.21.2" = {
+      name = "google-protobuf";
+      packageName = "google-protobuf";
+      version = "3.21.2";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/google-protobuf/-/google-protobuf-3.21.2.tgz";
+        sha512 = "3MSOYFO5U9mPGikIYCzK0SaThypfGgS6bHqrUGXG3DPHCrb+txNqeEcns1W0lkGfk0rCyNXm7xB9rMxnCiZOoA==";
       };
     };
     "has-flag-3.0.0" = {
@@ -1957,6 +1975,15 @@ let
         sha512 = "c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==";
       };
     };
+    "node-gyp-build-4.6.1" = {
+      name = "node-gyp-build";
+      packageName = "node-gyp-build";
+      version = "4.6.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.6.1.tgz";
+        sha512 = "24vnklJmyRS8ViBNI8KbtK/r/DmXQMRiOMXTNz2nrTnAYUwjmEEbnnpB/+kt+yWRv73bPsSPRFddrcIbAxSiMQ==";
+      };
+    };
     "node-releases-2.0.13" = {
       name = "node-releases";
       packageName = "node-releases";
@@ -2479,6 +2506,15 @@ let
         sha512 = "514ppYHBaKwfJRK/pNC6c/OxfGa0obSnAl106u97Ed0I625Nin96KAjttZF6ZL3e1XLtphxnqrOi9iWgm+u+bg==";
       };
     };
+    "utf-8-validate-6.0.3" = {
+      name = "utf-8-validate";
+      packageName = "utf-8-validate";
+      version = "6.0.3";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/utf-8-validate/-/utf-8-validate-6.0.3.tgz";
+        sha512 = "uIuGf9TWQ/y+0Lp+KGZCMuJWc3N9BHA+l/UmHd/oUHwJJDeysyTRxNQVkbzsIWfGFbRe3OcgML/i0mvVRPOyDA==";
+      };
+    };
     "util-deprecate-1.0.2" = {
       name = "util-deprecate";
       packageName = "util-deprecate";
@@ -2715,7 +2751,7 @@ let
       sources."@protobufjs/utf8-1.1.0"
       sources."@tootallnate/once-1.1.2"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-18.18.4"
+      sources."@types/node-18.18.5"
       sources."abort-controller-3.0.0"
       sources."abortable-iterator-5.0.1"
       sources."agent-base-6.0.2"
@@ -2733,6 +2769,7 @@ let
       sources."browser-readablestream-to-it-2.0.4"
       sources."browserslist-4.22.1"
       sources."buffer-6.0.3"
+      sources."bufferutil-4.0.7"
       sources."cac-6.7.14"
       (sources."cacache-15.3.0" // {
         dependencies = [
@@ -2763,7 +2800,7 @@ let
       sources."dns-over-http-resolver-2.1.2"
       sources."dot-case-3.0.4"
       sources."electron-fetch-1.9.1"
-      sources."electron-to-chromium-1.4.551"
+      sources."electron-to-chromium-1.4.554"
       sources."encoding-0.1.13"
       sources."err-code-3.0.1"
       sources."es-module-lexer-1.3.1"
@@ -2777,6 +2814,7 @@ let
       sources."get-iterator-2.0.1"
       sources."glob-7.2.3"
       sources."globals-11.12.0"
+      sources."google-protobuf-3.21.2"
       sources."has-flag-3.0.0"
       sources."header-case-2.0.4"
       sources."http-cache-semantics-4.1.1"
@@ -2876,6 +2914,7 @@ let
       sources."native-fetch-4.0.2"
       sources."no-case-3.0.4"
       sources."node-fetch-2.7.0"
+      sources."node-gyp-build-4.6.1"
       sources."node-releases-2.0.13"
       sources."once-1.4.0"
       sources."onetime-5.1.2"
@@ -2972,6 +3011,7 @@ let
       sources."update-browserslist-db-1.0.13"
       sources."upper-case-2.0.2"
       sources."upper-case-first-2.0.2"
+      sources."utf-8-validate-6.0.3"
       sources."util-deprecate-1.0.2"
       sources."varint-6.0.0"
       sources."wcwidth-1.0.1"
