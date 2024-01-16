@@ -39,7 +39,7 @@ jobs:
           substituters = https://hydra.iohk.io https://cache.nixos.org/ https://nix-community.cachix.org
     
     - name: Install cachix
-      uses: cachix/cachix-action@v12
+      uses: cachix/cachix-action@v14
       with:
         name: crazazy
         signingKey: '${{ secrets.CACHIX_KEY }}'
