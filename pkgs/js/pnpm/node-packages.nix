@@ -7,8 +7,8 @@ let
   args = {
     name = "pnpm";
     packageName = "pnpm";
-    version = "9.0.6";
-    src = fetchurl { url = "https://registry.npmjs.org/pnpm/-/pnpm-9.0.6.tgz"; sha1 = "648f6014eb363abb36618f2ba59282a9eeb3e879"; };
+    version = "9.1.0";
+    src = fetchurl { url = "https://registry.npmjs.org/pnpm/-/pnpm-9.1.0.tgz"; sha1 = "217063ce3fcbf44f3051666f38b810f1ddefee4a"; };
     buildInputs = globalBuildInputs;
     meta = {
       description = "Fast, disk space efficient package manager";

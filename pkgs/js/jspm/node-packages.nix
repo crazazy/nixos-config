@@ -553,13 +553,13 @@ let
         sha512 = "VVdYzXEn+cnbXpFgWs5hTT7OScegHVmLhJIR8Ufqk3iFD6A6j5iSX1KuBTfNEv4tdJWE2PzA6IVFtcLC7fN9wQ==";
       };
     };
-    "caniuse-lite-1.0.30001615" = {
+    "caniuse-lite-1.0.30001617" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001615";
+      version = "1.0.30001617";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001615.tgz";
-        sha512 = "1IpazM5G3r38meiae0bHRnPhz+CBQ3ZLqbQMtrg+AsTPKAXgW38JNsXkyZ+v8waCsDmPq87lmfun5Q2AGysNEQ==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001617.tgz";
+        sha512 = "mLyjzNI9I+Pix8zwcrpxEbGlfqOkF9kM3ptzmKNw5tizSyYwMe+nGLTqMK9cO+0E+Bh6TsBxNAaHWEM8xwSsmA==";
       };
     };
     "chalk-2.4.2" = {
@@ -679,13 +679,13 @@ let
         sha512 = "eFuaLoy/Rxalv2kr+lqMlUnrDWV+3j4pljOIJgLIhI058IQfWJ7vXhyEIHu+HtC738klGALYxOKDO0bQP3tg8A==";
       };
     };
-    "electron-to-chromium-1.4.756" = {
+    "electron-to-chromium-1.4.763" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.756";
+      version = "1.4.763";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.756.tgz";
-        sha512 = "RJKZ9+vEBMeiPAvKNWyZjuYyUqMndcP1f335oHqn3BEQbs2NFtVrnK5+6Xg5wSM9TknNNpWghGDUCKGYF+xWXw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.763.tgz";
+        sha512 = "k4J8NrtJ9QrvHLRo8Q18OncqBCB7tIUyqxRcJnlonQ0ioHKYB988GcDFF3ZePmnb8eHEopDs/wPHR/iGAFgoUQ==";
       };
     };
     "encoding-0.1.13" = {
@@ -1084,13 +1084,13 @@ let
         sha512 = "3FnjYuehv9k6ovOEbyOswadCDPX1piCfhV8ncmYtHOjuPwylVWsghTLo7rabjC3Rx5xD4HDx8Wm1xnMF7S5qFQ==";
       };
     };
-    "minipass-7.0.4" = {
+    "minipass-7.1.1" = {
       name = "minipass";
       packageName = "minipass";
-      version = "7.0.4";
+      version = "7.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/minipass/-/minipass-7.0.4.tgz";
-        sha512 = "jYofLM5Dam9279rdkWzqHozUo4ybjdZmCsDHePy5V/PbBcVMiSZR97gmAy45aqi8CK1lG2ECd356FU86avfwUQ==";
+        url = "https://registry.npmjs.org/minipass/-/minipass-7.1.1.tgz";
+        sha512 = "UZ7eQ+h8ywIRAW1hIEl2AqdwzJucU/Kp59+8kkZeSvafXhZjul247BvIJjEVFVeON6d7lM46XX1HXCduKAS8VA==";
       };
     };
     "minipass-collect-1.0.2" = {
@@ -1219,13 +1219,13 @@ let
         sha512 = "AVbw3UJ2e9bq64vSaS9Am0fje1Pa8pbGqTTsmXfaIiMpnr5DlDhfJOuLj9Sf95ZPVDAUerDfEk88MPmPe7UCQg==";
       };
     };
-    "path-scurry-1.10.2" = {
+    "path-scurry-1.11.0" = {
       name = "path-scurry";
       packageName = "path-scurry";
-      version = "1.10.2";
+      version = "1.11.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/path-scurry/-/path-scurry-1.10.2.tgz";
-        sha512 = "7xTavNy5RQXnsjANvVvMkEjvloOinkAjv/Z6Ildz9v2RinZ4SBKTWFOVRbaF8p0vpHnyjV/UwNDdKuUv6M5qcA==";
+        url = "https://registry.npmjs.org/path-scurry/-/path-scurry-1.11.0.tgz";
+        sha512 = "LNHTaVkzaYaLGlO+0u3rQTz7QrHTFOuKyba9JMTQutkmtNew8dw8wOD7mTU/5fCPZzCWpfW0XnQKzY61P0aTaw==";
       };
     };
     "picocolors-1.0.0" = {
@@ -1336,13 +1336,13 @@ let
         sha512 = "BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==";
       };
     };
-    "semver-7.6.0" = {
+    "semver-7.6.2" = {
       name = "semver";
       packageName = "semver";
-      version = "7.6.0";
+      version = "7.6.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/semver/-/semver-7.6.0.tgz";
-        sha512 = "EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==";
+        url = "https://registry.npmjs.org/semver/-/semver-7.6.2.tgz";
+        sha512 = "FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w==";
       };
     };
     "signal-exit-3.0.7" = {
@@ -1586,9 +1586,7 @@ let
       sources."@jspm/import-map-1.0.8"
       (sources."@npmcli/fs-1.1.1" // {
         dependencies = [
-          sources."lru-cache-6.0.0"
-          sources."semver-7.6.0"
-          sources."yallist-4.0.0"
+          sources."semver-7.6.2"
         ];
       })
       (sources."@npmcli/move-file-1.1.2" // {
@@ -1617,7 +1615,7 @@ let
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001615"
+      sources."caniuse-lite-1.0.30001617"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -1630,7 +1628,7 @@ let
       sources."convert-source-map-2.0.0"
       sources."debug-4.3.4"
       sources."defaults-1.0.4"
-      sources."electron-to-chromium-1.4.756"
+      sources."electron-to-chromium-1.4.763"
       sources."encoding-0.1.13"
       sources."err-code-2.0.3"
       sources."es-module-lexer-1.5.2"
@@ -1704,10 +1702,10 @@ let
       })
       sources."p-map-4.0.0"
       sources."path-is-absolute-1.0.1"
-      (sources."path-scurry-1.10.2" // {
+      (sources."path-scurry-1.11.0" // {
         dependencies = [
           sources."lru-cache-10.2.2"
-          sources."minipass-7.0.4"
+          sources."minipass-7.1.1"
         ];
       })
       sources."picocolors-1.0.0"

@@ -1435,13 +1435,13 @@ let
         sha512 = "lR8q/9W7hZpMWweNiAKU7NQerBnzQQLvi8qnTDU/fxItPhtZVMbPV3lbCwjhIlNBe9Bbr5V+KHshvWmVSG9cxQ==";
       };
     };
-    "@swc/core-1.5.2" = {
+    "@swc/core-1.5.5" = {
       name = "_at_swc_slash_core";
       packageName = "@swc/core";
-      version = "1.5.2";
+      version = "1.5.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@swc/core/-/core-1.5.2.tgz";
-        sha512 = "dNLte04wMEZvpgGHLmTaFr4in94AL2nYF0CuRQKODfbv3ROR8P/nSTQARXUzGUlcDS/OBMJz1ZgsCR2ggqfaAQ==";
+        url = "https://registry.npmjs.org/@swc/core/-/core-1.5.5.tgz";
+        sha512 = "M8O22EEgdSONLd+7KRrXj8pn+RdAZZ7ISnPjE9KCQQlI0kkFNEquWR+uFdlFxQfwlyCe/Zb6uGXGDvtcov4IMg==";
       };
     };
     "@swc/counter-0.1.3" = {
@@ -1471,13 +1471,13 @@ let
         sha512 = "/JLo/l2JsT/LRd80C3HfbmVpxOAJ11FO2RCEslFrgzLltoP9j8XIbsyDcfCt2WWyX+CM96rBoNM+IToAkFOugg==";
       };
     };
-    "@swc/wasm-1.5.2" = {
+    "@swc/wasm-1.5.5" = {
       name = "_at_swc_slash_wasm";
       packageName = "@swc/wasm";
-      version = "1.5.2";
+      version = "1.5.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@swc/wasm/-/wasm-1.5.2.tgz";
-        sha512 = "R35ahT6Tr7vylD2BkEplCg5vg8lIH/f3OxETNxe8dSO+687Ugg+Yp/K6oMfgMdxTNWmqx3v0rF12B/GpTa7umw==";
+        url = "https://registry.npmjs.org/@swc/wasm/-/wasm-1.5.5.tgz";
+        sha512 = "1qOHxOKtii5CP6PWg36FyZhR9jMUIdNNWbTFSCdG2QYHLS/iLNftrqXHRp8nROn1lHU7n7WIWIk1+GJC41S5nQ==";
       };
     };
     "@szmarczak/http-timer-1.1.2" = {
@@ -1696,13 +1696,13 @@ let
         sha512 = "hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==";
       };
     };
-    "@types/node-20.12.8" = {
+    "@types/node-20.12.11" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.12.8";
+      version = "20.12.11";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.12.8.tgz";
-        sha512 = "NU0rJLJnshZWdE/097cdCBbyW1h4hEg0xpovcoAQYHl8dnEyp/NAOiE45pvc+Bd1Dt+2r94v2eGFpQJ4R7g+2w==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.12.11.tgz";
+        sha512 = "vDg9PZ/zi+Nqp6boSOT7plNuthRugEKixDv5sFTIpkE89MmNtEArAShI4mxuX2+UrLEe9pxC1vm2cjm9YlWbJw==";
       };
     };
     "@types/node-forge-1.3.11" = {
@@ -3172,13 +3172,13 @@ let
         sha512 = "bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==";
       };
     };
-    "caniuse-lite-1.0.30001615" = {
+    "caniuse-lite-1.0.30001617" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001615";
+      version = "1.0.30001617";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001615.tgz";
-        sha512 = "1IpazM5G3r38meiae0bHRnPhz+CBQ3ZLqbQMtrg+AsTPKAXgW38JNsXkyZ+v8waCsDmPq87lmfun5Q2AGysNEQ==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001617.tgz";
+        sha512 = "mLyjzNI9I+Pix8zwcrpxEbGlfqOkF9kM3ptzmKNw5tizSyYwMe+nGLTqMK9cO+0E+Bh6TsBxNAaHWEM8xwSsmA==";
       };
     };
     "caseless-0.12.0" = {
@@ -4621,13 +4621,13 @@ let
         sha512 = "iirFqlP3tiFoedNZ7dQcjvechunl054VbW6Ki38T/pabgXMAncduSE0ZXLeVGn1NbmcUJF9Z5TC0EvQ4RIpP9Q==";
       };
     };
-    "electron-to-chromium-1.4.756" = {
+    "electron-to-chromium-1.4.763" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.756";
+      version = "1.4.763";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.756.tgz";
-        sha512 = "RJKZ9+vEBMeiPAvKNWyZjuYyUqMndcP1f335oHqn3BEQbs2NFtVrnK5+6Xg5wSM9TknNNpWghGDUCKGYF+xWXw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.763.tgz";
+        sha512 = "k4J8NrtJ9QrvHLRo8Q18OncqBCB7tIUyqxRcJnlonQ0ioHKYB988GcDFF3ZePmnb8eHEopDs/wPHR/iGAFgoUQ==";
       };
     };
     "elliptic-6.5.5" = {
@@ -10534,13 +10534,13 @@ let
         sha512 = "YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==";
       };
     };
-    "sass-1.76.0" = {
+    "sass-1.77.1" = {
       name = "sass";
       packageName = "sass";
-      version = "1.76.0";
+      version = "1.77.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/sass/-/sass-1.76.0.tgz";
-        sha512 = "nc3LeqvF2FNW5xGF1zxZifdW3ffIz5aBb7I7tSvOoNu7z1RQ6pFt9MBuiPtjgaI62YWrM/txjWlOCFiGtf2xpw==";
+        url = "https://registry.npmjs.org/sass/-/sass-1.77.1.tgz";
+        sha512 = "OMEyfirt9XEfyvocduUIOlUSkWOXS/LAt6oblR/ISXCTukyavjex+zQNm51pPCOiFKY1QpWvEH1EeCkgyV3I6w==";
       };
     };
     "sass-graph-4.0.1" = {
@@ -10678,13 +10678,13 @@ let
         sha512 = "BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==";
       };
     };
-    "semver-7.6.0" = {
+    "semver-7.6.2" = {
       name = "semver";
       packageName = "semver";
-      version = "7.6.0";
+      version = "7.6.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/semver/-/semver-7.6.0.tgz";
-        sha512 = "EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==";
+        url = "https://registry.npmjs.org/semver/-/semver-7.6.2.tgz";
+        sha512 = "FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w==";
       };
     };
     "semver-diff-3.1.1" = {
@@ -13260,9 +13260,7 @@ let
       sources."@nodelib/fs.walk-1.2.8"
       (sources."@npmcli/fs-1.1.1" // {
         dependencies = [
-          sources."lru-cache-6.0.0"
-          sources."semver-7.6.0"
-          sources."yallist-4.0.0"
+          sources."semver-7.6.2"
         ];
       })
       sources."@npmcli/move-file-1.1.2"
@@ -13278,11 +13276,11 @@ let
       sources."@rollup/pluginutils-3.1.0"
       sources."@sindresorhus/is-0.14.0"
       sources."@surma/rollup-plugin-off-main-thread-2.2.3"
-      sources."@swc/core-1.5.2"
+      sources."@swc/core-1.5.5"
       sources."@swc/counter-0.1.3"
       sources."@swc/helpers-0.5.11"
       sources."@swc/types-0.1.6"
-      sources."@swc/wasm-1.5.2"
+      sources."@swc/wasm-1.5.5"
       sources."@szmarczak/http-timer-1.1.2"
       sources."@tootallnate/once-2.0.0"
       sources."@trysound/sax-0.2.0"
@@ -13306,7 +13304,7 @@ let
       sources."@types/json-schema-7.0.15"
       sources."@types/mime-1.3.5"
       sources."@types/minimist-1.2.5"
-      sources."@types/node-20.12.8"
+      sources."@types/node-20.12.11"
       sources."@types/node-forge-1.3.11"
       sources."@types/normalize-package-data-2.4.4"
       sources."@types/parse-json-4.0.2"
@@ -13501,9 +13499,7 @@ let
       sources."builtin-status-codes-3.0.0"
       (sources."builtins-5.1.0" // {
         dependencies = [
-          sources."lru-cache-6.0.0"
-          sources."semver-7.6.0"
-          sources."yallist-4.0.0"
+          sources."semver-7.6.2"
         ];
       })
       sources."bytes-3.0.0"
@@ -13540,7 +13536,7 @@ let
         ];
       })
       sources."caniuse-api-3.0.0"
-      sources."caniuse-lite-1.0.30001615"
+      sources."caniuse-lite-1.0.30001617"
       sources."caseless-0.12.0"
       sources."chalk-2.4.2"
       sources."chokidar-3.6.0"
@@ -13673,10 +13669,8 @@ let
       })
       (sources."css-loader-5.2.7" // {
         dependencies = [
-          sources."lru-cache-6.0.0"
           sources."schema-utils-3.3.0"
-          sources."semver-7.6.0"
-          sources."yallist-4.0.0"
+          sources."semver-7.6.2"
         ];
       })
       sources."css-select-2.1.0"
@@ -13800,7 +13794,7 @@ let
       sources."ee-first-1.1.1"
       sources."ejs-3.1.10"
       sources."ejs-loader-0.5.0"
-      sources."electron-to-chromium-1.4.756"
+      sources."electron-to-chromium-1.4.763"
       (sources."elliptic-6.5.5" // {
         dependencies = [
           sources."bn.js-4.12.0"
@@ -13989,11 +13983,9 @@ let
           sources."cosmiconfig-6.0.0"
           sources."glob-7.2.3"
           sources."has-flag-4.0.0"
-          sources."lru-cache-6.0.0"
           sources."schema-utils-2.7.0"
-          sources."semver-7.6.0"
+          sources."semver-7.6.2"
           sources."supports-color-7.2.0"
-          sources."yallist-4.0.0"
         ];
       })
       sources."form-data-2.3.3"
@@ -14321,15 +14313,10 @@ let
           sources."@npmcli/move-file-2.0.1"
           sources."cacache-16.1.3"
           sources."lru-cache-7.18.3"
-          (sources."semver-7.6.0" // {
-            dependencies = [
-              sources."lru-cache-6.0.0"
-            ];
-          })
+          sources."semver-7.6.2"
           sources."ssri-9.0.1"
           sources."unique-filename-2.0.1"
           sources."unique-slug-3.0.0"
-          sources."yallist-4.0.0"
         ];
       })
       sources."map-cache-0.2.2"
@@ -14448,7 +14435,7 @@ let
           sources."lru-cache-6.0.0"
           sources."make-fetch-happen-9.1.0"
           sources."minipass-fetch-1.4.1"
-          sources."semver-7.6.0"
+          sources."semver-7.6.2"
           sources."socks-proxy-agent-6.2.1"
           sources."yallist-4.0.0"
         ];
@@ -14485,9 +14472,7 @@ let
       sources."nopt-5.0.0"
       (sources."normalize-package-data-3.0.3" // {
         dependencies = [
-          sources."lru-cache-6.0.0"
-          sources."semver-7.6.0"
-          sources."yallist-4.0.0"
+          sources."semver-7.6.2"
         ];
       })
       sources."normalize-path-3.0.0"
@@ -14684,10 +14669,8 @@ let
       sources."postcss-load-config-3.1.4"
       (sources."postcss-loader-4.3.0" // {
         dependencies = [
-          sources."lru-cache-6.0.0"
           sources."schema-utils-3.3.0"
-          sources."semver-7.6.0"
-          sources."yallist-4.0.0"
+          sources."semver-7.6.2"
         ];
       })
       (sources."postcss-merge-longhand-4.0.11" // {
@@ -15018,7 +15001,7 @@ let
       sources."safe-regex-1.1.0"
       sources."safe-regex-test-1.0.3"
       sources."safer-buffer-2.1.2"
-      sources."sass-1.76.0"
+      sources."sass-1.77.1"
       (sources."sass-graph-4.0.1" // {
         dependencies = [
           sources."glob-7.2.3"
@@ -15026,10 +15009,8 @@ let
       })
       (sources."sass-loader-10.5.2" // {
         dependencies = [
-          sources."lru-cache-6.0.0"
           sources."schema-utils-3.3.0"
-          sources."semver-7.6.0"
-          sources."yallist-4.0.0"
+          sources."semver-7.6.2"
         ];
       })
       sources."sax-1.2.4"
@@ -15353,10 +15334,8 @@ let
           sources."color-convert-2.0.1"
           sources."color-name-1.1.4"
           sources."has-flag-4.0.0"
-          sources."lru-cache-6.0.0"
-          sources."semver-7.6.0"
+          sources."semver-7.6.2"
           sources."supports-color-7.2.0"
-          sources."yallist-4.0.0"
         ];
       })
       sources."upper-case-1.1.3"

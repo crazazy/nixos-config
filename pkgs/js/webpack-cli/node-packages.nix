@@ -103,13 +103,13 @@ let
         sha512 = "5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==";
       };
     };
-    "@types/node-20.12.8" = {
+    "@types/node-20.12.11" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.12.8";
+      version = "20.12.11";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.12.8.tgz";
-        sha512 = "NU0rJLJnshZWdE/097cdCBbyW1h4hEg0xpovcoAQYHl8dnEyp/NAOiE45pvc+Bd1Dt+2r94v2eGFpQJ4R7g+2w==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.12.11.tgz";
+        sha512 = "vDg9PZ/zi+Nqp6boSOT7plNuthRugEKixDv5sFTIpkE89MmNtEArAShI4mxuX2+UrLEe9pxC1vm2cjm9YlWbJw==";
       };
     };
     "@webassemblyjs/ast-1.12.1" = {
@@ -346,13 +346,13 @@ let
         sha512 = "E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==";
       };
     };
-    "caniuse-lite-1.0.30001615" = {
+    "caniuse-lite-1.0.30001617" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001615";
+      version = "1.0.30001617";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001615.tgz";
-        sha512 = "1IpazM5G3r38meiae0bHRnPhz+CBQ3ZLqbQMtrg+AsTPKAXgW38JNsXkyZ+v8waCsDmPq87lmfun5Q2AGysNEQ==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001617.tgz";
+        sha512 = "mLyjzNI9I+Pix8zwcrpxEbGlfqOkF9kM3ptzmKNw5tizSyYwMe+nGLTqMK9cO+0E+Bh6TsBxNAaHWEM8xwSsmA==";
       };
     };
     "chrome-trace-event-1.0.3" = {
@@ -409,22 +409,22 @@ let
         sha512 = "iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==";
       };
     };
-    "electron-to-chromium-1.4.756" = {
+    "electron-to-chromium-1.4.763" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.756";
+      version = "1.4.763";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.756.tgz";
-        sha512 = "RJKZ9+vEBMeiPAvKNWyZjuYyUqMndcP1f335oHqn3BEQbs2NFtVrnK5+6Xg5wSM9TknNNpWghGDUCKGYF+xWXw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.763.tgz";
+        sha512 = "k4J8NrtJ9QrvHLRo8Q18OncqBCB7tIUyqxRcJnlonQ0ioHKYB988GcDFF3ZePmnb8eHEopDs/wPHR/iGAFgoUQ==";
       };
     };
-    "enhanced-resolve-5.16.0" = {
+    "enhanced-resolve-5.16.1" = {
       name = "enhanced-resolve";
       packageName = "enhanced-resolve";
-      version = "5.16.0";
+      version = "5.16.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.16.0.tgz";
-        sha512 = "O+QWCviPNSSLAD9Ucn8Awv+poAkqn3T1XY5/N7kR7rQO9yfSGWkYZDwpJ+iKF7B8rxaQKWngSqACpgzeapSyoA==";
+        url = "https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.16.1.tgz";
+        sha512 = "4U5pNsuDl0EhuZpq46M5xPslstkviJuhrdobaRDBk2Jy2KO37FDAJl4lb2KlNabxT0m4MTK2UHNrsAcphE8nyw==";
       };
     };
     "envinfo-7.13.0" = {
@@ -1093,7 +1093,7 @@ let
       sources."@types/eslint-scope-3.7.7"
       sources."@types/estree-1.0.5"
       sources."@types/json-schema-7.0.15"
-      sources."@types/node-20.12.8"
+      sources."@types/node-20.12.11"
       sources."@webassemblyjs/ast-1.12.1"
       sources."@webassemblyjs/floating-point-hex-parser-1.11.6"
       sources."@webassemblyjs/helper-api-error-1.11.6"
@@ -1120,14 +1120,14 @@ let
       sources."ajv-keywords-3.5.2"
       sources."browserslist-4.23.0"
       sources."buffer-from-1.1.2"
-      sources."caniuse-lite-1.0.30001615"
+      sources."caniuse-lite-1.0.30001617"
       sources."chrome-trace-event-1.0.3"
       sources."clone-deep-4.0.1"
       sources."colorette-2.0.20"
       sources."commander-10.0.1"
       sources."cross-spawn-7.0.3"
-      sources."electron-to-chromium-1.4.756"
-      sources."enhanced-resolve-5.16.0"
+      sources."electron-to-chromium-1.4.763"
+      sources."enhanced-resolve-5.16.1"
       sources."envinfo-7.13.0"
       sources."es-module-lexer-1.5.2"
       sources."escalade-3.1.2"
