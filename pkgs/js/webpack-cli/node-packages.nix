@@ -337,13 +337,13 @@ let
         sha512 = "E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==";
       };
     };
-    "caniuse-lite-1.0.30001684" = {
+    "caniuse-lite-1.0.30001687" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001684";
+      version = "1.0.30001687";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001684.tgz";
-        sha512 = "G1LRwLIQjBQoyq0ZJGqGIJUXzJ8irpbjHLpVRXDvBEScFJ9b17sgK6vlx0GAJFE21okD7zXl08rRRUfq6HdoEQ==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001687.tgz";
+        sha512 = "0S/FDhf4ZiqrTUiQ39dKeUjYRjkv7lOZU1Dgif2rIqrTzX/1wV2hfKu9TOm1IHkdSijfLswxTFzl/cvir+SLSQ==";
       };
     };
     "chrome-trace-event-1.0.4" = {
@@ -400,13 +400,13 @@ let
         sha512 = "uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==";
       };
     };
-    "electron-to-chromium-1.5.67" = {
+    "electron-to-chromium-1.5.71" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.5.67";
+      version = "1.5.71";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.67.tgz";
-        sha512 = "nz88NNBsD7kQSAGGJyp8hS6xSPtWwqNogA0mjtc2nUYeEf3nURK9qpV18TuBdDmEDgVWotS8Wkzf+V52dSQ/LQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.71.tgz";
+        sha512 = "dB68l59BI75W1BUGVTAEJy45CEVuEGy9qPVVQ8pnHyHMn36PLPPoE1mjLH+lo9rKulO3HC2OhbACI/8tCqJBcA==";
       };
     };
     "enhanced-resolve-5.17.1" = {
@@ -958,13 +958,13 @@ let
         sha512 = "GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==";
       };
     };
-    "terser-5.36.0" = {
+    "terser-5.37.0" = {
       name = "terser";
       packageName = "terser";
-      version = "5.36.0";
+      version = "5.37.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/terser/-/terser-5.36.0.tgz";
-        sha512 = "IYV9eNMuFAV4THUspIRXkLakHnV6XO7FEdtKjf/mDyrnqUg9LnlOn6/RwRvM9SZjR4GUq8Nk8zj67FzVARr74w==";
+        url = "https://registry.npmjs.org/terser/-/terser-5.37.0.tgz";
+        sha512 = "B8wRRkmre4ERucLM/uXx4MOV5cbnOlVAqUst+1+iLKPI0dOgFO28f84ptoQt9HEI537PMzfYa/d+GEPKTRXmYA==";
       };
     };
     "terser-webpack-plugin-5.3.10" = {
@@ -1012,13 +1012,13 @@ let
         sha512 = "TnbFSbcOCcDgjZ4piURLCbJ3nJhznVh9kw6F6iokjiFPl8ONxe9A6nMDVXDiNbrSfLILs6vB07F7wLBrwPYzJw==";
       };
     };
-    "webpack-5.96.1" = {
+    "webpack-5.97.1" = {
       name = "webpack";
       packageName = "webpack";
-      version = "5.96.1";
+      version = "5.97.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/webpack/-/webpack-5.96.1.tgz";
-        sha512 = "l2LlBSvVZGhL4ZrPwyr8+37AunkcYj5qh8o6u2/2rzoPc8gxFJkLj1WxNgooi9pnoc06jh0BjuXnamM4qlujZA==";
+        url = "https://registry.npmjs.org/webpack/-/webpack-5.97.1.tgz";
+        sha512 = "EksG6gFY3L1eFMROS/7Wzgrii5mBAFe4rIr3r2BTfo7bcc+DWwFZ4OJ/miOuHJO/A85HwyI4eQ0F6IKXesO7Fg==";
       };
     };
     "webpack-cli-5.1.4" = {
@@ -1110,13 +1110,13 @@ let
       sources."ajv-keywords-3.5.2"
       sources."browserslist-4.24.2"
       sources."buffer-from-1.1.2"
-      sources."caniuse-lite-1.0.30001684"
+      sources."caniuse-lite-1.0.30001687"
       sources."chrome-trace-event-1.0.4"
       sources."clone-deep-4.0.1"
       sources."colorette-2.0.20"
       sources."commander-10.0.1"
       sources."cross-spawn-7.0.6"
-      sources."electron-to-chromium-1.5.67"
+      sources."electron-to-chromium-1.5.71"
       sources."enhanced-resolve-5.17.1"
       sources."envinfo-7.14.0"
       sources."es-module-lexer-1.5.4"
@@ -1181,7 +1181,7 @@ let
       sources."supports-color-8.1.1"
       sources."supports-preserve-symlinks-flag-1.0.0"
       sources."tapable-2.2.1"
-      (sources."terser-5.36.0" // {
+      (sources."terser-5.37.0" // {
         dependencies = [
           sources."commander-2.20.3"
         ];
@@ -1191,7 +1191,7 @@ let
       sources."update-browserslist-db-1.1.1"
       sources."uri-js-4.4.1"
       sources."watchpack-2.4.2"
-      sources."webpack-5.96.1"
+      sources."webpack-5.97.1"
       sources."webpack-cli-5.1.4"
       sources."webpack-merge-5.10.0"
       sources."webpack-sources-3.2.3"
