@@ -130,13 +130,13 @@ let
         sha512 = "oKlSFMcMwpUg2ednkhQ454wfWiU/ul3CkJe/PEHcTKuiX6RpbehUiFMXu13HalGZxfUwCQzZG747YXBn1im9ww==";
       };
     };
-    "call-bind-apply-helpers-1.0.0" = {
+    "call-bind-apply-helpers-1.0.1" = {
       name = "call-bind-apply-helpers";
       packageName = "call-bind-apply-helpers";
-      version = "1.0.0";
+      version = "1.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.0.tgz";
-        sha512 = "CCKAP2tkPau7D3GE8+V8R6sQubA9R5foIzGp+85EXCVSCivuxBNAWqcpn72PKYiIcqoViv/kcUDpaEIMBVi1lQ==";
+        url = "https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.1.tgz";
+        sha512 = "BhYE+WDaywFg2TBWYNXAE+8B1ATnThNBqXHP5nQu0jWJdVvY2hvkpyB3qOmtmDePiS5/BDQ8wASEWGMWRG148g==";
       };
     };
     "chalk-4.1.2" = {
@@ -274,6 +274,15 @@ let
         sha512 = "Zf5H2Kxt2xjTvbJvP2ZWLEICxA6j+hAmMzIlypy4xcBg1vKVnx89Wy0GbS+kf5cwCVFFzdCFh2XSCFNULS6csw==";
       };
     };
+    "es-object-atoms-1.0.0" = {
+      name = "es-object-atoms";
+      packageName = "es-object-atoms";
+      version = "1.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.0.0.tgz";
+        sha512 = "MZ4iQ6JwHOBQjahnjwaC1ZtIBH+2ohjamzAO3oaHcXYup7qxjF2fixyH+Q71voWHeOkI2q/TnJao/KfXYIZWbw==";
+      };
+    };
     "follow-redirects-1.15.9" = {
       name = "follow-redirects";
       packageName = "follow-redirects";
@@ -319,13 +328,13 @@ let
         sha512 = "7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==";
       };
     };
-    "get-intrinsic-1.2.5" = {
+    "get-intrinsic-1.2.6" = {
       name = "get-intrinsic";
       packageName = "get-intrinsic";
-      version = "1.2.5";
+      version = "1.2.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.5.tgz";
-        sha512 = "Y4+pKa7XeRUPWFNvOOYHkRYrfzW07oraURSvjDmRVOJ748OrVmeXtpE4+GCEHncjCjkTxPNRt8kEbxDhsn6VTg==";
+        url = "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.6.tgz";
+        sha512 = "qxsEs+9A+u85HhllWJJFicJfPDhRmjzoYdl64aMWW9yRIJmSyxdn8IEkuIM530/7T+lv0TIHd8L6Q/ra0tEoeA==";
       };
     };
     "glob-7.2.3" = {
@@ -506,6 +515,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/marked/-/marked-4.3.0.tgz";
         sha512 = "PRsaiG84bK+AMvxziE/lCFss8juXjNaWzVbN5tXAm4XjeaS9NAHhop+PjQxz2A9h8Q4M/xGmzP8vqNwy6JeK0A==";
+      };
+    };
+    "math-intrinsics-1.0.0" = {
+      name = "math-intrinsics";
+      packageName = "math-intrinsics";
+      version = "1.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.0.0.tgz";
+        sha512 = "4MqMiKP90ybymYvsut0CH2g4XWbfLtmlCkXmtmdcDCxNB+mQcu1w/1+L/VD7vi/PSv7X2JYV7SCcR+jiPXnQtA==";
       };
     };
     "mime-db-1.52.0" = {
@@ -772,7 +790,7 @@ let
       sources."brace-expansion-1.1.11"
       sources."buffer-5.7.1"
       sources."call-bind-1.0.8"
-      sources."call-bind-apply-helpers-1.0.0"
+      sources."call-bind-apply-helpers-1.0.1"
       sources."chalk-4.1.2"
       sources."cli-cursor-3.1.0"
       sources."cli-spinners-2.9.2"
@@ -788,12 +806,13 @@ let
       sources."dunder-proto-1.0.0"
       sources."es-define-property-1.0.1"
       sources."es-errors-1.3.0"
+      sources."es-object-atoms-1.0.0"
       sources."follow-redirects-1.15.9"
       sources."form-data-4.0.1"
       sources."fs-extra-9.1.0"
       sources."fs.realpath-1.0.0"
       sources."function-bind-1.1.2"
-      sources."get-intrinsic-1.2.5"
+      sources."get-intrinsic-1.2.6"
       sources."glob-7.2.3"
       sources."gopd-1.2.0"
       sources."graceful-fs-4.2.11"
@@ -814,6 +833,7 @@ let
       sources."lodash-4.17.21"
       sources."log-symbols-4.1.0"
       sources."marked-4.3.0"
+      sources."math-intrinsics-1.0.0"
       sources."mime-db-1.52.0"
       sources."mime-types-2.1.35"
       sources."mimic-fn-2.1.0"

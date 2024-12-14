@@ -49,13 +49,13 @@ let
         sha512 = "grOjVNN8P3hjJn/eIETF1wwd12DdnwFDoyceUJLYYdkpbwq3nLi+4fqrTAONx7XDALqlL220wC/RHSC/QTI/0w==";
       };
     };
-    "@eslint/js-9.16.0" = {
+    "@eslint/js-9.17.0" = {
       name = "_at_eslint_slash_js";
       packageName = "@eslint/js";
-      version = "9.16.0";
+      version = "9.17.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/js/-/js-9.16.0.tgz";
-        sha512 = "tw2HxzQkrbeuvyj1tG2Yqq+0H9wGoI2IMk4EOsQeX+vmd75FtJAzf+gTA69WF+baUKRYQ3x2kbLE08js5OsTVg==";
+        url = "https://registry.npmjs.org/@eslint/js/-/js-9.17.0.tgz";
+        sha512 = "Sxc4hqcs1kTu0iID3kcZDW3JHq2a77HO9P8CP6YEA/FpH3Ll8UXE2r/86Rz9YJLKme39S9vU5OWNjC6Xl0Cr3w==";
       };
     };
     "@eslint/object-schema-2.1.5" = {
@@ -283,13 +283,13 @@ let
         sha512 = "TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==";
       };
     };
-    "eslint-9.16.0" = {
+    "eslint-9.17.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "9.16.0";
+      version = "9.17.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-9.16.0.tgz";
-        sha512 = "whp8mSQI4C8VXd+fLgSM0lh3UlmcFtVwUQjyKCFfsp+2ItAIYhlq/hqGahGqHE6cv9unM41VlqKk2VtKYR2TaA==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-9.17.0.tgz";
+        sha512 = "evtlNcpJg+cZLcnVKwsai8fExnqjGPicK7gnUtlNuzu+Fv9bI0aLpND5T44VLQtoMEnI57LoXO9XAkIXwohKrA==";
       };
     };
     "eslint-scope-8.2.0" = {
@@ -782,8 +782,8 @@ let
   args = {
     name = "eslint";
     packageName = "eslint";
-    version = "9.16.0";
-    src = fetchurl { url = "https://registry.npmjs.org/eslint/-/eslint-9.16.0.tgz"; sha1 = "66832e66258922ac0a626f803a9273e37747f2a6"; };
+    version = "9.17.0";
+    src = fetchurl { url = "https://registry.npmjs.org/eslint/-/eslint-9.17.0.tgz"; sha1 = "faa1facb5dd042172fdc520106984b5c2421bb0c"; };
     dependencies = [
       (sources."@eslint-community/eslint-utils-4.4.1" // {
         dependencies = [
@@ -794,7 +794,7 @@ let
       sources."@eslint/config-array-0.19.1"
       sources."@eslint/core-0.9.1"
       sources."@eslint/eslintrc-3.2.0"
-      sources."@eslint/js-9.16.0"
+      sources."@eslint/js-9.17.0"
       sources."@eslint/object-schema-2.1.5"
       sources."@eslint/plugin-kit-0.2.4"
       sources."@humanfs/core-0.19.1"
@@ -823,7 +823,7 @@ let
       sources."debug-4.4.0"
       sources."deep-is-0.1.4"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-9.16.0"
+      sources."eslint-9.17.0"
       sources."eslint-scope-8.2.0"
       sources."eslint-visitor-keys-4.2.0"
       sources."espree-10.3.0"

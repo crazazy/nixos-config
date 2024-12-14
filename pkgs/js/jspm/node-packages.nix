@@ -274,13 +274,13 @@ let
         sha512 = "k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==";
       };
     };
-    "@jridgewell/gen-mapping-0.3.5" = {
+    "@jridgewell/gen-mapping-0.3.8" = {
       name = "_at_jridgewell_slash_gen-mapping";
       packageName = "@jridgewell/gen-mapping";
-      version = "0.3.5";
+      version = "0.3.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.5.tgz";
-        sha512 = "IzL8ZoEDIBRWEzlCcRhOaCupYyN5gdIK+Q6fbFdPDg6HqX6jpkItn7DFIpW9LQzXG6Df9sA7+OKnq0qlz/GaQg==";
+        url = "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.8.tgz";
+        sha512 = "imAbBGkb+ebQyxKgzv5Hu2nmROxoDOXHh80evxdoXNOrvAnVx7zimzc1Oo5h9RlfV4vPXaE2iM5pOFbvOCClWA==";
       };
     };
     "@jridgewell/resolve-uri-3.1.2" = {
@@ -436,13 +436,13 @@ let
         sha512 = "iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==";
       };
     };
-    "browserslist-4.24.2" = {
+    "browserslist-4.24.3" = {
       name = "browserslist";
       packageName = "browserslist";
-      version = "4.24.2";
+      version = "4.24.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.24.2.tgz";
-        sha512 = "ZIc+Q62revdMcqC6aChtW4jz3My3klmCO1fEmINZY/8J3EpBg5/A/D0AKmBveUh6pgoeycoMkVMko84tuYS+Gg==";
+        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.24.3.tgz";
+        sha512 = "1CPmv8iobE2fyRMV97dAcMVegvvWKxmq94hkLiAkUGwKVTyDLw33K+ZxiFrREKmmps4rIw6grcCFCnTMSZ/YiA==";
       };
     };
     "buffer-6.0.3" = {
@@ -472,13 +472,13 @@ let
         sha512 = "VVdYzXEn+cnbXpFgWs5hTT7OScegHVmLhJIR8Ufqk3iFD6A6j5iSX1KuBTfNEv4tdJWE2PzA6IVFtcLC7fN9wQ==";
       };
     };
-    "caniuse-lite-1.0.30001687" = {
+    "caniuse-lite-1.0.30001688" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001687";
+      version = "1.0.30001688";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001687.tgz";
-        sha512 = "0S/FDhf4ZiqrTUiQ39dKeUjYRjkv7lOZU1Dgif2rIqrTzX/1wV2hfKu9TOm1IHkdSijfLswxTFzl/cvir+SLSQ==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001688.tgz";
+        sha512 = "Nmqpru91cuABu/DTCXbM2NSRHzM2uVHfPnhJ/1zEAJx/ILBRVmz3pzH4N7DZqbdG0gWClsCC05Oj0mJ/1AWMbA==";
       };
     };
     "chalk-5.3.0" = {
@@ -571,13 +571,13 @@ let
         sha512 = "eFuaLoy/Rxalv2kr+lqMlUnrDWV+3j4pljOIJgLIhI058IQfWJ7vXhyEIHu+HtC738klGALYxOKDO0bQP3tg8A==";
       };
     };
-    "electron-to-chromium-1.5.71" = {
+    "electron-to-chromium-1.5.73" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.5.71";
+      version = "1.5.73";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.71.tgz";
-        sha512 = "dB68l59BI75W1BUGVTAEJy45CEVuEGy9qPVVQ8pnHyHMn36PLPPoE1mjLH+lo9rKulO3HC2OhbACI/8tCqJBcA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.73.tgz";
+        sha512 = "8wGNxG9tAG5KhGd3eeA0o6ixhiNdgr0DcHWm85XPCphwZgD1lIEoi6t3VERayWao7SF7AAZTw6oARGJeVjH8Kg==";
       };
     };
     "encoding-0.1.13" = {
@@ -814,13 +814,13 @@ let
         sha512 = "4bYVV3aAMtDTTu4+xsDYa6sy9GyJ69/amsu9sYF2zqjiEoZA5xJi3BrfX3uY+/IekIu7MwdObdbDWpoZdBv3/A==";
       };
     };
-    "jsesc-3.0.2" = {
+    "jsesc-3.1.0" = {
       name = "jsesc";
       packageName = "jsesc";
-      version = "3.0.2";
+      version = "3.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/jsesc/-/jsesc-3.0.2.tgz";
-        sha512 = "xKqzzWXDttJuOcawBt4KnKHHIf5oQ/Cxax+0PWFG+DFDgHNAdi+TXECADI+RYiFUMmx8792xsMbbgXj4CwnP4g==";
+        url = "https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz";
+        sha512 = "/sM3dO2FOzXjKQhJuo0Q173wf2KOo8t4I8vHy6lF9poUp7bKT0/NHE8fPX23PwfhnykfqnC2xRxOnVw5XuGIaA==";
       };
     };
     "json5-2.2.3" = {
@@ -976,13 +976,13 @@ let
         sha512 = "6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==";
       };
     };
-    "node-releases-2.0.18" = {
+    "node-releases-2.0.19" = {
       name = "node-releases";
       packageName = "node-releases";
-      version = "2.0.18";
+      version = "2.0.19";
       src = fetchurl {
-        url = "https://registry.npmjs.org/node-releases/-/node-releases-2.0.18.tgz";
-        sha512 = "d9VeXT4SJ7ZeOqGX6R5EM022wpL+eWPooLI+5UpWn2jCT1aosUQEhQP214x33Wkwx3JQMvIm+tIoVOdodFS40g==";
+        url = "https://registry.npmjs.org/node-releases/-/node-releases-2.0.19.tgz";
+        sha512 = "xxOWJsBKtzAq7DY0J+DTzuz58K8e7sJbdgwkbMWQe8UYB6ekmsQ45q0M/tJDsGaZmbC+l7n57UV8Hl5tHxO9uw==";
       };
     };
     "once-1.4.0" = {
@@ -1346,7 +1346,7 @@ let
       sources."@babel/traverse-7.26.4"
       sources."@babel/types-7.26.3"
       sources."@gar/promisify-1.1.3"
-      sources."@jridgewell/gen-mapping-0.3.5"
+      sources."@jridgewell/gen-mapping-0.3.8"
       sources."@jridgewell/resolve-uri-3.1.2"
       sources."@jridgewell/set-array-1.2.1"
       sources."@jridgewell/sourcemap-codec-1.5.0"
@@ -1368,7 +1368,7 @@ let
       sources."base64-js-1.5.1"
       sources."bl-5.1.0"
       sources."brace-expansion-1.1.11"
-      sources."browserslist-4.24.2"
+      sources."browserslist-4.24.3"
       sources."buffer-6.0.3"
       sources."cac-6.7.14"
       (sources."cacache-15.3.0" // {
@@ -1377,7 +1377,7 @@ let
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001687"
+      sources."caniuse-lite-1.0.30001688"
       sources."chalk-5.3.0"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -1388,7 +1388,7 @@ let
       sources."convert-source-map-2.0.0"
       sources."debug-4.4.0"
       sources."defaults-1.0.4"
-      sources."electron-to-chromium-1.5.71"
+      sources."electron-to-chromium-1.5.73"
       sources."encoding-0.1.13"
       sources."err-code-2.0.3"
       sources."es-module-lexer-1.5.4"
@@ -1415,7 +1415,7 @@ let
       sources."is-unicode-supported-1.3.0"
       sources."js-tokens-4.0.0"
       sources."jsbn-1.1.0"
-      sources."jsesc-3.0.2"
+      sources."jsesc-3.1.0"
       sources."json5-2.2.3"
       sources."log-symbols-5.1.0"
       sources."lru-cache-5.1.1"
@@ -1444,7 +1444,7 @@ let
       })
       sources."mkdirp-1.0.4"
       sources."ms-2.1.3"
-      sources."node-releases-2.0.18"
+      sources."node-releases-2.0.19"
       sources."once-1.4.0"
       sources."onetime-5.1.2"
       sources."ora-6.3.1"
