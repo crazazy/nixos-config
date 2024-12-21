@@ -472,22 +472,22 @@ let
         sha512 = "VVdYzXEn+cnbXpFgWs5hTT7OScegHVmLhJIR8Ufqk3iFD6A6j5iSX1KuBTfNEv4tdJWE2PzA6IVFtcLC7fN9wQ==";
       };
     };
-    "caniuse-lite-1.0.30001688" = {
+    "caniuse-lite-1.0.30001690" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001688";
+      version = "1.0.30001690";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001688.tgz";
-        sha512 = "Nmqpru91cuABu/DTCXbM2NSRHzM2uVHfPnhJ/1zEAJx/ILBRVmz3pzH4N7DZqbdG0gWClsCC05Oj0mJ/1AWMbA==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001690.tgz";
+        sha512 = "5ExiE3qQN6oF8Clf8ifIDcMRCRE/dMGcETG/XGMD8/XiXm6HXQgQTh1yZYLXXpSOsEUlJm1Xr7kGULZTuGtP/w==";
       };
     };
-    "chalk-5.3.0" = {
+    "chalk-5.4.0" = {
       name = "chalk";
       packageName = "chalk";
-      version = "5.3.0";
+      version = "5.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/chalk/-/chalk-5.3.0.tgz";
-        sha512 = "dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==";
+        url = "https://registry.npmjs.org/chalk/-/chalk-5.4.0.tgz";
+        sha512 = "ZkD35Mx92acjB2yNJgziGqT9oKHEOxjTBTDRpOsRWtdecL/0jM3z5kM/CTzHWvHIen1GvkM85p6TuFfDGfc8/Q==";
       };
     };
     "chownr-2.0.0" = {
@@ -571,13 +571,13 @@ let
         sha512 = "eFuaLoy/Rxalv2kr+lqMlUnrDWV+3j4pljOIJgLIhI058IQfWJ7vXhyEIHu+HtC738klGALYxOKDO0bQP3tg8A==";
       };
     };
-    "electron-to-chromium-1.5.73" = {
+    "electron-to-chromium-1.5.75" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.5.73";
+      version = "1.5.75";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.73.tgz";
-        sha512 = "8wGNxG9tAG5KhGd3eeA0o6ixhiNdgr0DcHWm85XPCphwZgD1lIEoi6t3VERayWao7SF7AAZTw6oARGJeVjH8Kg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.75.tgz";
+        sha512 = "Lf3++DumRE/QmweGjU+ZcKqQ+3bKkU/qjaKYhIJKEOhgIO9Xs6IiAQFkfFoj+RhgDk4LUeNsLo6plExHqSyu6Q==";
       };
     };
     "encoding-0.1.13" = {
@@ -1377,8 +1377,8 @@ let
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001688"
-      sources."chalk-5.3.0"
+      sources."caniuse-lite-1.0.30001690"
+      sources."chalk-5.4.0"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
       sources."cli-cursor-4.0.0"
@@ -1388,7 +1388,7 @@ let
       sources."convert-source-map-2.0.0"
       sources."debug-4.4.0"
       sources."defaults-1.0.4"
-      sources."electron-to-chromium-1.5.73"
+      sources."electron-to-chromium-1.5.75"
       sources."encoding-0.1.13"
       sources."err-code-2.0.3"
       sources."es-module-lexer-1.5.4"

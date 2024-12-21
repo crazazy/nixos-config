@@ -4,13 +4,13 @@
 
 let
   sources = {
-    "@discoveryjs/json-ext-0.5.7" = {
+    "@discoveryjs/json-ext-0.6.3" = {
       name = "_at_discoveryjs_slash_json-ext";
       packageName = "@discoveryjs/json-ext";
-      version = "0.5.7";
+      version = "0.6.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz";
-        sha512 = "dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==";
+        url = "https://registry.npmjs.org/@discoveryjs/json-ext/-/json-ext-0.6.3.tgz";
+        sha512 = "4B4OijXeVNOPZlYA2oEwWOTkzyltLao+xbotHQeqN++Rv27Y6s818+n2Qkp8q+Fxhn0t/5lA5X1Mxktud8eayQ==";
       };
     };
     "@jridgewell/gen-mapping-0.3.8" = {
@@ -247,31 +247,31 @@ let
         sha512 = "kPSSXE6De1XOR820C90RIo2ogvZG+c3KiHzqUoO/F34Y2shGzesfqv7o57xrxovZJH/MetF5UjroJ/R/3isoiw==";
       };
     };
-    "@webpack-cli/configtest-2.1.1" = {
+    "@webpack-cli/configtest-3.0.1" = {
       name = "_at_webpack-cli_slash_configtest";
       packageName = "@webpack-cli/configtest";
-      version = "2.1.1";
+      version = "3.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@webpack-cli/configtest/-/configtest-2.1.1.tgz";
-        sha512 = "wy0mglZpDSiSS0XHrVR+BAdId2+yxPSoJW8fsna3ZpYSlufjvxnP4YbKTCBZnNIcGN4r6ZPXV55X4mYExOfLmw==";
+        url = "https://registry.npmjs.org/@webpack-cli/configtest/-/configtest-3.0.1.tgz";
+        sha512 = "u8d0pJ5YFgneF/GuvEiDA61Tf1VDomHHYMjv/wc9XzYj7nopltpG96nXN5dJRstxZhcNpV1g+nT6CydO7pHbjA==";
       };
     };
-    "@webpack-cli/info-2.0.2" = {
+    "@webpack-cli/info-3.0.1" = {
       name = "_at_webpack-cli_slash_info";
       packageName = "@webpack-cli/info";
-      version = "2.0.2";
+      version = "3.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@webpack-cli/info/-/info-2.0.2.tgz";
-        sha512 = "zLHQdI/Qs1UyT5UBdWNqsARasIA+AaF8t+4u2aS2nEpBQh2mWIVb8qAklq0eUENnC5mOItrIB4LiS9xMtph18A==";
+        url = "https://registry.npmjs.org/@webpack-cli/info/-/info-3.0.1.tgz";
+        sha512 = "coEmDzc2u/ffMvuW9aCjoRzNSPDl/XLuhPdlFRpT9tZHmJ/039az33CE7uH+8s0uL1j5ZNtfdv0HkfaKRBGJsQ==";
       };
     };
-    "@webpack-cli/serve-2.0.5" = {
+    "@webpack-cli/serve-3.0.1" = {
       name = "_at_webpack-cli_slash_serve";
       packageName = "@webpack-cli/serve";
-      version = "2.0.5";
+      version = "3.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@webpack-cli/serve/-/serve-2.0.5.tgz";
-        sha512 = "lqaoKnRYBdo1UgDX8uF24AfGMifWK19TxPmM5FHc2vAGxrJ/qtyUyFBWoY1tISZdelsQ5fBcOusifo5o5wSJxQ==";
+        url = "https://registry.npmjs.org/@webpack-cli/serve/-/serve-3.0.1.tgz";
+        sha512 = "sbgw03xQaCLiT6gcY/6u3qBDn01CWw/nbaXl3gTdTFuJJ75Gffv3E3DBpgvY2fkkrdS1fpjaXNOmJlnbtKauKg==";
       };
     };
     "@xtuc/ieee754-1.2.0" = {
@@ -364,13 +364,13 @@ let
         sha512 = "E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==";
       };
     };
-    "caniuse-lite-1.0.30001688" = {
+    "caniuse-lite-1.0.30001690" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001688";
+      version = "1.0.30001690";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001688.tgz";
-        sha512 = "Nmqpru91cuABu/DTCXbM2NSRHzM2uVHfPnhJ/1zEAJx/ILBRVmz3pzH4N7DZqbdG0gWClsCC05Oj0mJ/1AWMbA==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001690.tgz";
+        sha512 = "5ExiE3qQN6oF8Clf8ifIDcMRCRE/dMGcETG/XGMD8/XiXm6HXQgQTh1yZYLXXpSOsEUlJm1Xr7kGULZTuGtP/w==";
       };
     };
     "chrome-trace-event-1.0.4" = {
@@ -400,13 +400,13 @@ let
         sha512 = "IfEDxwoWIjkeXL1eXcDiow4UbKjhLdq6/EuSVR9GMN7KVH3r9gQ83e73hsz1Nd1T3ijd5xv1wcWRYO+D6kCI2w==";
       };
     };
-    "commander-10.0.1" = {
+    "commander-12.1.0" = {
       name = "commander";
       packageName = "commander";
-      version = "10.0.1";
+      version = "12.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/commander/-/commander-10.0.1.tgz";
-        sha512 = "y4Mg2tXshplEbSGzx7amzPwKKOCGuoSRP/CjEdwwk0FOGlUbq6lKuoyDZTNZkmxHdJtp54hdfY/JUrdL7Xfdug==";
+        url = "https://registry.npmjs.org/commander/-/commander-12.1.0.tgz";
+        sha512 = "Vw8qHK3bZM9y/P10u3Vib8o/DdkvA2OtPtZvD871QKjy74Wj1WSKFILMPRPSdUSx5RFK1arlJzEtA4PkFgnbuA==";
       };
     };
     "commander-2.20.3" = {
@@ -427,22 +427,22 @@ let
         sha512 = "uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==";
       };
     };
-    "electron-to-chromium-1.5.73" = {
+    "electron-to-chromium-1.5.75" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.5.73";
+      version = "1.5.75";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.73.tgz";
-        sha512 = "8wGNxG9tAG5KhGd3eeA0o6ixhiNdgr0DcHWm85XPCphwZgD1lIEoi6t3VERayWao7SF7AAZTw6oARGJeVjH8Kg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.75.tgz";
+        sha512 = "Lf3++DumRE/QmweGjU+ZcKqQ+3bKkU/qjaKYhIJKEOhgIO9Xs6IiAQFkfFoj+RhgDk4LUeNsLo6plExHqSyu6Q==";
       };
     };
-    "enhanced-resolve-5.17.1" = {
+    "enhanced-resolve-5.18.0" = {
       name = "enhanced-resolve";
       packageName = "enhanced-resolve";
-      version = "5.17.1";
+      version = "5.18.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.17.1.tgz";
-        sha512 = "LMHl3dXhTcfv8gM4kEzIUeTQ+7fpdA0l2tUf34BddXPkz2A5xJ5L/Pchd5BL6rdccM9QGvu0sWZzK1Z1t4wwyg==";
+        url = "https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.18.0.tgz";
+        sha512 = "0/r0MySGYG8YqlayBZ6MuCfECmHFdJ5qyPh8s8wa5Hnm6SaFLSK1VYCbj+NKp090Nm1caZhD+QTnmxO7esYGyQ==";
       };
     };
     "envinfo-7.14.0" = {
@@ -886,13 +886,13 @@ let
         sha512 = "Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==";
       };
     };
-    "resolve-1.22.9" = {
+    "resolve-1.22.10" = {
       name = "resolve";
       packageName = "resolve";
-      version = "1.22.9";
+      version = "1.22.10";
       src = fetchurl {
-        url = "https://registry.npmjs.org/resolve/-/resolve-1.22.9.tgz";
-        sha512 = "QxrmX1DzraFIi9PxdG5VkRfRwIgjwyud+z/iBwfRRrVmHc+P9Q7u2lSSpQ6bjr2gy5lrqIiU9vb6iAeGf2400A==";
+        url = "https://registry.npmjs.org/resolve/-/resolve-1.22.10.tgz";
+        sha512 = "NPRy+/ncIMeDlTAsuqwKIiferiawhefFJtkNSW0qZJEqMEb+qBt/77B/jGeeek+F0uOeN05CDa6HXbbIgtVX4w==";
       };
     };
     "resolve-cwd-3.0.0" = {
@@ -1084,22 +1084,22 @@ let
         sha512 = "EksG6gFY3L1eFMROS/7Wzgrii5mBAFe4rIr3r2BTfo7bcc+DWwFZ4OJ/miOuHJO/A85HwyI4eQ0F6IKXesO7Fg==";
       };
     };
-    "webpack-cli-5.1.4" = {
+    "webpack-cli-6.0.1" = {
       name = "webpack-cli";
       packageName = "webpack-cli";
-      version = "5.1.4";
+      version = "6.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/webpack-cli/-/webpack-cli-5.1.4.tgz";
-        sha512 = "pIDJHIEI9LR0yxHXQ+Qh95k2EvXpWzZ5l+d+jIo+RdSm9MiHfzazIxwwni/p7+x4eJZuvG1AJwgC4TNQ7NRgsg==";
+        url = "https://registry.npmjs.org/webpack-cli/-/webpack-cli-6.0.1.tgz";
+        sha512 = "MfwFQ6SfwinsUVi0rNJm7rHZ31GyTcpVE5pgVA3hwFRb7COD4TzjUUwhGWKfO50+xdc2MQPuEBBJoqIMGt3JDw==";
       };
     };
-    "webpack-merge-5.10.0" = {
+    "webpack-merge-6.0.1" = {
       name = "webpack-merge";
       packageName = "webpack-merge";
-      version = "5.10.0";
+      version = "6.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/webpack-merge/-/webpack-merge-5.10.0.tgz";
-        sha512 = "+4zXKdx7UnO+1jaN4l2lHVD+mFvnlZQP/6ljaJVb4SZiwIKeUnrT5l0gkT8z+n4hKpC+jpOv6O9R+gLtag7pSA==";
+        url = "https://registry.npmjs.org/webpack-merge/-/webpack-merge-6.0.1.tgz";
+        sha512 = "hXXvrjtx2PLYx4qruKl+kyRSLc52V+cCvMxRjmKwoA+CBbbF5GfIBtR6kCvl0fYGqTUPKB+1ktVmTHqMOzgCBg==";
       };
     };
     "webpack-sources-3.2.3" = {
@@ -1133,10 +1133,10 @@ let
   args = {
     name = "webpack-cli";
     packageName = "webpack-cli";
-    version = "5.1.4";
-    src = fetchurl { url = "https://registry.npmjs.org/webpack-cli/-/webpack-cli-5.1.4.tgz"; sha1 = "c8e046ba7eaae4911d7e71e2b25b776fcc35759b"; };
+    version = "6.0.1";
+    src = fetchurl { url = "https://registry.npmjs.org/webpack-cli/-/webpack-cli-6.0.1.tgz"; sha1 = "a1ce25da5ba077151afd73adfa12e208e5089207"; };
     dependencies = [
-      sources."@discoveryjs/json-ext-0.5.7"
+      sources."@discoveryjs/json-ext-0.6.3"
       sources."@jridgewell/gen-mapping-0.3.8"
       sources."@jridgewell/resolve-uri-3.1.2"
       sources."@jridgewell/set-array-1.2.1"
@@ -1163,9 +1163,9 @@ let
       sources."@webassemblyjs/wasm-opt-1.14.1"
       sources."@webassemblyjs/wasm-parser-1.14.1"
       sources."@webassemblyjs/wast-printer-1.14.1"
-      sources."@webpack-cli/configtest-2.1.1"
-      sources."@webpack-cli/info-2.0.2"
-      sources."@webpack-cli/serve-2.0.5"
+      sources."@webpack-cli/configtest-3.0.1"
+      sources."@webpack-cli/info-3.0.1"
+      sources."@webpack-cli/serve-3.0.1"
       sources."@xtuc/ieee754-1.2.0"
       sources."@xtuc/long-4.2.2"
       sources."acorn-8.14.0"
@@ -1179,14 +1179,14 @@ let
       sources."ajv-keywords-3.5.2"
       sources."browserslist-4.24.3"
       sources."buffer-from-1.1.2"
-      sources."caniuse-lite-1.0.30001688"
+      sources."caniuse-lite-1.0.30001690"
       sources."chrome-trace-event-1.0.4"
       sources."clone-deep-4.0.1"
       sources."colorette-2.0.20"
-      sources."commander-10.0.1"
+      sources."commander-12.1.0"
       sources."cross-spawn-7.0.6"
-      sources."electron-to-chromium-1.5.73"
-      sources."enhanced-resolve-5.17.1"
+      sources."electron-to-chromium-1.5.75"
+      sources."enhanced-resolve-5.18.0"
       sources."envinfo-7.14.0"
       sources."es-module-lexer-1.5.4"
       sources."escalade-3.2.0"
@@ -1238,7 +1238,7 @@ let
       sources."randombytes-2.1.0"
       sources."rechoir-0.8.0"
       sources."require-from-string-2.0.2"
-      sources."resolve-1.22.9"
+      sources."resolve-1.22.10"
       sources."resolve-cwd-3.0.0"
       sources."resolve-from-5.0.0"
       sources."safe-buffer-5.2.1"
@@ -1270,8 +1270,8 @@ let
       sources."uri-js-4.4.1"
       sources."watchpack-2.4.2"
       sources."webpack-5.97.1"
-      sources."webpack-cli-5.1.4"
-      sources."webpack-merge-5.10.0"
+      sources."webpack-cli-6.0.1"
+      sources."webpack-merge-6.0.1"
       sources."webpack-sources-3.2.3"
       sources."which-2.0.2"
       sources."wildcard-2.0.1"

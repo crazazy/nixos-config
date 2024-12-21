@@ -139,6 +139,15 @@ let
         sha512 = "BhYE+WDaywFg2TBWYNXAE+8B1ATnThNBqXHP5nQu0jWJdVvY2hvkpyB3qOmtmDePiS5/BDQ8wASEWGMWRG148g==";
       };
     };
+    "call-bound-1.0.3" = {
+      name = "call-bound";
+      packageName = "call-bound";
+      version = "1.0.3";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/call-bound/-/call-bound-1.0.3.tgz";
+        sha512 = "YTd+6wGlNlPxSuri7Y6X8tY2dmm12UMH66RpKMhiX6rsk5wXXnYgbUcOt8kiS31/AjfoTOvCsE+w8nZQLQnzHA==";
+      };
+    };
     "chalk-4.1.2" = {
       name = "chalk";
       packageName = "chalk";
@@ -247,13 +256,13 @@ let
         sha512 = "ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==";
       };
     };
-    "dunder-proto-1.0.0" = {
+    "dunder-proto-1.0.1" = {
       name = "dunder-proto";
       packageName = "dunder-proto";
-      version = "1.0.0";
+      version = "1.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.0.tgz";
-        sha512 = "9+Sj30DIu+4KvHqMfLUGLFYL2PkURSYMVXJyXe92nFRvlYq5hBjLEhblKB+vkd/WVlUYMWigiY07T91Fkk0+4A==";
+        url = "https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz";
+        sha512 = "KIN/nDJBQRcXw0MLVhZE9iQHmG68qAVIBg9CqmUYjmQIhgij9U5MFvrqkUL5FbtyyzZuOeOt0zdeRe4UY7ct+A==";
       };
     };
     "es-define-property-1.0.1" = {
@@ -463,13 +472,13 @@ let
         sha512 = "xHjhDr3cNBK0BzdUJSPXZntQUx/mwMS5Rw4A7lPJ90XGAO6ISP/ePDNuo0vhqOZU+UD5JoodwCAAoZQd3FeAKw==";
       };
     };
-    "json-stable-stringify-1.1.1" = {
+    "json-stable-stringify-1.2.0" = {
       name = "json-stable-stringify";
       packageName = "json-stable-stringify";
-      version = "1.1.1";
+      version = "1.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/json-stable-stringify/-/json-stable-stringify-1.1.1.tgz";
-        sha512 = "SU/971Kt5qVQfJpyDveVhQ/vya+5hvrjClFOcr8c0Fq5aODJjMwutrOfCU+eCnVD5gpx1Q3fEqkyom77zH1iIg==";
+        url = "https://registry.npmjs.org/json-stable-stringify/-/json-stable-stringify-1.2.0.tgz";
+        sha512 = "ex8jk9BZHBolvbd5cRnAgwyaYcYB0qZldy1e+LCOdcF6+AUmVZ6LcGUMzsRTW83QMeu+GxZGrcLqxqrgfXGvIw==";
       };
     };
     "jsonfile-6.1.0" = {
@@ -517,13 +526,13 @@ let
         sha512 = "PRsaiG84bK+AMvxziE/lCFss8juXjNaWzVbN5tXAm4XjeaS9NAHhop+PjQxz2A9h8Q4M/xGmzP8vqNwy6JeK0A==";
       };
     };
-    "math-intrinsics-1.0.0" = {
+    "math-intrinsics-1.1.0" = {
       name = "math-intrinsics";
       packageName = "math-intrinsics";
-      version = "1.0.0";
+      version = "1.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.0.0.tgz";
-        sha512 = "4MqMiKP90ybymYvsut0CH2g4XWbfLtmlCkXmtmdcDCxNB+mQcu1w/1+L/VD7vi/PSv7X2JYV7SCcR+jiPXnQtA==";
+        url = "https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz";
+        sha512 = "/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==";
       };
     };
     "mime-db-1.52.0" = {
@@ -791,6 +800,7 @@ let
       sources."buffer-5.7.1"
       sources."call-bind-1.0.8"
       sources."call-bind-apply-helpers-1.0.1"
+      sources."call-bound-1.0.3"
       sources."chalk-4.1.2"
       sources."cli-cursor-3.1.0"
       sources."cli-spinners-2.9.2"
@@ -803,7 +813,7 @@ let
       sources."defaults-1.0.4"
       sources."define-data-property-1.1.4"
       sources."delayed-stream-1.0.0"
-      sources."dunder-proto-1.0.0"
+      sources."dunder-proto-1.0.1"
       sources."es-define-property-1.0.1"
       sources."es-errors-1.3.0"
       sources."es-object-atoms-1.0.0"
@@ -827,13 +837,13 @@ let
       sources."is-interactive-1.0.0"
       sources."is-unicode-supported-0.1.0"
       sources."isarray-2.0.5"
-      sources."json-stable-stringify-1.1.1"
+      sources."json-stable-stringify-1.2.0"
       sources."jsonfile-6.1.0"
       sources."jsonify-0.0.1"
       sources."lodash-4.17.21"
       sources."log-symbols-4.1.0"
       sources."marked-4.3.0"
-      sources."math-intrinsics-1.0.0"
+      sources."math-intrinsics-1.1.0"
       sources."mime-db-1.52.0"
       sources."mime-types-2.1.35"
       sources."mimic-fn-2.1.0"

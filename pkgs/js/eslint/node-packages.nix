@@ -508,13 +508,13 @@ let
         sha512 = "RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==";
       };
     };
-    "jiti-2.4.1" = {
+    "jiti-2.4.2" = {
       name = "jiti";
       packageName = "jiti";
-      version = "2.4.1";
+      version = "2.4.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/jiti/-/jiti-2.4.1.tgz";
-        sha512 = "yPBThwecp1wS9DmoA4x4KR2h3QoslacnDR8ypuFM962kI4/456Iy1oHx2RAgh4jfZNdn0bctsdadceiBUgpU1g==";
+        url = "https://registry.npmjs.org/jiti/-/jiti-2.4.2.tgz";
+        sha512 = "rg9zJN+G4n2nfJl5MW3BMygZX56zKPNVEYYqq7adpmMh4Jn2QNEwhvQlFy6jPVdcod7txZtKHWnyZiA3a0zP7A==";
       };
     };
     "js-yaml-4.1.0" = {
@@ -847,7 +847,7 @@ let
       sources."is-extglob-2.1.1"
       sources."is-glob-4.0.3"
       sources."isexe-2.0.0"
-      sources."jiti-2.4.1"
+      sources."jiti-2.4.2"
       sources."js-yaml-4.1.0"
       sources."json-buffer-3.0.1"
       sources."json-schema-traverse-0.4.1"
