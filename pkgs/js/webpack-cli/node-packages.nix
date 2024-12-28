@@ -427,13 +427,13 @@ let
         sha512 = "uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==";
       };
     };
-    "electron-to-chromium-1.5.75" = {
+    "electron-to-chromium-1.5.76" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.5.75";
+      version = "1.5.76";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.75.tgz";
-        sha512 = "Lf3++DumRE/QmweGjU+ZcKqQ+3bKkU/qjaKYhIJKEOhgIO9Xs6IiAQFkfFoj+RhgDk4LUeNsLo6plExHqSyu6Q==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.76.tgz";
+        sha512 = "CjVQyG7n7Sr+eBXE86HIulnL5N8xZY1sgmOPGuq/F0Rr0FJq63lg0kEtOIDfZBk44FnDLf6FUJ+dsJcuiUDdDQ==";
       };
     };
     "enhanced-resolve-5.18.0" = {
@@ -454,13 +454,13 @@ let
         sha512 = "CO40UI41xDQzhLB1hWyqUKgFhs250pNcGbyGKe1l/e4FSaI/+YE4IMG76GDt0In67WLPACIITC+sOi08x4wIvg==";
       };
     };
-    "es-module-lexer-1.5.4" = {
+    "es-module-lexer-1.6.0" = {
       name = "es-module-lexer";
       packageName = "es-module-lexer";
-      version = "1.5.4";
+      version = "1.6.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/es-module-lexer/-/es-module-lexer-1.5.4.tgz";
-        sha512 = "MVNK56NiMrOwitFB7cqDwq0CQutbw+0BvLshJSse0MUNU+y1FC3bUS/AQg7oUng+/wKrrki7JfmwtVHkVfPLlw==";
+        url = "https://registry.npmjs.org/es-module-lexer/-/es-module-lexer-1.6.0.tgz";
+        sha512 = "qqnD1yMU6tk/jnaMosogGySTZP8YtUgAffA9nMN+E/rjxcfRQ6IEk7IiozUjgxKoFHBGjTLnrHB/YC45r/59EQ==";
       };
     };
     "escalade-3.2.0" = {
@@ -634,13 +634,13 @@ let
         sha512 = "6xwYfHbajpoF0xLW+iwLkhwgvLoZDfjYfoFNu8ftMoXINzwuymNLd9u/KmwtdT2GbR+/Cz66otEGEVVUHX9QLQ==";
       };
     };
-    "is-core-module-2.16.0" = {
+    "is-core-module-2.16.1" = {
       name = "is-core-module";
       packageName = "is-core-module";
-      version = "2.16.0";
+      version = "2.16.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/is-core-module/-/is-core-module-2.16.0.tgz";
-        sha512 = "urTSINYfAYgcbLb0yDQ6egFm6h3Mo1DcF9EkyXSRjjzdHbsulg01qhwWuXdOoUBuTkbQ80KDboXa0vFJ+BDH+g==";
+        url = "https://registry.npmjs.org/is-core-module/-/is-core-module-2.16.1.tgz";
+        sha512 = "UfoeMA6fIJ8wTYFEUjelnaGI67v6+N7qXJEvQuIGa99l4xsCruSYOVSQ0uPANn4dAzm8lkYPaKLrrijLq7x23w==";
       };
     };
     "is-plain-object-2.0.4" = {
@@ -1185,10 +1185,10 @@ let
       sources."colorette-2.0.20"
       sources."commander-12.1.0"
       sources."cross-spawn-7.0.6"
-      sources."electron-to-chromium-1.5.75"
+      sources."electron-to-chromium-1.5.76"
       sources."enhanced-resolve-5.18.0"
       sources."envinfo-7.14.0"
-      sources."es-module-lexer-1.5.4"
+      sources."es-module-lexer-1.6.0"
       sources."escalade-3.2.0"
       sources."eslint-scope-5.1.1"
       (sources."esrecurse-4.3.0" // {
@@ -1211,7 +1211,7 @@ let
       sources."hasown-2.0.2"
       sources."import-local-3.2.0"
       sources."interpret-3.1.1"
-      sources."is-core-module-2.16.0"
+      sources."is-core-module-2.16.1"
       sources."is-plain-object-2.0.4"
       sources."isexe-2.0.0"
       sources."isobject-3.0.1"

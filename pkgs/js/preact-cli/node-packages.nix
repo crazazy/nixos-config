@@ -1327,13 +1327,13 @@ let
         sha512 = "lR8q/9W7hZpMWweNiAKU7NQerBnzQQLvi8qnTDU/fxItPhtZVMbPV3lbCwjhIlNBe9Bbr5V+KHshvWmVSG9cxQ==";
       };
     };
-    "@swc/core-1.10.1" = {
+    "@swc/core-1.10.3" = {
       name = "_at_swc_slash_core";
       packageName = "@swc/core";
-      version = "1.10.1";
+      version = "1.10.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@swc/core/-/core-1.10.1.tgz";
-        sha512 = "rQ4dS6GAdmtzKiCRt3LFVxl37FaY1cgL9kSUTnhQ2xc3fmHOd7jdJK/V4pSZMG1ruGTd0bsi34O2R0Olg9Zo/w==";
+        url = "https://registry.npmjs.org/@swc/core/-/core-1.10.3.tgz";
+        sha512 = "2yjqCcsBx6SNBQZIYNlwxED9aYXW/7QBZyr8LYAxTx5bzmoNhKiClYbsNLe1NJ6ccf5uSbcInw12PjXLduNEdQ==";
       };
     };
     "@swc/counter-0.1.3" = {
@@ -1363,13 +1363,13 @@ let
         sha512 = "V5gRru+aD8YVyCOMAjMpWR1Ui577DD5KSJsHP8RAxopAH22jFz6GZd/qxqjO6MJHQhcsjvjOFXyDhyLQUnMveQ==";
       };
     };
-    "@swc/wasm-1.10.1" = {
+    "@swc/wasm-1.10.3" = {
       name = "_at_swc_slash_wasm";
       packageName = "@swc/wasm";
-      version = "1.10.1";
+      version = "1.10.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@swc/wasm/-/wasm-1.10.1.tgz";
-        sha512 = "V20Ge2z8rIjOAbtfIXJQs6XWFp9FqPnHehZtW5tSomoGwu+YPtsDHkumzMpjzrQAq24SQ95E2YF6eH9zBp7BJQ==";
+        url = "https://registry.npmjs.org/@swc/wasm/-/wasm-1.10.3.tgz";
+        sha512 = "0vVWm5yvD7asu5876FENb5f3qKU+HHJAF+32sS2ziaVgqC40GsSeMKCe7apWLEFaV/qwhtGdVhJe4M0t7E4kJg==";
       };
     };
     "@szmarczak/http-timer-1.1.2" = {
@@ -2902,13 +2902,13 @@ let
         sha512 = "571s0T7nZWK6vB67HI5dyUF7wXiNcfaPPPTl6zYCNApANjIvYJTg7hlud/+cJpdAhS7dVzqMLmfhfHR3rAcOjQ==";
       };
     };
-    "bufferutil-4.0.8" = {
+    "bufferutil-4.0.9" = {
       name = "bufferutil";
       packageName = "bufferutil";
-      version = "4.0.8";
+      version = "4.0.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/bufferutil/-/bufferutil-4.0.8.tgz";
-        sha512 = "4T53u4PdgsXqKaIctwF8ifXlRTTmEPJ8iEPWFdGZvcf7sbwYo6FKFEX9eNNAnzFZ7EzJAQ3CJeOtCRA4rDp7Pw==";
+        url = "https://registry.npmjs.org/bufferutil/-/bufferutil-4.0.9.tgz";
+        sha512 = "WDtdLmJvAuNNPzByAYpRo2rF1Mmradw6gvWsQKf63476DDXmomT9zUiGypLcG4ibIM67vhAj8jJRdbmEws2Aqw==";
       };
     };
     "builtin-modules-3.3.0" = {
@@ -4576,13 +4576,13 @@ let
         sha512 = "iirFqlP3tiFoedNZ7dQcjvechunl054VbW6Ki38T/pabgXMAncduSE0ZXLeVGn1NbmcUJF9Z5TC0EvQ4RIpP9Q==";
       };
     };
-    "electron-to-chromium-1.5.75" = {
+    "electron-to-chromium-1.5.76" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.5.75";
+      version = "1.5.76";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.75.tgz";
-        sha512 = "Lf3++DumRE/QmweGjU+ZcKqQ+3bKkU/qjaKYhIJKEOhgIO9Xs6IiAQFkfFoj+RhgDk4LUeNsLo6plExHqSyu6Q==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.76.tgz";
+        sha512 = "CjVQyG7n7Sr+eBXE86HIulnL5N8xZY1sgmOPGuq/F0Rr0FJq63lg0kEtOIDfZBk44FnDLf6FUJ+dsJcuiUDdDQ==";
       };
     };
     "elliptic-6.6.1" = {
@@ -5125,13 +5125,13 @@ let
         sha512 = "aLrHthzCjH5He4Z2H9YZ+v6Ujb9ocRuW6ZzkJQOrTxleEijANq4v1TsaPaVG1PZcuurEzrLcWRyYBYXD5cEiaw==";
       };
     };
-    "fastq-1.17.1" = {
+    "fastq-1.18.0" = {
       name = "fastq";
       packageName = "fastq";
-      version = "1.17.1";
+      version = "1.18.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fastq/-/fastq-1.17.1.tgz";
-        sha512 = "sRVD3lWVIXWg6By68ZN7vho9a1pQcN/WBFaAAsDDFzlJjvoGx0P8z7V1t72grFJfJhu3YPZBuu25f7Kaw2jN1w==";
+        url = "https://registry.npmjs.org/fastq/-/fastq-1.18.0.tgz";
+        sha512 = "QKHXPW0hD8g4UET03SdOdunzSouc9N4AuHdsX8XNcTsuz+yYFILVNIX4l9yHABMhiEI9Db0JTTIpu0wB+Y1QQw==";
       };
     };
     "faye-websocket-0.11.4" = {
@@ -6601,13 +6601,13 @@ let
         sha512 = "H1U8Vz0cfXNujrJzEcvvwMDW9Ra+biSYA3ThdQvAnMLJkEHQXn6bWzLkxHtVYJ+Sdbx0b6finn3jZiaVe7MAHA==";
       };
     };
-    "is-core-module-2.16.0" = {
+    "is-core-module-2.16.1" = {
       name = "is-core-module";
       packageName = "is-core-module";
-      version = "2.16.0";
+      version = "2.16.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/is-core-module/-/is-core-module-2.16.0.tgz";
-        sha512 = "urTSINYfAYgcbLb0yDQ6egFm6h3Mo1DcF9EkyXSRjjzdHbsulg01qhwWuXdOoUBuTkbQ80KDboXa0vFJ+BDH+g==";
+        url = "https://registry.npmjs.org/is-core-module/-/is-core-module-2.16.1.tgz";
+        sha512 = "UfoeMA6fIJ8wTYFEUjelnaGI67v6+N7qXJEvQuIGa99l4xsCruSYOVSQ0uPANn4dAzm8lkYPaKLrrijLq7x23w==";
       };
     };
     "is-data-descriptor-1.0.1" = {
@@ -13511,11 +13511,11 @@ let
       })
       sources."@sindresorhus/is-0.14.0"
       sources."@surma/rollup-plugin-off-main-thread-2.2.3"
-      sources."@swc/core-1.10.1"
+      sources."@swc/core-1.10.3"
       sources."@swc/counter-0.1.3"
       sources."@swc/helpers-0.5.15"
       sources."@swc/types-0.1.17"
-      sources."@swc/wasm-1.10.1"
+      sources."@swc/wasm-1.10.3"
       sources."@szmarczak/http-timer-1.1.2"
       sources."@tootallnate/once-1.1.2"
       sources."@trysound/sax-0.2.0"
@@ -13723,7 +13723,7 @@ let
       sources."buffer-5.7.1"
       sources."buffer-from-1.1.2"
       sources."buffer-xor-1.0.3"
-      sources."bufferutil-4.0.8"
+      sources."bufferutil-4.0.9"
       sources."builtin-modules-3.3.0"
       sources."builtin-status-codes-3.0.0"
       (sources."builtins-5.1.0" // {
@@ -14036,7 +14036,7 @@ let
       sources."ee-first-1.1.1"
       sources."ejs-3.1.10"
       sources."ejs-loader-0.5.0"
-      sources."electron-to-chromium-1.5.75"
+      sources."electron-to-chromium-1.5.76"
       (sources."elliptic-6.6.1" // {
         dependencies = [
           sources."bn.js-4.12.1"
@@ -14175,7 +14175,7 @@ let
       sources."fast-json-stable-stringify-2.1.0"
       sources."fast-levenshtein-2.0.6"
       sources."fast-uri-3.0.3"
-      sources."fastq-1.17.1"
+      sources."fastq-1.18.0"
       sources."faye-websocket-0.11.4"
       sources."fibers-5.0.3"
       sources."figgy-pudding-3.5.2"
@@ -14428,7 +14428,7 @@ let
       sources."is-callable-1.2.7"
       sources."is-ci-2.0.0"
       sources."is-color-stop-1.1.0"
-      sources."is-core-module-2.16.0"
+      sources."is-core-module-2.16.1"
       sources."is-data-descriptor-1.0.1"
       sources."is-data-view-1.0.2"
       sources."is-date-object-1.1.0"
