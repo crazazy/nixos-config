@@ -103,13 +103,13 @@ let
         sha512 = "5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==";
       };
     };
-    "@types/node-22.10.2" = {
+    "@types/node-22.10.5" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "22.10.2";
+      version = "22.10.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-22.10.2.tgz";
-        sha512 = "Xxr6BBRCAOQixvonOye19wnzyDiUtTeqldOOmj3CkeblonbccA12PFwlufvRdrpjXxqnmUaeiU5EOA+7s5diUQ==";
+        url = "https://registry.npmjs.org/@types/node/-/node-22.10.5.tgz";
+        sha512 = "F8Q+SeGimwOo86fiovQh8qiXfFEh2/ocYv7tU5pJ3EXMSSxk1Joj5wefpFK2fHTf/N6HKGSxIDBT9f3gCxXPkQ==";
       };
     };
     "@webassemblyjs/ast-1.14.1" = {
@@ -1147,7 +1147,7 @@ let
       sources."@types/eslint-scope-3.7.7"
       sources."@types/estree-1.0.6"
       sources."@types/json-schema-7.0.15"
-      sources."@types/node-22.10.2"
+      sources."@types/node-22.10.5"
       sources."@webassemblyjs/ast-1.14.1"
       sources."@webassemblyjs/floating-point-hex-parser-1.13.2"
       sources."@webassemblyjs/helper-api-error-1.13.2"

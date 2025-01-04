@@ -373,13 +373,13 @@ let
         sha512 = "RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==";
       };
     };
-    "agentkeepalive-4.5.0" = {
+    "agentkeepalive-4.6.0" = {
       name = "agentkeepalive";
       packageName = "agentkeepalive";
-      version = "4.5.0";
+      version = "4.6.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/agentkeepalive/-/agentkeepalive-4.5.0.tgz";
-        sha512 = "5GG/5IbQQpC9FpkRGsSvZI5QYeSCzlJHdpBQntCsuTOxhKD8lqKhrleg2Yi7yvMIf82Ycmmqln9U8V9qwEiJew==";
+        url = "https://registry.npmjs.org/agentkeepalive/-/agentkeepalive-4.6.0.tgz";
+        sha512 = "kja8j7PjmncONqaTsB8fQ+wE2mSU2DJ9D4XKoJ5PFWIdRMa6SLSN1ff4mOr4jCbfRSsxR4keIiySJU0N9T5hIQ==";
       };
     };
     "aggregate-error-3.1.0" = {
@@ -1361,7 +1361,7 @@ let
       sources."@npmcli/move-file-1.1.2"
       sources."@tootallnate/once-1.1.2"
       sources."agent-base-6.0.2"
-      sources."agentkeepalive-4.5.0"
+      sources."agentkeepalive-4.6.0"
       sources."aggregate-error-3.1.0"
       sources."ansi-regex-6.1.0"
       sources."balanced-match-1.0.2"

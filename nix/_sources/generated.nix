@@ -59,22 +59,22 @@
   };
   wasmfxtime = {
     pname = "wasmfxtime";
-    version = "bd991b287c73b0fd74d85dce575f887894f22bb6";
+    version = "010c5c522478cbbb71827d5b649b90f06e9bda8c";
     src = fetchFromGitHub {
       owner = "wasmfx";
       repo = "wasmfxtime";
-      rev = "bd991b287c73b0fd74d85dce575f887894f22bb6";
+      rev = "010c5c522478cbbb71827d5b649b90f06e9bda8c";
       fetchSubmodules = true;
-      sha256 = "sha256-0DFOoXLeVQzyqWI4BmKp66d5Mepm6MUKeriwEgVrIpg=";
+      sha256 = "sha256-c67t2zt4aKpNdtrhuyy22LASyeiTj/mazHkWbpcMgWM=";
     };
     cargoLock."./Cargo.lock" = {
-      lockFile = ./wasmfxtime-bd991b287c73b0fd74d85dce575f887894f22bb6/./Cargo.lock;
+      lockFile = ./wasmfxtime-010c5c522478cbbb71827d5b649b90f06e9bda8c/./Cargo.lock;
       outputHashes = {
         "wit-bindgen-0.35.0" = "sha256-7KwiI04ijpfeLFnOMUvCF9ZAY3ZbvlWSuFV0P1lBwLQ=";
         "wasm-encoder-0.220.0" = "sha256-gXwdY75tTx57khF52LfNTIbacP53uxr/+YSc2zFiGSk=";
         "wasm-encoder-0.221.2" = "sha256-agntGQkwXNMJSm7AgjhYDeWyCxCh/0edNxJgvbeUyfU=";
       };
     };
-    date = "2024-12-20";
+    date = "2024-12-30";
   };
 }
