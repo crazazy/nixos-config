@@ -346,13 +346,13 @@ let
         sha512 = "YCS/JNFAUyr5vAuhk1DWm1CBxRHW9LbJ2ozWeemrIqpbsqKjHVxYPyi5GC0rjZIT5JxJ3virVTS8wk4i/Z+krw==";
       };
     };
-    "browserslist-4.24.3" = {
+    "browserslist-4.24.4" = {
       name = "browserslist";
       packageName = "browserslist";
-      version = "4.24.3";
+      version = "4.24.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.24.3.tgz";
-        sha512 = "1CPmv8iobE2fyRMV97dAcMVegvvWKxmq94hkLiAkUGwKVTyDLw33K+ZxiFrREKmmps4rIw6grcCFCnTMSZ/YiA==";
+        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.24.4.tgz";
+        sha512 = "KDi1Ny1gSePi1vm0q4oxSF8b4DR44GF4BbmS2YdhPLOEqd8pDviZOGH/GsmRwoWJ2+5Lr085X7naowMwKHDG1A==";
       };
     };
     "buffer-from-1.1.2" = {
@@ -364,13 +364,13 @@ let
         sha512 = "E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==";
       };
     };
-    "caniuse-lite-1.0.30001690" = {
+    "caniuse-lite-1.0.30001692" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001690";
+      version = "1.0.30001692";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001690.tgz";
-        sha512 = "5ExiE3qQN6oF8Clf8ifIDcMRCRE/dMGcETG/XGMD8/XiXm6HXQgQTh1yZYLXXpSOsEUlJm1Xr7kGULZTuGtP/w==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001692.tgz";
+        sha512 = "A95VKan0kdtrsnMubMKxEKUKImOPSuCpYgxSQBo036P5YYgVIcOYJEgt/txJWqObiRQeISNCfef9nvlQ0vbV7A==";
       };
     };
     "chrome-trace-event-1.0.4" = {
@@ -427,13 +427,13 @@ let
         sha512 = "uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==";
       };
     };
-    "electron-to-chromium-1.5.76" = {
+    "electron-to-chromium-1.5.80" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.5.76";
+      version = "1.5.80";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.76.tgz";
-        sha512 = "CjVQyG7n7Sr+eBXE86HIulnL5N8xZY1sgmOPGuq/F0Rr0FJq63lg0kEtOIDfZBk44FnDLf6FUJ+dsJcuiUDdDQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.80.tgz";
+        sha512 = "LTrKpW0AqIuHwmlVNV+cjFYTnXtM9K37OGhpe0ZI10ScPSxqVSryZHIY3WnCS5NSYbBODRTZyhRMS2h5FAEqAw==";
       };
     };
     "enhanced-resolve-5.18.0" = {
@@ -535,13 +535,13 @@ let
         sha512 = "lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==";
       };
     };
-    "fast-uri-3.0.3" = {
+    "fast-uri-3.0.5" = {
       name = "fast-uri";
       packageName = "fast-uri";
-      version = "3.0.3";
+      version = "3.0.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fast-uri/-/fast-uri-3.0.3.tgz";
-        sha512 = "aLrHthzCjH5He4Z2H9YZ+v6Ujb9ocRuW6ZzkJQOrTxleEijANq4v1TsaPaVG1PZcuurEzrLcWRyYBYXD5cEiaw==";
+        url = "https://registry.npmjs.org/fast-uri/-/fast-uri-3.0.5.tgz";
+        sha512 = "5JnBCWpFlMo0a3ciDy/JckMzzv1U9coZrIhedq+HXxxUfDTAiS0LA8OKVao4G9BxmCVck/jtA5r3KAtRWEyD8Q==";
       };
     };
     "fastest-levenshtein-1.0.16" = {
@@ -1048,13 +1048,13 @@ let
         sha512 = "Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==";
       };
     };
-    "update-browserslist-db-1.1.1" = {
+    "update-browserslist-db-1.1.2" = {
       name = "update-browserslist-db";
       packageName = "update-browserslist-db";
-      version = "1.1.1";
+      version = "1.1.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.1.1.tgz";
-        sha512 = "R8UzCaa9Az+38REPiJ1tXlImTJXlVfgHZsglwBD/k6nj76ctsH1E3q4doGrukiLQd3sGQYu56r5+lo5r94l29A==";
+        url = "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.1.2.tgz";
+        sha512 = "PPypAm5qvlD7XMZC3BujecnaOxwhrtoFR+Dqkk5Aa/6DssiH0ibKoketaj9w8LP7Bont1rYeoV5plxD7RTEPRg==";
       };
     };
     "uri-js-4.4.1" = {
@@ -1177,15 +1177,15 @@ let
         ];
       })
       sources."ajv-keywords-3.5.2"
-      sources."browserslist-4.24.3"
+      sources."browserslist-4.24.4"
       sources."buffer-from-1.1.2"
-      sources."caniuse-lite-1.0.30001690"
+      sources."caniuse-lite-1.0.30001692"
       sources."chrome-trace-event-1.0.4"
       sources."clone-deep-4.0.1"
       sources."colorette-2.0.20"
       sources."commander-12.1.0"
       sources."cross-spawn-7.0.6"
-      sources."electron-to-chromium-1.5.76"
+      sources."electron-to-chromium-1.5.80"
       sources."enhanced-resolve-5.18.0"
       sources."envinfo-7.14.0"
       sources."es-module-lexer-1.6.0"
@@ -1200,7 +1200,7 @@ let
       sources."events-3.3.0"
       sources."fast-deep-equal-3.1.3"
       sources."fast-json-stable-stringify-2.1.0"
-      sources."fast-uri-3.0.3"
+      sources."fast-uri-3.0.5"
       sources."fastest-levenshtein-1.0.16"
       sources."find-up-4.1.0"
       sources."flat-5.0.2"
@@ -1266,7 +1266,7 @@ let
         ];
       })
       sources."undici-types-6.20.0"
-      sources."update-browserslist-db-1.1.1"
+      sources."update-browserslist-db-1.1.2"
       sources."uri-js-4.4.1"
       sources."watchpack-2.4.2"
       sources."webpack-5.97.1"
