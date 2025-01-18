@@ -580,13 +580,13 @@ let
         sha512 = "U/3p8X1yCSoKyUj2eOBIx3FOn6pElFOKvAAGf8HTtItuPyB+ZeOqfn+mvTtg9ZlOAjsPdK3ayQEjqHjU/yLeVQ==";
       };
     };
-    "@babel/plugin-transform-nullish-coalescing-operator-7.26.5" = {
+    "@babel/plugin-transform-nullish-coalescing-operator-7.26.6" = {
       name = "_at_babel_slash_plugin-transform-nullish-coalescing-operator";
       packageName = "@babel/plugin-transform-nullish-coalescing-operator";
-      version = "7.26.5";
+      version = "7.26.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/plugin-transform-nullish-coalescing-operator/-/plugin-transform-nullish-coalescing-operator-7.26.5.tgz";
-        sha512 = "OHqczNm4NTQlW1ghrVY43FPoiRzbmzNVbcgVnMKZN/RQYezHUSdjACjaX50CD3B7UIAjv39+MlsrVDb3v741FA==";
+        url = "https://registry.npmjs.org/@babel/plugin-transform-nullish-coalescing-operator/-/plugin-transform-nullish-coalescing-operator-7.26.6.tgz";
+        sha512 = "CKW8Vu+uUZneQCPtXmSBUC6NCAUdya26hWCElAWh5mVSlSRsmiCPUUDKb3Z0szng1hiAJa098Hkhg9o4SE35Qw==";
       };
     };
     "@babel/plugin-transform-numeric-separator-7.25.9" = {
@@ -2524,13 +2524,13 @@ let
         sha512 = "WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==";
       };
     };
-    "electron-to-chromium-1.5.80" = {
+    "electron-to-chromium-1.5.83" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.5.80";
+      version = "1.5.83";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.80.tgz";
-        sha512 = "LTrKpW0AqIuHwmlVNV+cjFYTnXtM9K37OGhpe0ZI10ScPSxqVSryZHIY3WnCS5NSYbBODRTZyhRMS2h5FAEqAw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.83.tgz";
+        sha512 = "LcUDPqSt+V0QmI47XLzZrz5OqILSMGsPFkDYus22rIbgorSvBYEFqq854ltTmUdHkY92FSdAAvsh4jWEULMdfQ==";
       };
     };
     "elliptic-6.6.1" = {
@@ -2632,13 +2632,13 @@ let
         sha512 = "Zf5H2Kxt2xjTvbJvP2ZWLEICxA6j+hAmMzIlypy4xcBg1vKVnx89Wy0GbS+kf5cwCVFFzdCFh2XSCFNULS6csw==";
       };
     };
-    "es-object-atoms-1.0.0" = {
+    "es-object-atoms-1.1.1" = {
       name = "es-object-atoms";
       packageName = "es-object-atoms";
-      version = "1.0.0";
+      version = "1.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.0.0.tgz";
-        sha512 = "MZ4iQ6JwHOBQjahnjwaC1ZtIBH+2ohjamzAO3oaHcXYup7qxjF2fixyH+Q71voWHeOkI2q/TnJao/KfXYIZWbw==";
+        url = "https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.1.tgz";
+        sha512 = "FGgH2h8zKNim9ljj7dankFPcICIK9Cp5bm+c2gQSYePhpaG5+esrLODihIorn+Pe6FGJzWhXQotPv73jTaldXA==";
       };
     };
     "es-set-tostringtag-2.1.0" = {
@@ -5350,13 +5350,13 @@ let
         sha512 = "kV/CThkXo6xyFEZUugw/+pIOywXcDbFYgSct5cT3gqlbkBE1SJdwy6UQoZvodiWF/ckQLZyDE/Bu1M6gVu5lVw==";
       };
     };
-    "qs-6.13.1" = {
+    "qs-6.14.0" = {
       name = "qs";
       packageName = "qs";
-      version = "6.13.1";
+      version = "6.14.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/qs/-/qs-6.13.1.tgz";
-        sha512 = "EJPeIn0CYrGu+hli1xilKAPXODtJ12T0sP63Ijx2/khC2JtuaN3JyNIpvmnkmaEtha9ocbG4A4cMcr+TvqvwQg==";
+        url = "https://registry.npmjs.org/qs/-/qs-6.14.0.tgz";
+        sha512 = "YWWTjgABSKcvs/nWBi9PycY/JiPJqOD4JA6o9Sej2AtvSGarXxKC3OQSk4pAarbdQlKAh5D4FCQkJNkW+GAn3w==";
       };
     };
     "qs-6.5.3" = {
@@ -6986,7 +6986,7 @@ let
       sources."@babel/plugin-transform-modules-umd-7.25.9"
       sources."@babel/plugin-transform-named-capturing-groups-regex-7.25.9"
       sources."@babel/plugin-transform-new-target-7.25.9"
-      sources."@babel/plugin-transform-nullish-coalescing-operator-7.26.5"
+      sources."@babel/plugin-transform-nullish-coalescing-operator-7.26.6"
       sources."@babel/plugin-transform-numeric-separator-7.25.9"
       sources."@babel/plugin-transform-object-rest-spread-7.25.9"
       sources."@babel/plugin-transform-object-super-7.25.9"
@@ -7285,7 +7285,7 @@ let
       sources."duplexer2-0.1.4"
       sources."ecc-jsbn-0.1.2"
       sources."ee-first-1.1.1"
-      sources."electron-to-chromium-1.5.80"
+      sources."electron-to-chromium-1.5.83"
       (sources."elliptic-6.6.1" // {
         dependencies = [
           sources."bn.js-4.12.1"
@@ -7303,7 +7303,7 @@ let
       sources."es-array-method-boxes-properly-1.0.0"
       sources."es-define-property-1.0.1"
       sources."es-errors-1.3.0"
-      sources."es-object-atoms-1.0.0"
+      sources."es-object-atoms-1.1.1"
       sources."es-set-tostringtag-2.1.0"
       sources."es-to-primitive-1.3.0"
       sources."escalade-3.2.0"
@@ -7939,7 +7939,7 @@ let
       (sources."url-0.11.4" // {
         dependencies = [
           sources."punycode-1.4.1"
-          sources."qs-6.13.1"
+          sources."qs-6.14.0"
         ];
       })
       sources."use-3.1.1"

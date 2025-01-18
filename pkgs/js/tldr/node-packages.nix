@@ -283,13 +283,13 @@ let
         sha512 = "Zf5H2Kxt2xjTvbJvP2ZWLEICxA6j+hAmMzIlypy4xcBg1vKVnx89Wy0GbS+kf5cwCVFFzdCFh2XSCFNULS6csw==";
       };
     };
-    "es-object-atoms-1.0.0" = {
+    "es-object-atoms-1.1.1" = {
       name = "es-object-atoms";
       packageName = "es-object-atoms";
-      version = "1.0.0";
+      version = "1.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.0.0.tgz";
-        sha512 = "MZ4iQ6JwHOBQjahnjwaC1ZtIBH+2ohjamzAO3oaHcXYup7qxjF2fixyH+Q71voWHeOkI2q/TnJao/KfXYIZWbw==";
+        url = "https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.1.tgz";
+        sha512 = "FGgH2h8zKNim9ljj7dankFPcICIK9Cp5bm+c2gQSYePhpaG5+esrLODihIorn+Pe6FGJzWhXQotPv73jTaldXA==";
       };
     };
     "follow-redirects-1.15.9" = {
@@ -825,7 +825,7 @@ let
       sources."dunder-proto-1.0.1"
       sources."es-define-property-1.0.1"
       sources."es-errors-1.3.0"
-      sources."es-object-atoms-1.0.0"
+      sources."es-object-atoms-1.1.1"
       sources."follow-redirects-1.15.9"
       sources."form-data-4.0.1"
       sources."fs-extra-9.1.0"
