@@ -1,5 +1,5 @@
--6046ff9f25528203d11aa7e54a5fb484b2b0d8c3 dep/depot
+-a2e78b62fff67e6c897438bd181e9f90e5b24eab dep/depot
 -77b2c7bc57878a55bf0fba69207fb84819606f10 dep/emacs
--99cd97600e9ad11d1ba24fcc390f4bf305c95f84 dep/emacs-overlay
--9228994eca7cc0e00f8318e015d4dfbbf7ad41e2 dep/nixpkgs
+-f76e0708c040298b5e2d5ebffe121dea6c03ad98 dep/emacs-overlay
+-04fa2a8dbae35879e96dab9115a20d78e8527994 dep/nixpkgs
 -d39269506683f7964f964cbcb26af765095f8629 dep/user-pkgs
