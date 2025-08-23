@@ -355,13 +355,13 @@ let
         sha512 = "3sRl+pkyFY/kLmHl0cgHiFp2xEqErA8N3ECjMs7serSUBmoJ70lBa0PG5t0IM6WJgdZNyyI0R8YFfi5wM8+mzg==";
       };
     };
-    "@jspm/generator-2.6.2" = {
+    "@jspm/generator-2.6.3" = {
       name = "_at_jspm_slash_generator";
       packageName = "@jspm/generator";
-      version = "2.6.2";
+      version = "2.6.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@jspm/generator/-/generator-2.6.2.tgz";
-        sha512 = "ZwrIK4hSSrXlRnXhEHW6v0DJxZcKRej1HgoQtfycrtXnQH7hf0i84xrTRC0x03tkYVYfzGddcnSB+wN0Qz3+oA==";
+        url = "https://registry.npmjs.org/@jspm/generator/-/generator-2.6.3.tgz";
+        sha512 = "D1mDAZeX/8Yjul1gORbzX7OwvGZ6yCGF3NzO9Or6b7dcBUJQGEWGNyJ86pea9fl+E3FmfPb/DPl/+Ib5djd8wQ==";
       };
     };
     "@jspm/import-map-1.2.0" = {
@@ -445,13 +445,13 @@ let
         sha512 = "4I7Td01quW/RpocfNayFdFVk1qSuoh0E7JrbRJ16nH01HhKFQ88INq9Sd+nd72zqRySlr9BmDA8xlEJ6vJMrYA==";
       };
     };
-    "ansi-regex-6.1.0" = {
+    "ansi-regex-6.2.0" = {
       name = "ansi-regex";
       packageName = "ansi-regex";
-      version = "6.1.0";
+      version = "6.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.1.0.tgz";
-        sha512 = "7HSX4QQb4CspciLpVFwyRe79O3xsIZDDLER21kERQ71oaPodF8jL725AgJMFAYbooIqolJoRLuM81SpeUkpkvA==";
+        url = "https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.2.0.tgz";
+        sha512 = "TKY5pyBkHyADOPYlRT9Lx6F544mPl0vS5Ew7BJ45hA08Q+t3GjbueLliBWN3sMICk6+y7HdyxSzC4bWS8baBdg==";
       };
     };
     "b4a-1.6.7" = {
@@ -481,13 +481,13 @@ let
         sha512 = "9T9UjW3r0UW5c1Q7GTwllptXwhvYmEzFhzMfZ9H7FQWt+uZePjZPjBP/W1ZEyZ1twGWom5/56TF4lPcqjnDHcg==";
       };
     };
-    "browserslist-4.25.2" = {
+    "browserslist-4.25.3" = {
       name = "browserslist";
       packageName = "browserslist";
-      version = "4.25.2";
+      version = "4.25.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.25.2.tgz";
-        sha512 = "0si2SJK3ooGzIawRu61ZdPCO1IncZwS8IzuX73sPZsXW6EQ/w/DAfPyKI8l1ETTCr2MnvqWitmlCUxgdul45jA==";
+        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.25.3.tgz";
+        sha512 = "cDGv1kkDI4/0e5yON9yM5G/0A5u8sf5TnmdX5C9qHzI9PPu++sQ9zjm1k9NiOrf3riY4OkK0zSGqfvJyJsgCBQ==";
       };
     };
     "buffer-from-1.1.2" = {
@@ -508,22 +508,22 @@ let
         sha512 = "VVdYzXEn+cnbXpFgWs5hTT7OScegHVmLhJIR8Ufqk3iFD6A6j5iSX1KuBTfNEv4tdJWE2PzA6IVFtcLC7fN9wQ==";
       };
     };
-    "caniuse-lite-1.0.30001735" = {
+    "caniuse-lite-1.0.30001737" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001735";
+      version = "1.0.30001737";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001735.tgz";
-        sha512 = "EV/laoX7Wq2J9TQlyIXRxTJqIw4sxfXS4OYgudGxBYRuTv0q7AM6yMEpU/Vo1I94thg9U6EZ2NfZx9GJq83u7w==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001737.tgz";
+        sha512 = "BiloLiXtQNrY5UyF0+1nSJLXUENuhka2pzy2Fx5pGxqavdrxSCW4U6Pn/PoG3Efspi2frRbHpBV2XsrPE6EDlw==";
       };
     };
-    "chalk-5.5.0" = {
+    "chalk-5.6.0" = {
       name = "chalk";
       packageName = "chalk";
-      version = "5.5.0";
+      version = "5.6.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/chalk/-/chalk-5.5.0.tgz";
-        sha512 = "1tm8DTaJhPBG3bIkVeZt1iZM9GfSX2lzOeDVZH9R9ffRHpmHvxZ/QhgQH/aDTkswQVt+YHdXAdS/In/30OjCbg==";
+        url = "https://registry.npmjs.org/chalk/-/chalk-5.6.0.tgz";
+        sha512 = "46QrSQFyVSEyYAgQ22hQ+zDa60YHA4fBstHmtSApj1Y5vKtG27fWowW03jCk5KcbXEWPZUIR894aARCA/G1kfQ==";
       };
     };
     "chownr-2.0.0" = {
@@ -607,13 +607,13 @@ let
         sha512 = "KcKCqiftBJcZr++7ykoDIEwSa3XWowTfNPo92BYxjXiyYEVrUQh2aLyhxBCwww+heortUFxEJYcRzosstTEBYQ==";
       };
     };
-    "electron-to-chromium-1.5.202" = {
+    "electron-to-chromium-1.5.208" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.5.202";
+      version = "1.5.208";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.202.tgz";
-        sha512 = "NxbYjRmiHcHXV1Ws3fWUW+SLb62isauajk45LUJ/HgIOkUA7jLZu/X2Iif+X9FBNK8QkF9Zb4Q2mcwXCcY30mg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.208.tgz";
+        sha512 = "ozZyibehoe7tOhNaf16lKmljVf+3npZcJIEbJRVftVsmAg5TeA1mGS9dVCZzOwr2xT7xK15V0p7+GZqSPgkuPg==";
       };
     };
     "emoji-regex-10.4.0" = {
@@ -1376,8 +1376,8 @@ let
   args = {
     name = "jspm";
     packageName = "jspm";
-    version = "4.1.0";
-    src = fetchurl { url = "https://registry.npmjs.org/jspm/-/jspm-4.1.0.tgz"; sha1 = "a6de38ca3d10ebf7f94f8c7a5d66d28679f4ef68"; };
+    version = "4.1.1";
+    src = fetchurl { url = "https://registry.npmjs.org/jspm/-/jspm-4.1.1.tgz"; sha1 = "ca1f2b737c598a428df7be0c01864a1cb4153ae0"; };
     dependencies = [
       sources."@ampproject/remapping-2.3.0"
       sources."@babel/code-frame-7.27.1"
@@ -1418,7 +1418,7 @@ let
       sources."@jridgewell/sourcemap-codec-1.5.5"
       sources."@jridgewell/trace-mapping-0.3.30"
       sources."@jspm/core-2.1.0"
-      sources."@jspm/generator-2.6.2"
+      sources."@jspm/generator-2.6.3"
       sources."@jspm/import-map-1.2.0"
       sources."@jspm/plugin-rollup-1.2.4"
       (sources."@npmcli/fs-1.1.1" // {
@@ -1432,11 +1432,11 @@ let
       sources."agent-base-6.0.2"
       sources."agentkeepalive-4.6.0"
       sources."aggregate-error-3.1.0"
-      sources."ansi-regex-6.1.0"
+      sources."ansi-regex-6.2.0"
       sources."b4a-1.6.7"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.12"
-      sources."browserslist-4.25.2"
+      sources."browserslist-4.25.3"
       sources."buffer-from-1.1.2"
       (sources."cacache-15.3.0" // {
         dependencies = [
@@ -1444,8 +1444,8 @@ let
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001735"
-      sources."chalk-5.5.0"
+      sources."caniuse-lite-1.0.30001737"
+      sources."chalk-5.6.0"
       sources."chownr-2.0.0"
       sources."cjs-module-lexer-1.4.3"
       sources."clean-stack-2.2.0"
@@ -1455,7 +1455,7 @@ let
       sources."concat-map-0.0.1"
       sources."convert-source-map-2.0.0"
       sources."debug-4.4.1"
-      sources."electron-to-chromium-1.5.202"
+      sources."electron-to-chromium-1.5.208"
       sources."emoji-regex-10.4.0"
       sources."encoding-0.1.13"
       sources."err-code-2.0.3"

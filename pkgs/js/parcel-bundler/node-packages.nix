@@ -1543,13 +1543,13 @@ let
         sha512 = "Z942RysHXmJrhqk88FmKBVq/v5tqmSkDz7p54G/MGyjMnCFFnC79XWNbg+Vta8W6Wb2qtSZTSxIGkJrRpCFEiA==";
       };
     };
-    "browserslist-4.25.2" = {
+    "browserslist-4.25.3" = {
       name = "browserslist";
       packageName = "browserslist";
-      version = "4.25.2";
+      version = "4.25.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.25.2.tgz";
-        sha512 = "0si2SJK3ooGzIawRu61ZdPCO1IncZwS8IzuX73sPZsXW6EQ/w/DAfPyKI8l1ETTCr2MnvqWitmlCUxgdul45jA==";
+        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.25.3.tgz";
+        sha512 = "cDGv1kkDI4/0e5yON9yM5G/0A5u8sf5TnmdX5C9qHzI9PPu++sQ9zjm1k9NiOrf3riY4OkK0zSGqfvJyJsgCBQ==";
       };
     };
     "buffer-4.9.2" = {
@@ -1678,13 +1678,13 @@ let
         sha512 = "bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==";
       };
     };
-    "caniuse-lite-1.0.30001735" = {
+    "caniuse-lite-1.0.30001737" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001735";
+      version = "1.0.30001737";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001735.tgz";
-        sha512 = "EV/laoX7Wq2J9TQlyIXRxTJqIw4sxfXS4OYgudGxBYRuTv0q7AM6yMEpU/Vo1I94thg9U6EZ2NfZx9GJq83u7w==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001737.tgz";
+        sha512 = "BiloLiXtQNrY5UyF0+1nSJLXUENuhka2pzy2Fx5pGxqavdrxSCW4U6Pn/PoG3Efspi2frRbHpBV2XsrPE6EDlw==";
       };
     };
     "caseless-0.12.0" = {
@@ -1948,13 +1948,13 @@ let
         sha512 = "Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==";
       };
     };
-    "core-js-compat-3.45.0" = {
+    "core-js-compat-3.45.1" = {
       name = "core-js-compat";
       packageName = "core-js-compat";
-      version = "3.45.0";
+      version = "3.45.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.45.0.tgz";
-        sha512 = "gRoVMBawZg0OnxaVv3zpqLLxaHmsubEGyTnqdpI/CEBvX4JadI1dMSHxagThprYRtSVbuQxvi6iUatdPxohHpA==";
+        url = "https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.45.1.tgz";
+        sha512 = "tqTt5T4PzsMIZ430XGviK4vzYSoeNJ6CXODi6c/voxOT6IZqBht5/EKaSNnYiEjjRYxjVz7DQIsOsY0XNi8PIA==";
       };
     };
     "core-util-is-1.0.2" = {
@@ -2551,13 +2551,13 @@ let
         sha512 = "WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==";
       };
     };
-    "electron-to-chromium-1.5.202" = {
+    "electron-to-chromium-1.5.208" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.5.202";
+      version = "1.5.208";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.202.tgz";
-        sha512 = "NxbYjRmiHcHXV1Ws3fWUW+SLb62isauajk45LUJ/HgIOkUA7jLZu/X2Iif+X9FBNK8QkF9Zb4Q2mcwXCcY30mg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.208.tgz";
+        sha512 = "ozZyibehoe7tOhNaf16lKmljVf+3npZcJIEbJRVftVsmAg5TeA1mGS9dVCZzOwr2xT7xK15V0p7+GZqSPgkuPg==";
       };
     };
     "elliptic-6.6.1" = {
@@ -7174,7 +7174,7 @@ let
           sources."pako-1.0.11"
         ];
       })
-      sources."browserslist-4.25.2"
+      sources."browserslist-4.25.3"
       (sources."buffer-4.9.2" // {
         dependencies = [
           sources."isarray-1.0.0"
@@ -7193,7 +7193,7 @@ let
       sources."caller-path-2.0.0"
       sources."callsites-2.0.0"
       sources."caniuse-api-3.0.0"
-      sources."caniuse-lite-1.0.30001735"
+      sources."caniuse-lite-1.0.30001737"
       sources."caseless-0.12.0"
       sources."chalk-2.4.2"
       sources."chokidar-2.1.8"
@@ -7228,7 +7228,7 @@ let
       sources."convert-source-map-2.0.0"
       sources."copy-descriptor-0.1.1"
       sources."core-js-2.6.12"
-      sources."core-js-compat-3.45.0"
+      sources."core-js-compat-3.45.1"
       sources."core-util-is-1.0.3"
       sources."cosmiconfig-5.2.1"
       (sources."create-ecdh-4.0.4" // {
@@ -7328,7 +7328,7 @@ let
       sources."duplexer2-0.1.4"
       sources."ecc-jsbn-0.1.2"
       sources."ee-first-1.1.1"
-      sources."electron-to-chromium-1.5.202"
+      sources."electron-to-chromium-1.5.208"
       (sources."elliptic-6.6.1" // {
         dependencies = [
           sources."bn.js-4.12.2"
